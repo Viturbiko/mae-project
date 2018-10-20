@@ -1,0 +1,126 @@
+#slider, .wrap, .slide-content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 85vh;
+  overflow: hidden;
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url('/images/image1.jpeg');
+}
+
+.slide2 {
+  background-image: url('/images/image2.jpeg');
+}
+
+.slide3 {
+  background-image: url('/images/image3.jpeg');
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  span {
+    font-size: 5rem;
+    color: black;
+    padding-left: 200px;
+    width: 65%;
+  }
+  .slide_main_title {
+    background-color: $main_yellow;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 50%;
+  }
+  .slide_main_subtitle {
+    background-color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10%;
+  }
+}
+
+.slide_events {
+  position: absolute;
+  bottom: 0;
+  background-color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 80%;
+  height: 225px;
+  .event1 {
+    width: 31%;
+    height: 100%;
+    border-top: 5px solid $main_yellow;
+  }
+  .event2 {
+    width: 23%;
+    height: 100%;
+    border-top: 5px solid $main_blue;
+  }
+  .event3 {
+    width: 23%;
+    height: 100%;
+    border-top: 5px solid $main_yellow;
+  }
+  .event4 {
+    width: 23%;
+    height: 100%;
+    border-top: 5px solid $main_blue;
+    background-color: $main_yellow;
+    p {
+      font-size: 3.5rem;
+      line-height: 60px;
+      padding: 50px;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  right: 75px;
+  margin-right: 0px;
+  background-image: url('/images/left-arrow.png');
+  background-repeat: none;
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+}
+
+#arrow-right {
+  right: 0;
+  margin-right: 0px;
+  background-image: url('/images/right-arrow.png');
+  background-repeat: none;
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+}
