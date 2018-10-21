@@ -10738,7 +10738,7 @@ ul li a:hover {
 }
 
 .bg_right_mae {
-  background-color: yellow;
+  background-color: #FDCF19;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -10748,7 +10748,7 @@ ul li a:hover {
 }
 
 .bg_left_mae {
-  background-color: red;
+  background-color: white;
   position: fixed;
   top: 0;
   bottom: 0;
