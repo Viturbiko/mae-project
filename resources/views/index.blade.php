@@ -19,6 +19,8 @@
 
 	@include('mae')
 
+	@include('about')
+
 <script src="js/app.js"></script>
 <script>
 

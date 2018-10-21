@@ -1,0 +1,101 @@
+//ABOUT THE PROJECT
+
+.bg_right_about {
+    background-color: $main_yellow;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 62%;
+    right: 0;
+    z-index: -1;
+}
+
+.bg_left_about {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 38%;
+    z-index: -1;
+}
+
+.content_about {
+    .about_slider {
+        width: 62%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 60vh;
+        position: relative;
+        .slider_about {
+            position: relative;
+            height: 100%;
+            .slide_about {
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              height: 100%;
+              .slide_about_content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: left;
+                text-align: left;
+                height: 100%;
+              }
+            }
+            .slide_about1 {
+              background-image: url('/images/image1.jpeg');
+              height: 100%;
+            }
+            .slide_about2 {
+              background-image: url('/images/image2.jpeg');
+              height: 100%;
+            }
+            .slide_about3 {
+              background-image: url('/images/image3.jpeg');
+              height: 100%;
+            }
+        }
+        .arrow {
+          cursor: pointer;
+          position: absolute;
+          bottom: 0;
+          margin-top: -35px;
+          width: 0;
+          height: 0;
+          border-style: solid;
+        }
+
+        #arrow-left-about {
+          left: 0;
+          margin-right: 0px;
+          background-image: url('/images/left-arrow.png');
+          background-repeat: none;
+          background-size: cover;
+          width: 75px;
+          height: 75px;
+          z-index: 2;
+        }
+
+        #arrow-right-about {
+          left: 75px;
+          margin-right: 0px;
+          background-image: url('/images/right-arrow.png');
+          background-repeat: none;
+          background-size: cover;
+          width: 75px;
+          height: 75px;
+          z-index: 2;
+        }
+    }
+    .about_info {
+        width: 30%;
+        height: 60vh;
+        display: inline-block;
+        margin-left: 50px;
+        vertical-align: top;
+    }
+}

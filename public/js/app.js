@@ -13896,6 +13896,7 @@ module.exports = __webpack_require__(45);
 __webpack_require__(13);
 __webpack_require__(36);
 __webpack_require__(37);
+__webpack_require__(50);
 
 window.Vue = __webpack_require__(38);
 
@@ -47477,6 +47478,60 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */
+/***/ (function(module, exports) {
+
+//ABNOUT JS
+
+var sliderImages = document.querySelectorAll('.slide_about'),
+    arrowLeft = document.querySelector('#arrow-left-about'),
+    arrowRight = document.querySelector('#arrow-right-about'),
+    current = 0;
+
+function reset() {
+    for (var i = 0; i < sliderImages.length; i++) {
+        sliderImages[i].style.display = "none";
+    }
+}
+
+function startSlide() {
+    reset();
+    sliderImages[0].style.display = 'block';
+}
+
+function slideLeft() {
+    reset();
+    sliderImages[current - 1].style.display = 'block';
+    current--;
+}
+
+function slideRight() {
+    reset();
+    sliderImages[current + 1].style.display = 'block';
+    current++;
+}
+
+arrowLeft.addEventListener('click', function () {
+    if (current === 0) {
+        current = sliderImages.length;
+    }
+    slideLeft();
+});
+
+arrowRight.addEventListener('click', function () {
+    if (current === sliderImages.length - 1) {
+        current = -1;
+    }
+    slideRight();
+});
+
+startSlide();
 
 /***/ })
 /******/ ]);

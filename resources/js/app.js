@@ -8,6 +8,7 @@
 require('./bootstrap');
 require('./slider_main');
 require('./navbar');
+require('./about');
 
 window.Vue = require('vue');
 
