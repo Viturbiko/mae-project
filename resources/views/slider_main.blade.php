@@ -27,14 +27,35 @@
 
         <div class="slide_events">
             <div class="event1">
-                <div class="date"><span>02</span><br>NOV</div>
+                <div class="date">
+                    <h2>02</h2>
+                    <p>NOV</p>
+                </div>
                 <div class="event_info">
                     <p class="event_hour">08:00 AM</p>
                     <p class="event_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, nobis! Earum nobis commodi fuga facilis</p>
                 </div>
             </div>
-            <div class="event2"></div>
-            <div class="event3"></div>
+            <div class="event2">
+                <div class="date">
+                    <h2>02</h2>
+                    <p>NOV</p>
+                </div>
+                <div class="event_info">
+                    <p class="event_hour">08:00 AM</p>
+                    <p class="event_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, nobis! Earum nobis commodi fuga facilis</p>
+                </div>
+            </div>
+            <div class="event3">
+                <div class="date">
+                    <h2>02</h2>
+                    <p>NOV</p>
+                </div>
+                <div class="event_info">
+                    <p class="event_hour">08:00 AM</p>
+                    <p class="event_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, nobis! Earum nobis commodi fuga facilis</p>
+                </div>
+            </div>
             <div class="event4">
                 <p>NEXT <br> <span>EVENTS</span></p>
             </div>

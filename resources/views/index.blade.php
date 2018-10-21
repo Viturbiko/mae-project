@@ -17,6 +17,8 @@
 
 	@include('slider_main')
 
+	@include('mae')
+
 <script src="js/app.js"></script>
 <script>
 

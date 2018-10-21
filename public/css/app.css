@@ -10618,32 +10618,49 @@ ul li a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  width: 80%;
+  width: 80.5%;
   height: 225px;
 }
 
 .slide_events .event1 {
   width: 31%;
   height: 100%;
+  padding: 3rem 2rem 2rem 6rem;
   border-top: 5px solid #FDCF19;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-right: 1px solid #1A1A1A;
 }
 
 .slide_events .event2 {
   width: 23%;
   height: 100%;
   border-top: 5px solid #141333;
+  border-right: 1px solid #1A1A1A;
+  padding: 3rem 2rem 0rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .slide_events .event3 {
   width: 23%;
   height: 100%;
   border-top: 5px solid #FDCF19;
+  padding: 3rem 2rem 2rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .slide_events .event4 {
@@ -10661,6 +10678,33 @@ ul li a:hover {
 
 .slide_events .event4 p span {
   font-weight: bold;
+}
+
+.slide_events .date {
+  text-align: right;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.slide_events .date h2 {
+  font-size: 3rem;
+}
+
+.slide_events .event_info {
+  padding-left: 1rem;
+}
+
+.slide_events .event_info .event_hour {
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: #4D4D4D;
 }
 
 .arrow {
@@ -10691,6 +10735,30 @@ ul li a:hover {
   background-size: cover;
   width: 75px;
   height: 75px;
+}
+
+.bg_right_mae {
+  background-color: yellow;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 62%;
+  right: 0;
+  z-index: -1;
+}
+
+.bg_left_mae {
+  background-color: red;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 38%;
+  z-index: -1;
+}
+
+.content_mae {
+  padding: 7rem;
 }
 
 body {

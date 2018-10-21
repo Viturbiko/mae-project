@@ -60,42 +60,33 @@
   bottom: 0;
   background-color:#fff;
   display: flex;
-  width: 80%;
+  width: 80.5%;
   height: 225px;
   .event1 {
     width: 31%;
     height: 100%;
-    padding: 3rem 0rem 0rem 6rem;
+    padding: 3rem 2rem 2rem 6rem;
     border-top: 5px solid $main_yellow;
     display: flex;
     align-items: flex-start;
     border-right: 1px solid $main_black;
-    .date {
-      text-align: right;
-      font-size: 1.5rem;
-      span {
-        font-size: 3rem;
-      }
-    }
-    .event_info {
-      padding-left: 1rem;
-      .event_hour {
-        font-size: 20px;
-        margin-bottom: 0px;
-        color: $main_grey;
-      }
-    }
   }
   .event2 {
     width: 23%;
     height: 100%;
     border-top: 5px solid $main_blue;
     border-right: 1px solid $main_black;
+    padding: 3rem 2rem 0rem 2rem;
+    display: flex;
+    align-items: flex-start;    
   }
   .event3 {
     width: 23%;
     height: 100%;
     border-top: 5px solid $main_yellow;
+    padding: 3rem 2rem 2rem 2rem;
+    display: flex;
+    align-items: flex-start;
   }
   .event4 {
     width: 23%;
@@ -109,6 +100,24 @@
       span {
         font-weight: bold;
       }
+    }
+  }
+  .date {
+    text-align: right;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    h2 {
+      font-size: 3rem;
+    }
+  }
+  .event_info {
+    padding-left: 1rem;
+    .event_hour {
+      font-size: 20px;
+      margin-bottom: 0px;
+      color: $main_grey;
     }
   }
 }
