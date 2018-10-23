@@ -28,4 +28,49 @@
 	h1 {
 		font-weight: bolder;
 	}
+	hr {
+		border-top: 3px solid white;
+	}
+	.calendar {
+		margin-top: 50px;
+		width: 100%;
+		min-height: 600px;
+		min-width: 700px;
+		display: flex;
+		.calendar_days {
+			display: flex;
+			flex-wrap: wrap;
+			min-height: 100%;
+			width: 30%;
+			background-color: white;
+			.event_day {
+				padding-top: 10px;
+				width: 50%;
+				border: 1px solid $main_black;
+				text-align: center;
+				h1 {
+					font-size: 4rem;
+				}
+				hr {
+					border-top: 3px solid black;
+					margin: 10px auto;
+				}
+				p {
+					margin-bottom: 5px;
+					padding: 0px 20px;
+				}
+				&:hover {
+					background-color: $main_blue;
+					color: white;
+					transform: scale(1.1);
+					cursor: pointer;
+				}
+			}
+		}
+		.calendar_events {
+			min-height: 100%;
+			width: 70%;
+			background-color: blue;
+		}
+	}
 }

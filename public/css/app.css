@@ -11015,6 +11015,66 @@ nav img {
   font-weight: bolder;
 }
 
+.content_calendar hr {
+  border-top: 3px solid white;
+}
+
+.content_calendar .calendar {
+  margin-top: 50px;
+  width: 100%;
+  min-height: 600px;
+  min-width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content_calendar .calendar .calendar_days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 100%;
+  width: 30%;
+  background-color: white;
+}
+
+.content_calendar .calendar .calendar_days .event_day {
+  padding-top: 10px;
+  width: 50%;
+  border: 1px solid #1A1A1A;
+  text-align: center;
+}
+
+.content_calendar .calendar .calendar_days .event_day h1 {
+  font-size: 4rem;
+}
+
+.content_calendar .calendar .calendar_days .event_day hr {
+  border-top: 3px solid black;
+  margin: 10px auto;
+}
+
+.content_calendar .calendar .calendar_days .event_day p {
+  margin-bottom: 5px;
+  padding: 0px 20px;
+}
+
+.content_calendar .calendar .calendar_days .event_day:hover {
+  background-color: #141333;
+  color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.content_calendar .calendar .calendar_events {
+  min-height: 100%;
+  width: 70%;
+  background-color: blue;
+}
+
 .container_partners {
   position: relative;
 }
