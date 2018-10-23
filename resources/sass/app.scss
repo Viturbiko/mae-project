@@ -15,8 +15,16 @@
 @import 'slider_main';
 @import 'mae';
 @import 'about';
+@import 'downloads';
+@import 'calendar';
+@import 'partners';
+@import 'footer';
 
 //CLASES  GENERALES
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;

@@ -1,0 +1,28 @@
+//DOWNLOADS INDEx
+
+.downloads_back {
+	width: 100%;
+	background-color: $main_blue;
+	min-height: 400px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	h1 {
+		color: white;
+		font-size: 3rem;
+		font-weight: bolder;
+	}
+	a {
+		color: white;
+		border: 1px solid white;
+		padding: 5px;
+		margin-top: 10px;
+		&:hover {
+			text-decoration: none;
+			background-color: white;
+			color: $main_blue;
+		}
+	}
+}

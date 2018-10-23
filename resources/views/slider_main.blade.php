@@ -56,9 +56,6 @@
                     <p class="event_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, nobis! Earum nobis commodi fuga facilis</p>
                 </div>
             </div>
-            <div class="event4">
-                <p>NEXT <br> <span>EVENTS</span></p>
-            </div>
         </div>
 
     </div>

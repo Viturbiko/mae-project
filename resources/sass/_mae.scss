@@ -21,12 +21,16 @@
 }
 
 .content_mae {
-    padding: 7rem 0rem 7rem 7rem;
+    padding: 7rem 0rem;
+    width: 80%;
+    margin: 0 auto;
     .info_mae {
     	width: 35%;
     	display: inline-block;
+        text-align: justify;
     	hr {
-    		border-top: 3px solid yellow;
+    		border-top: 3px solid $main_yellow;
+            margin: 2px 0px 25px;
     	}
 		h1 {
 		font-weight: bold;

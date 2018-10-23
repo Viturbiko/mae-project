@@ -21,6 +21,14 @@
 
 	@include('about')
 
+	@include('downloads')
+
+	@include('calendar')
+
+	@include('partners')
+
+	@include('footer')
+
 <script src="js/app.js"></script>
 <script>
 

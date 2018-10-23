@@ -36,7 +36,15 @@
 
 		<h1>About the project</h1>
 
-		<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorum iure minima molestiae officiis quos soluta ratione, tenetur molestias quod placeat, quas corporis aut mollitia delectus minus laborum nam quae!</span><span>Aliquid beatae laborum, exercitationem quaerat omnis possimus voluptates accusamus officia tempora magni molestias vel quod animi assumenda fuga aperiam excepturi totam illum dolorum, eveniet officiis placeat perspiciatis? Provident, eum possimus.</span></p>
+		<hr align="left" width="10%">
+
+		<h3>Med Atlantic Ecobonus.</h3>
+
+		<h5>Towards the goal of sustainable freight transport services in the transeuropean transport network.</h5>
+
+		<p>2013 guidelines for the further development of the Transeuropean Transport Network (TEN-t) introduced a new approach towards a true network dimension of the common transport system, departing from the isolated projects approach to the comprehensive and core networks dimension. Moreover, the corridors have proved to be a very effective tool to support this network approach...</p>
+
+		<button class="btn">Read More</button>
 		
 	</div>
 

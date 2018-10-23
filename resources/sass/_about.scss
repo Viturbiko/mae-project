@@ -21,6 +21,7 @@
 }
 
 .content_about {
+  min-height: 675px;
     .about_slider {
         width: 62%;
         display: inline-block;
@@ -28,6 +29,7 @@
         padding: 0;
         overflow: hidden;
         height: 60vh;
+        min-height: 500px;
         position: relative;
         .slider_about {
             position: relative;
@@ -92,10 +94,31 @@
         }
     }
     .about_info {
-        width: 30%;
+        width: 37%;
         height: 60vh;
         display: inline-block;
-        margin-left: 50px;
+        padding: 7rem 6rem;
         vertical-align: top;
+        text-align: justify;
+        h1 {
+            font-weight: bolder;
+        }
+        h3 {
+          font-weight: bolder;
+        }
+        h5 {
+          color: white;
+          font-weight: bolder;
+        }
+        hr {
+            border-top: 3px solid white;
+        }
+        button {
+            float:right;
+            background-color: white;
+            text-transform: uppercase;
+            color: $main_black;
+            margin-top: 10px;
+        }
     }
 }

@@ -1,0 +1,31 @@
+// //CALENDAR INDEX
+
+.container_calendar {
+	position: relative;
+	.bg_left_calendar {
+	    background-color: $main_yellow;
+	    position: absolute;
+	    height: 1000px;
+	    width: 62%;
+	    left: 0;
+	    z-index: -1;
+	}
+	.bg_right_calendar {
+	    background-color: white;
+	    position: absolute;
+	    height: 1000px;
+	    width: 38%;
+	    right: 0;
+	    z-index: -1;
+	}
+}
+
+.content_calendar {
+	padding: 5rem 0;
+	min-height: 675px;
+	width: 80%;
+	margin: 0 auto;
+	h1 {
+		font-weight: bolder;
+	}
+}
