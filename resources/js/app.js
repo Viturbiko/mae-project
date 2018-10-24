@@ -9,6 +9,7 @@ require('./bootstrap');
 require('./slider_main');
 require('./navbar');
 require('./about');
+require('./calendar');
 
 window.Vue = require('vue');
 
