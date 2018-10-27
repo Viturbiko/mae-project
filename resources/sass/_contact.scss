@@ -1,0 +1,55 @@
+//CONTACTO INDEX
+
+.contact_back {
+	width: 100%;
+	background-color: $main_blue;
+	min-height: 400px;
+	margin-bottom: 50px;
+	.contact_container {
+		width:80%;
+		margin: 0 auto;
+		display: flex;
+		padding: 50px 0px;
+		.contact_form {
+			width: 65%;
+			h1 {
+				color: white;
+			}
+			hr {
+				border-top: 3px solid $main_yellow;
+		        margin: 2px 0px 25px;
+			}
+			.success {
+				color: green;
+			}
+			form {
+				input[type="text"] {
+					width: 90%;
+					margin: 20px 0;
+					display:block;
+					padding: 5px 0 5px 20px;
+				}
+				textarea {
+					width: 90%;
+					margin: 20px 0;
+					display:block;
+					padding: 5px 0 5px 20px;
+				}
+				input[type="submit"] {
+					width: auto;
+					text-align: center;
+				}
+				.alert {
+					color: red;
+				}				
+			}			
+		}
+		.contact_img {
+			width: 35%;
+			img {
+				width: 100%;
+				min-height: 600px;
+			}
+		}
+	}
+}

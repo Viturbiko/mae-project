@@ -13,3 +13,5 @@
 
 Route::get('/', 'IndexController@index')->name('index');
 
+Route::post('/contact', 'ContactController@store')->name('contact');
+

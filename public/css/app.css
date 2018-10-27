@@ -11155,6 +11155,71 @@ nav img {
   padding-top: 20px;
 }
 
+.contact_back {
+  width: 100%;
+  background-color: #141333;
+  min-height: 400px;
+  margin-bottom: 50px;
+}
+
+.contact_back .contact_container {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0px;
+}
+
+.contact_back .contact_container .contact_form {
+  width: 65%;
+}
+
+.contact_back .contact_container .contact_form h1 {
+  color: white;
+}
+
+.contact_back .contact_container .contact_form hr {
+  border-top: 3px solid #FDCF19;
+  margin: 2px 0px 25px;
+}
+
+.contact_back .contact_container .contact_form .success {
+  color: green;
+}
+
+.contact_back .contact_container .contact_form form input[type="text"] {
+  width: 90%;
+  margin: 20px 0;
+  display: block;
+  padding: 5px 0 5px 20px;
+}
+
+.contact_back .contact_container .contact_form form textarea {
+  width: 90%;
+  margin: 20px 0;
+  display: block;
+  padding: 5px 0 5px 20px;
+}
+
+.contact_back .contact_container .contact_form form input[type="submit"] {
+  width: auto;
+  text-align: center;
+}
+
+.contact_back .contact_container .contact_form form .alert {
+  color: red;
+}
+
+.contact_back .contact_container .contact_img {
+  width: 35%;
+}
+
+.contact_back .contact_container .contact_img img {
+  width: 100%;
+  min-height: 600px;
+}
+
 .container_footer {
   position: relative;
 }
