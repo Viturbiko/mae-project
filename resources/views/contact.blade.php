@@ -1,4 +1,4 @@
-<div class="contact_back">
+<div class="contact_back"  id="contact">
 
 	<div class="contact_container">
 
@@ -38,7 +38,7 @@
 			</form>
 		</div>
 		<div class="contact_img">
-			<img src="/images/bay_boat.jpg" alt="">
+			<img src="/images/contact-1.jpg" alt="">
 		</div>
 	</div>
 

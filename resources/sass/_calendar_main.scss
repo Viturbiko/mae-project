@@ -1,4 +1,4 @@
-.downloads_header {
+.calendar_header {
 	width: 100%;
 	height: 80vh;
 	min-height: 700px;
@@ -6,13 +6,13 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	.downloads_header_container {
+	.calendar_header_container {
 		width: 80%;
 		margin: 0 auto;
 		height: 100%;
 		display: flex;
 		align-items: flex-end;
-		.downloads_header_title {
+		.calendar_header_title {
 			background-color: $main_blue;
 			height: 200px;
 			width: 20%;
@@ -21,7 +21,7 @@
 			flex-direction: column;
 			justify-content: center;
 			.title_yellow {
-				font-size: 2.5rem;
+				font-size: 3rem;
 				color: $main_yellow;
 				margin-bottom: 0px;
 			}
@@ -30,7 +30,7 @@
 				color: white;
 			}
 		}
-		.downloads_header_text {
+		.calendar_header_text {
 			background-color: white;
 			height: 200px;
 			width: 40%;
@@ -49,7 +49,7 @@
 	}
 }
 
-.downloads_container {
+.calendar_container {
 	width: 80%;
 	margin: 0 auto;
 	.mae {
@@ -57,39 +57,5 @@
 		background-color: $main_yellow;
 		color: $main_black;
 		text-align: center;
-	}
-	.download
-	{
-		min-height: 400px;
-		padding: 75px 0px;
-		display:flex;
-		border-bottom: 1px solid $main_grey;
-		width: 100%;
-		hr {
-			border-top: 3px solid $main_yellow;
-		}
-		.download_image {
-			width: 60%;
-			margin-right: 75px;
-			img {
-				width: 100%;
-			}
-		}
-		.download_text {
-			width: 100%;
-			min-height: 250px;
-			position: relative;
-			button {
-				background-color: $main_yellow;
-				display: flex;
-				align-items: flex-end;
-				position: absolute;
-				bottom: 0;
-				&:hover {
-					border: 1px solid $main_black;
-				}
-			}
-		}
-		
 	}
 }

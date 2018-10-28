@@ -6,7 +6,7 @@
 
 	<div class="about_slider">
 
-		<div id="arrow-left-about" class="arrow"></div>
+		{{-- <div id="arrow-left-about" class="arrow"></div> --}}
 
 			<div class="slider_about">
 			
@@ -27,7 +27,7 @@
 
 			</div>
 
-			<div id="arrow-right-about" class="arrow"></div>
+		{{-- <div id="arrow-right-about" class="arrow"></div> --}}
 
 	</div>
 

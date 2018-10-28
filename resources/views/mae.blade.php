@@ -17,11 +17,11 @@
 	<div class="hover_mae">
 		
 		<div class="box">
-			<img class="img-fluid" src="images/image1.jpeg" alt="">			
+			<img class="img-fluid" src="/images/home-section-1.jpg" alt="">			
 		</div>
 
 		<div class="box">
-			<img class="img-fluid" src="images/image1.jpeg" alt="">			
+			<img class="img-fluid" src="/images/home-section-2.jpg" alt="">			
 		</div>
 		
 	</div>

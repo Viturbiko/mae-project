@@ -10,7 +10,7 @@ class IndexController extends Controller
 {
     public function index()
     {
-    	$events = CalendarEvent::limit(6)->orderBy('event_date', 'asc')->get();
+    	$events = CalendarEvent::limit(5)->orderBy('event_date', 'asc')->get();
 
     	return view("index", compact("events"));
     }
@@ -23,5 +23,10 @@ class IndexController extends Controller
     public function downloads()
     {
     	return view("downloads_main");
+    }
+
+    public function calendar()
+    {
+        return view("calendar_main");
     }
 }

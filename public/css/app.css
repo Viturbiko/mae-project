@@ -10469,7 +10469,7 @@ a.text-dark:focus {
 nav {
   width: 100%;
   background: #fff;
-  border-top: 15px solid #FDCF19;
+  border-top: 6px solid #FDCF19;
   border-bottom: 3px solid #FDCF19;
 }
 
@@ -10483,7 +10483,6 @@ nav ul {
 nav ul li {
   list-style: none;
   display: inline-block;
-  padding: 20px;
   margin-top: 30px;
   color: black;
 }
@@ -10496,8 +10495,10 @@ nav ul li:hover {
 
 nav ul li a {
   color: inherit;
+  padding: 20px;
   text-decoration: none;
   font-weight: bold;
+  display: inline-block;
 }
 
 nav ul li a:hover {
@@ -10506,8 +10507,10 @@ nav ul li a:hover {
 }
 
 nav img {
-  width: 350px;
+  width: 250px;
+  height: auto;
   float: left;
+  padding: 15px 0px;
 }
 
 .toggle_navbar {
@@ -10564,11 +10567,11 @@ nav img {
 }
 
 .slide1 {
-  background-image: url("/images/image1.jpeg");
+  background-image: url("/images/home-slide-1.jpg");
 }
 
 .slide2 {
-  background-image: url("/images/image2.jpeg");
+  background-image: url("/images/home-slide-2.jpg");
 }
 
 .slide3 {
@@ -10600,18 +10603,18 @@ nav img {
 }
 
 .slide-content .slide_main_title {
-  background-color: #FDCF19;
   font-size: 45px;
   font-weight: bold;
   text-transform: uppercase;
   width: 50%;
+  color: white;
 }
 
 .slide-content .slide_main_subtitle {
-  background-color: #fff;
-  font-size: 35px;
-  font-weight: bold;
+  font-size: 30px;
   margin-bottom: 10%;
+  width: 50%;
+  color: white;
 }
 
 .slide_events {
@@ -10693,6 +10696,10 @@ nav img {
   color: #4D4D4D;
 }
 
+.slide_events .event_info .event_description {
+  margin-bottom: 0px;
+}
+
 .arrow {
   cursor: pointer;
   position: absolute;
@@ -10704,13 +10711,15 @@ nav img {
 }
 
 #arrow-left {
-  right: 75px;
+  right: 45px;
   margin-right: 0px;
   background-image: url("/images/left-arrow.png");
   background-repeat: none;
   background-size: cover;
-  width: 75px;
-  height: 75px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-right: 1px solid #333;
 }
 
 #arrow-right {
@@ -10719,8 +10728,9 @@ nav img {
   background-image: url("/images/right-arrow.png");
   background-repeat: none;
   background-size: cover;
-  width: 75px;
-  height: 75px;
+  width: 45px;
+  height: 45px;
+  border: none;
 }
 
 .bg_right_mae {
@@ -10785,19 +10795,11 @@ nav img {
 }
 
 .content_mae .hover_mae .box {
-  width: 100%;
   margin: 0 0.5rem;
 }
 
 .content_mae .hover_mae .box img {
-  width: 450px;
-}
-
-.content_mae .hover_mae .box:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-  z-index: 2;
-  cursor: pointer;
+  width: 530px;
 }
 
 .bg_right_about {
@@ -10830,6 +10832,7 @@ nav img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 110px;
 }
 
 .content_about .about_slider {
@@ -10871,7 +10874,7 @@ nav img {
 }
 
 .content_about .about_slider .slider_about .slide_about1 {
-  background-image: url("/images/image1.jpeg");
+  background-image: url("/images/home-about-slide-1.jpg");
   height: 100%;
 }
 
@@ -10919,7 +10922,7 @@ nav img {
 
 .content_about .about_info {
   width: 35%;
-  padding-right: 2rem;
+  padding-right: 3rem;
   text-align: justify;
 }
 
@@ -10934,10 +10937,12 @@ nav img {
 .content_about .about_info h5 {
   color: white;
   font-weight: bolder;
+  margin-bottom: 25px;
 }
 
 .content_about .about_info hr {
   border-top: 3px solid white;
+  margin-bottom: 2rem;
 }
 
 .content_about .about_info button {
@@ -10946,6 +10951,18 @@ nav img {
   text-transform: uppercase;
   color: #1A1A1A;
   margin-top: 10px;
+}
+
+.content_about .about_info button:hover {
+  border: 1px solid #1A1A1A;
+}
+
+.content_about .about_info button a {
+  color: inherit;
+}
+
+.content_about .about_info button a:hover {
+  text-decoration: none;
 }
 
 .about_header {
@@ -10988,7 +11005,7 @@ nav img {
 }
 
 .about_header .about_header_container .about_header_title .title_yellow {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #FDCF19;
   margin-bottom: 0px;
 }
@@ -11020,15 +11037,16 @@ nav img {
 }
 
 .about_container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .about_container .mae {
-  width: 20%;
+  width: 16%;
   background-color: #FDCF19;
   color: #1A1A1A;
   text-align: center;
+  margin-left: 10%;
 }
 
 .about_container .text_block {
@@ -11036,11 +11054,13 @@ nav img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 10%;
 }
 
 .about_container .text_block .about_text {
-  font-size: 16px;
-  padding-right: 50px;
+  font-size: 1rem;
+  padding-right: 120px;
+  width: 100%;
 }
 
 .about_container .text_block .about_text h1 {
@@ -11052,32 +11072,68 @@ nav img {
   margin-bottom: 30px;
 }
 
-.about_container .text_block .about_text_left {
-  font-size: 16px;
-  padding-left: 50px;
+.about_container .text_block .about_text p {
+  text-align: justify;
 }
 
-.about_container .text_block .about_text_left h1 {
+.about_container .text_block .about_image {
+  width: 62%;
+  height: 100%;
+  background-color: #FDCF19;
+}
+
+.about_container .text_block .about_image img {
+  width: 80%;
+}
+
+.about_container .text_block--reserve {
+  margin: 100px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_container .text_block--reserve .about_text--reverse {
+  font-size: 1rem;
+  padding-left: 50px;
+  width: 80%;
+}
+
+.about_container .text_block--reserve .about_text--reverse h1 {
   font-weight: bolder;
 }
 
-.about_container .text_block .about_text_left h2 {
+.about_container .text_block--reserve .about_text--reverse h2 {
   font-weight: bolder;
   margin-bottom: 30px;
 }
 
-.about_container .text_block .about_image {
-  width: 70%;
-  height: auto;
+.about_container .text_block--reserve .about_text--reverse p {
+  text-align: justify;
 }
 
-.about_container .text_block .about_image img {
-  width: 100%;
+.about_container .text_block--reserve .about_image--reverse {
+  width: 195%;
+  height: 100%;
+  text-align: end;
+  margin-right: 65px;
+  background-color: #FDCF19;
+}
+
+.about_container .text_block--reserve .about_image--reverse img {
+  width: 85%;
 }
 
 .downloads_back {
   width: 100%;
-  background-color: #141333;
+  background: url("/images/home-downloads-parallax.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   min-height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11198,6 +11254,51 @@ nav img {
   text-align: center;
 }
 
+.downloads_container .download {
+  min-height: 400px;
+  padding: 75px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #4D4D4D;
+  width: 100%;
+}
+
+.downloads_container .download hr {
+  border-top: 3px solid #FDCF19;
+}
+
+.downloads_container .download .download_image {
+  width: 60%;
+  margin-right: 75px;
+}
+
+.downloads_container .download .download_image img {
+  width: 100%;
+}
+
+.downloads_container .download .download_text {
+  width: 100%;
+  min-height: 250px;
+  position: relative;
+}
+
+.downloads_container .download .download_text button {
+  background-color: #FDCF19;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  bottom: 0;
+}
+
+.downloads_container .download .download_text button:hover {
+  border: 1px solid #1A1A1A;
+}
+
 .container_calendar {
   position: relative;
 }
@@ -11205,7 +11306,7 @@ nav img {
 .container_calendar .bg_left_calendar {
   background-color: #FDCF19;
   position: absolute;
-  height: 1000px;
+  height: 1200px;
   width: 62%;
   left: 0;
   z-index: -1;
@@ -11214,7 +11315,7 @@ nav img {
 .container_calendar .bg_right_calendar {
   background-color: white;
   position: absolute;
-  height: 1000px;
+  height: 1200px;
   width: 38%;
   right: 0;
   z-index: -1;
@@ -11283,11 +11384,124 @@ nav img {
 
 .content_calendar .calendar .calendar_events {
   width: 70%;
-  background-color: blue;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/images/barquitos.jpeg");
+  background-image: url("/images/lisbon.jpg");
+  position: relative;
+}
+
+.content_calendar .calendar .calendar_events p {
+  position: absolute;
+  top: 40px;
+  padding: 0px 50px 0px 50px;
+  background-color: white;
+  color: #1A1A1A;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.content_calendar button {
+  margin-top: 50px !important;
+  background-color: white;
+  text-transform: uppercase;
+  color: #1A1A1A;
+  margin-top: 10px;
+}
+
+.content_calendar button:hover {
+  border: 1px solid #1A1A1A;
+}
+
+.content_calendar button a {
+  color: inherit;
+}
+
+.content_calendar button a:hover {
+  text-decoration: none;
+}
+
+.calendar_header {
+  width: 100%;
+  height: 80vh;
+  min-height: 700px;
+  background-image: url("/images/image1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.calendar_header .calendar_header_container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.calendar_header .calendar_header_container .calendar_header_title {
+  background-color: #141333;
+  height: 200px;
+  width: 20%;
+  padding-left: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.calendar_header .calendar_header_container .calendar_header_title .title_yellow {
+  font-size: 3rem;
+  color: #FDCF19;
+  margin-bottom: 0px;
+}
+
+.calendar_header .calendar_header_container .calendar_header_title .title_white {
+  font-size: 2rem;
+  color: white;
+}
+
+.calendar_header .calendar_header_container .calendar_header_text {
+  background-color: white;
+  height: 200px;
+  width: 40%;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.calendar_header .calendar_header_container .calendar_header_text h4 {
+  font-weight: bolder;
+}
+
+.calendar_container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.calendar_container .mae {
+  width: 20%;
+  background-color: #FDCF19;
+  color: #1A1A1A;
+  text-align: center;
 }
 
 .container_partners {
@@ -11381,7 +11595,15 @@ nav img {
 
 .content_partners .partners .partner .partner--img img {
   width: auto;
-  height: 100px;
+  height: 110px;
+}
+
+.content_partners .partners .partner .partner--img .min {
+  height: 150px;
+}
+
+.content_partners .partners .partner .partner--img .ram {
+  height: 200px;
 }
 
 .content_partners .partners .partner .partner_info {
@@ -11391,15 +11613,23 @@ nav img {
   padding: 20px;
 }
 
+.content_partners .partners .partner .partner_info .company {
+  font-weight: bold;
+  font-size: 15px;
+}
+
 .content_partners .partners .partner .partner_info p {
   padding: 0;
   margin: 0.1rem;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
 .contact_back {
   width: 100%;
-  background-color: #141333;
+  background-image: url("/images/contact-map-parallax.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   min-height: 400px;
   margin-bottom: 50px;
 }
@@ -11469,7 +11699,7 @@ nav img {
 .container_footer .bg_left_footer {
   background-color: #141333;
   position: absolute;
-  height: 150px;
+  height: 130px;
   width: 62%;
   left: 0;
   z-index: -1;
@@ -11490,7 +11720,7 @@ nav img {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .container_footer .bg_left_footer ul li hr {
@@ -11501,7 +11731,7 @@ nav img {
 .container_footer .bg_right_footer {
   background-color: #FDCF19;
   position: absolute;
-  height: 150px;
+  height: 130px;
   width: 38%;
   right: 0;
   z-index: -1;
@@ -11512,6 +11742,7 @@ nav img {
 
 .container_footer .bg_right_footer img {
   width: 100%;
+  padding: 20px 0;
 }
 
 .container_footer .content_footer {
@@ -11528,5 +11759,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  background-color: white;
 }
 

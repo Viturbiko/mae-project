@@ -2,7 +2,10 @@
 
 .downloads_back {
 	width: 100%;
-	background-color: $main_blue;
+	background: url('/images/home-downloads-parallax.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	min-height: 400px;
 	display:flex;
 	flex-direction: column;

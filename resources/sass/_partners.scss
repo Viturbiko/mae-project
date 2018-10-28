@@ -61,18 +61,28 @@
 				padding-top: 10px;
 				img {
 					width: auto;
-					height: 100px;
-				}		
+					height: 110px;
+				}
+				.min {
+					height: 150px;
+				}
+				.ram {
+					height: 200px;
+				}
 			}
 			.partner_info {
 				height: 60%;
 				width: 100%;
 				background-color: #EEEEEE;
 				padding: 20px;
+				.company {
+					font-weight: bold;
+					font-size: 15px;
+				}
 				p{
 					padding: 0;
 					margin: 0.1rem;
-					font-size: 0.8rem;
+					font-size: 0.85rem;
 				}
 			}
 		}		

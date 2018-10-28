@@ -24,7 +24,7 @@
 			flex-direction: column;
 			justify-content: center;
 			.title_yellow {
-				font-size: 3rem;
+				font-size: 2.5rem;
 				color: $main_yellow;
 				margin-bottom: 0px;
 			}
@@ -53,31 +53,54 @@
 }
 
 .about_container {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	.mae {
-		width: 20%;
+		width: 16%;
 		background-color: $main_yellow;
 		color: $main_black;
 		text-align: center;
+		margin-left: 10%;
 	}
 	.text_block {
+		margin: 100px auto;		
+		display: flex;		
+		padding-left: 10%;
+		.about_text {
+			font-size: 1rem;
+			padding-right: 120px;			
+			width: 100%;
+			h1 {
+				font-weight: bolder;
+			}
+			h2 {
+				font-weight: bolder;
+				margin-bottom: 30px;
+			}
+			p{
+				text-align: justify;
+			}
+		}
+
+		.about_image {
+			width: 62%;
+			height: 100%;
+			background-color: $main_yellow;
+			img {
+				width: 80%;
+			}
+		}
+	}
+
+	.text_block--reserve {
 		margin: 100px auto;
 		display: flex;
-		.about_text {
-			font-size: 16px;
-			padding-right: 50px;
-			h1 {
-				font-weight: bolder;
-			}
-			h2 {
-				font-weight: bolder;
-				margin-bottom: 30px;
-			}
-		}
-		.about_text_left {
-			font-size: 16px;
+		padding-right: 10%;
+		align-items: center;
+		.about_text--reverse {
+			font-size: 1rem;
 			padding-left: 50px;
+			width: 80%;
 			h1 {
 				font-weight: bolder;
 			}
@@ -85,12 +108,18 @@
 				font-weight: bolder;
 				margin-bottom: 30px;
 			}
+			p{
+				text-align: justify;
+			}
 		}
-		.about_image {
-			width: 70%;
-			height: auto;
+		.about_image--reverse {
+			width: 195%;
+			height: 100%;
+			text-align: end;
+			margin-right: 65px;
+			background-color: $main_yellow;
 			img {
-				width: 100%;
+				width: 85%;
 			}
 		}
 	}

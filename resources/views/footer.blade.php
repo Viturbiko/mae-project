@@ -12,7 +12,7 @@
 	</div>
 
 	<div class="bg_right_footer">
-        <img src="/images/logo_footer.png" alt="Logo">		
+        <img src="/images/logo.svg" alt="Logo">		
 	</div>
 
 	<div class="content_footer">

@@ -5,7 +5,7 @@
 	.bg_left_calendar {
 	    background-color: $main_yellow;
 	    position: absolute;
-	    height: 1000px;
+	    height: 1200px;
 	    width: 62%;
 	    left: 0;
 	    z-index: -1;
@@ -13,7 +13,7 @@
 	.bg_right_calendar {
 	    background-color: white;
 	    position: absolute;
-	    height: 1000px;
+	    height: 1200px;
 	    width: 38%;
 	    right: 0;
 	    z-index: -1;
@@ -60,16 +60,41 @@
 					color: white;
 					transform: scale(1.1);
 					cursor: pointer;
-				}
+				}				
 			}
 		}
 		.calendar_events {
 			width: 70%;
-			background-color: blue;
 			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
-			background-image: url('/images/barquitos.jpeg');
+			background-image: url('/images/lisbon.jpg');
+			position: relative;
+			p {
+				position: absolute;
+				top: 40px;
+				padding: 0px 50px 0px 50px;
+				background-color: white;
+				color: $main_black;
+				font-size: 35px;
+				font-weight: bold;
+			}
 		}
+	}
+	button {
+		margin-top: 50px !important;
+	    background-color: white;
+	    text-transform: uppercase;
+	    color: $main_black;
+	    margin-top: 10px;
+	    &:hover {
+	      border: 1px solid $main_black;
+	    }
+	    a {
+	      color: inherit;
+	      &:hover {
+	        text-decoration: none;
+	      }
+	    }
 	}
 }

@@ -51,18 +51,18 @@
 
 			<div class="about_image">
 
-				<img src="/images/bay_boat.jpg" alt="Barco">
+				<img src="/images/about-2.jpg" alt="Barco">
 
 			</div>
 		</div>
 
-		<div class="text_block">
+		<div class="text_block--reserve">
 			
-			<div class="about_image">
-				<img src="/images/bay_boat.jpg" alt="Barco">
+			<div class="about_image--reverse">
+				<img src="/images/about-3.jpg" alt="Barco">
 			</div>
 
-			<div class="about_text_left">
+			<div class="about_text--reverse">
 
 				<p>On the other hand, environment is currently one of the major challenges for transport operators in the ever-increasing strict regulation aiming at reducing polluting emissions and stopping the climate change, with an immediate impact on the maritime transport regarding the regulation on Sulphur content of the maritime fuel entering into force by 2020.</p>
 				<p>In this context, the Med Atlantic Ecobonus (MAE) Action is an institutional study co-financed by the European
@@ -86,7 +86,7 @@
 
 			<div class="about_image">
 
-				<img src="/images/bay_boat.jpg" alt="Barco">
+				<img src="/images/about-4.jpg" alt="Barco">
 
 			</div>
 

@@ -24,6 +24,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 110px;
     .about_slider {
       width: 62%;
       overflow: hidden;
@@ -48,7 +49,7 @@
               }
             }
             .slide_about1 {
-              background-image: url('/images/image1.jpeg');
+              background-image: url('/images/home-about-slide-1.jpg');
               height: 100%;
             }
             .slide_about2 {
@@ -94,7 +95,7 @@
     }
     .about_info {
       width: 35%;
-      padding-right: 2rem;
+      padding-right: 3rem;
       text-align: justify;
         h1 {
             font-weight: bolder;
@@ -105,9 +106,11 @@
         h5 {
           color: white;
           font-weight: bolder;
+          margin-bottom: 25px;
         }
         hr {
             border-top: 3px solid white;
+            margin-bottom: 2rem;
         }
         button {
             float:right;
@@ -115,6 +118,15 @@
             text-transform: uppercase;
             color: $main_black;
             margin-top: 10px;
+            &:hover {
+              border: 1px solid $main_black;
+            }
+            a {
+              color: inherit;
+              &:hover {
+                text-decoration: none;
+              }
+            }
         }
     }
 }

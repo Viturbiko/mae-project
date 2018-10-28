@@ -18,11 +18,11 @@
 }
 
 .slide1 {
-  background-image: url('/images/image1.jpeg');
+  background-image: url('/images/home-slide-1.jpg');
 }
 
 .slide2 {
-  background-image: url('/images/image2.jpeg');
+  background-image: url('/images/home-slide-2.jpg');
 }
 
 .slide3 {
@@ -42,17 +42,17 @@
     width: 65%;
   }
   .slide_main_title {
-    background-color: $main_yellow;
     font-size: 45px;
     font-weight: bold;
     text-transform: uppercase;
     width: 50%;
+    color: white;
   }
   .slide_main_subtitle {
-    background-color: #fff;
-    font-size: 35px;
-    font-weight: bold;
+    font-size: 30px;
     margin-bottom: 10%;
+    width: 50%;
+    color: white;
   }
 }
 
@@ -106,6 +106,9 @@
       margin-bottom: 0px;
       color: $main_grey;
     }
+    .event_description {
+      margin-bottom: 0px;
+    }
   }
 }
 
@@ -120,21 +123,24 @@
 }
 
 #arrow-left {
-  right: 75px;
-  margin-right: 0px;
-  background-image: url('/images/left-arrow.png');
-  background-repeat: none;
-  background-size: cover;
-  width: 75px;
-  height: 75px;
+    right: 45px;
+    margin-right: 0px;
+    background-image: url("/images/left-arrow.png");
+    background-repeat: none;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-right: 1px solid #333;
 }
 
 #arrow-right {
   right: 0;
   margin-right: 0px;
-  background-image: url('/images/right-arrow.png');
+  background-image: url("/images/right-arrow.png");
   background-repeat: none;
   background-size: cover;
-  width: 75px;
-  height: 75px;
+  width: 45px;
+  height: 45px;
+  border: none;
 }

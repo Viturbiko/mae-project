@@ -2,7 +2,10 @@
 
 .contact_back {
 	width: 100%;
-	background-color: $main_blue;
+	background-image: url('/images/contact-map-parallax.svg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	min-height: 400px;
 	margin-bottom: 50px;
 	.contact_container {

@@ -1,4 +1,4 @@
-<div class="container_partners">
+<div class="container_partners" id="partners">
 
 	<div class="bg_right_partners"></div>
 	<div class="bg_left_partners"></div>
@@ -15,7 +15,7 @@
 					<img src="/images/partner1.png" alt="">
 				</div>
 				<div class="partner_info">
-					<p>PUERTOS DEL ESTADO, SPAIN</p>
+					<p class="company"><b>PUERTOS DEL ESTADO, SPAIN</b></p>
 					<p>Ministerio de Fomento</p>
 					<p>Avda. del Partenón Number 10. Madrid, 28042. Spain.</p>
 					<p><b>Project Coordinator</b></p>
@@ -27,10 +27,10 @@
 			</div>
 			<div class="partner">
 				<div class="partner--img">
-					<img src="/images/partner2.png" alt="">
+					<img class="min" src="/images/partner2.png" alt="">
 				</div>
 				<div class="partner_info">
-					<p>MINISTÈRE DE LA TRASITION ÉCO-LOGGICQUE ET SOLIDAIRE. FRANCE TOUR SEQUOIA</p>
+					<p class="company"><b>MINISTÈRE DE LA TRASITION ÉCO-LOGGICQUE ET SOLIDAIRE. FRANCE TOUR SEQUOIA</b></p>
 					<p>La Défense CEDEX 92055. France</p>
 					<p><b>Florance Pajon</b></p>
 					<p>+33140817157</p>
@@ -43,7 +43,7 @@
 					<img src="/images/partner3.png" alt="">
 				</div>
 				<div class="partner_info">
-					<p>INSTITUTO DA MOBILIDADE E DOS TRANSPORTES, I.P., PORTUGAL</p>
+					<p class="company"><b>INSTITUTO DA MOBILIDADE E DOS TRANSPORTES, I.P., PORTUGAL</b></p>
 					<p>Ministerio da Economia</p>
 					<p>Av. das Forças Armadas Number 40 Lisboa 1649-022. Portugal</p>
 					<p><b>João Fernando do Amaral Carvalho</b></p>
@@ -54,10 +54,10 @@
 			</div>
 			<div class="partner">
 				<div class="partner--img">
-					<img src="/images/partner4.png" alt="">
+					<img class="ram" src="/images/partner4.png" alt="">
 				</div>
 				<div class="partner_info">
-					<p>RETE AUTOSTRADE MEDITERRANEE S.P.A., ITALY</p>
+					<p class="company"><b>RETE AUTOSTRADE MEDITERRANEE S.P.A., ITALY</b></p>
 					<p>Ministero delle infrastrutture e dei transport</p>
 					<p>Via Nomentana, 2. Roma, 00161. Italy</p>
 					<p><b>Francesco Benevolo</b></p>
