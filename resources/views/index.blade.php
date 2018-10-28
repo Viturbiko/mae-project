@@ -28,6 +28,7 @@
 	@include('footer')
 
 <script src="js/app.js"></script>
+
 <script>
 
     $(document).ready(function(){

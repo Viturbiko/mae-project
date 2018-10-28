@@ -11,51 +11,59 @@
 
 		<div class="partners">
 			<div class="partner">
-				<img src="/images/partner1.png" alt="">
+				<div class="partner--img">
+					<img src="/images/partner1.png" alt="">
+				</div>
 				<div class="partner_info">
-					<h5>PUERTOS DEL ESTADO, SPAIN</h5>
-					<h6>Ministerio de Fomento</h6>
-					<h6>Avda. del Partenón Number 10. Madrid, 28042. Spain.</h6>
-					<h6><b>Project Coordinator</b></h6>
-					<h6><b>Antonio Góngora</b></h6>
-					<h6>+3415245557</h6>
-					<h6>agongora@puertos.es</h6>
-					<h6>www.puertos.es</h6>
+					<p>PUERTOS DEL ESTADO, SPAIN</p>
+					<p>Ministerio de Fomento</p>
+					<p>Avda. del Partenón Number 10. Madrid, 28042. Spain.</p>
+					<p><b>Project Coordinator</b></p>
+					<p><b>Antonio Góngora</b></p>
+					<p>+3415245557</p>
+					<p>agongora@puertos.es</p>
+					<p>www.puertos.es</p>
 				</div>				
 			</div>
 			<div class="partner">
-				<img src="/images/partner2.png" alt="">
+				<div class="partner--img">
+					<img src="/images/partner2.png" alt="">
+				</div>
 				<div class="partner_info">
-					<h5>MINISTÈRE DE LA TRASITION ÉCO-LOGGICQUE ET SOLIDAIRE. FRANCE TOUR SEQUOIA</h5>
-					<h6>La Défense CEDEX 92055. France</h6>
-					<h6><b>Florance Pajon</b></h6>
-					<h6>+33140817157</h6>
-					<h6>florence.pajon@developpement-durable.gouv.fr</h6>
-					<h6>www.ecologique-solidaire.gouv.fr</h6>					
+					<p>MINISTÈRE DE LA TRASITION ÉCO-LOGGICQUE ET SOLIDAIRE. FRANCE TOUR SEQUOIA</p>
+					<p>La Défense CEDEX 92055. France</p>
+					<p><b>Florance Pajon</b></p>
+					<p>+33140817157</p>
+					<p>florence.pajon@developpement-durable.gouv.fr</p>
+					<p>www.ecologique-solidaire.gouv.fr</p>					
 				</div>
 			</div>
 			<div class="partner">
-				<img src="/images/partner3.png" alt="">
+				<div class="partner--img">
+					<img src="/images/partner3.png" alt="">
+				</div>
 				<div class="partner_info">
-					<h5>INSTITUTO DA MOBILIDADE E DOS TRANSPORTES, I.P., PORTUGAL</h5>
-					<h6>Ministerio da Economia</h6>
-					<h6>Av. das Forças Armadas Number 40 Lisboa 1649-022. Portugal</h6>
-					<h6><b>João Fernando do Amaral Carvalho</b></h6>
-					<h6>+351217949165</h6>
-					<h6>joao.carvalho@mt-ip.pt</h6>					
-					<h6>www.mt-ip.pt</h6>
+					<p>INSTITUTO DA MOBILIDADE E DOS TRANSPORTES, I.P., PORTUGAL</p>
+					<p>Ministerio da Economia</p>
+					<p>Av. das Forças Armadas Number 40 Lisboa 1649-022. Portugal</p>
+					<p><b>João Fernando do Amaral Carvalho</b></p>
+					<p>+351217949165</p>
+					<p>joao.carvalho@mt-ip.pt</p>					
+					<p>www.mt-ip.pt</p>
 				</div>
 			</div>
 			<div class="partner">
-				<img src="/images/partner4.png" alt="">
+				<div class="partner--img">
+					<img src="/images/partner4.png" alt="">
+				</div>
 				<div class="partner_info">
-					<h5>RETE AUTOSTRADE MEDITERRANEE S.P.A., ITALY</h5>
-					<h6>Ministero delle infrastrutture e dei transport</h6>
-					<h6>Via Nomentana, 2. Roma, 00161. Italy</h6>
-					<h6><b>Francesco Benevolo</b></h6>
-					<h6>+3906.44123283</h6>
-					<h6>fbenevolo@ramspa.it</h6>					
-					<h6>www.rampsa.it</h6>
+					<p>RETE AUTOSTRADE MEDITERRANEE S.P.A., ITALY</p>
+					<p>Ministero delle infrastrutture e dei transport</p>
+					<p>Via Nomentana, 2. Roma, 00161. Italy</p>
+					<p><b>Francesco Benevolo</b></p>
+					<p>+3906.44123283</p>
+					<p>fbenevolo@ramspa.it</p>					
+					<p>www.rampsa.it</p>
 				</div>
 			</div>
 		</div>			

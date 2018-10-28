@@ -21,10 +21,9 @@
 }
 
 .content_calendar {
-	padding: 5rem 0;
-	min-height: 675px;
-	width: 80%;
-	margin: 0 auto;
+	padding: 7rem 6rem 7rem 6rem;
+    width: 100%;
+    margin: 0 auto;
 	h1 {
 		font-weight: bolder;
 	}
@@ -34,19 +33,16 @@
 	.calendar {
 		margin-top: 50px;
 		width: 100%;
-		min-height: 600px;
-		min-width: 700px;
 		display: flex;
 		.calendar_days {
 			display: flex;
 			flex-wrap: wrap;
-			min-height: 100%;
-			width: 30%;
+			width: 50%;
 			background-color: white;
 			.event_day {
 				padding-top: 10px;
 				width: 50%;
-				border: 1px solid $main_black;
+				border: 1px solid lightgray;
 				text-align: center;
 				h1 {
 					font-size: 4rem;
@@ -70,13 +66,10 @@
 		.calendar_events {
 			width: 70%;
 			background-color: blue;
-			.image_container {
-				height: 80vh;
-				background-size: cover;
-				background-position: center;
-				background-repeat: no-repeat;
-				background-image: url('/images/barquitos.jpeg');
-			}
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-image: url('/images/barquitos.jpeg');
 		}
 	}
 }

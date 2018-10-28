@@ -14,4 +14,14 @@ class IndexController extends Controller
 
     	return view("index", compact("events"));
     }
+
+    public function about()
+    {
+    	return view("about_main");
+    }
+
+    public function downloads()
+    {
+    	return view("downloads_main");
+    }
 }

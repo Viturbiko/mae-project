@@ -13,5 +13,9 @@
 
 Route::get('/', 'IndexController@index')->name('index');
 
+Route::get('/about', 'IndexController@about')->name('about');
+
+Route::get('/downloads', 'IndexController@downloads')->name('downloads');
+
 Route::post('/contact', 'ContactController@store')->name('contact');
 

@@ -21,47 +21,43 @@
 }
 
 .content_mae {
-    padding: 7rem 0rem;
-    width: 80%;
+    padding: 7rem 0rem 7rem 6rem;
+    width: 100%;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
     .info_mae {
-    	width: 35%;
-    	display: inline-block;
-        text-align: justify;
-    	hr {
-    		border-top: 3px solid $main_yellow;
+        width: 50%;
+        hr {
+            border-top: 3px solid $main_yellow;
             margin: 2px 0px 25px;
-    	}
-		h1 {
-		font-weight: bold;
-		}
-		button {
-			float:right;
-			background-color: $main_yellow;
-			text-transform: uppercase;
-			color:white;
-			margin-top: 10px;
-		}
+        }
+        h1 {
+        font-weight: bold;
+        }
+        button {
+            float:right;
+            background-color: $main_yellow;
+            text-transform: uppercase;
+            color:white;
+            margin-top: 10px;
+        }
     }
     .hover_mae {
-    	width: 60%;
-    	display: inline-block;
-    	margin-left: 50px;
-    	.box {
-    		height: 250px;
-    		width: 250px;
-    		display: inline-block;
-    		vertical-align: text-bottom;
-    		margin: 0 1rem;
-    		img {
-    			height: 250px;
-    			width: 250px;
-    		}
-    		&:hover {
-				transform: scale(1.3);
-				z-index: 2;
-				cursor: pointer;
-    		}
-    	}
+        width: 100%;
+        display: flex;
+        margin-left: 50px;
+        .box {
+            width: 100%;
+            margin: 0 0.5rem;
+            img {
+                width: 450px;
+            }
+            &:hover {
+                transform: scale(1.3);
+                z-index: 2;
+                cursor: pointer;
+            }
+        }
     }
 }
