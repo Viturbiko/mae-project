@@ -6,6 +6,8 @@
 
 	<div class="content_calendar">
 
+		<img src="/images/icon-events.png" alt="Calendar_icon">
+
 		<h1>Events & Information</h1>
 
 		<hr align="left" width="5%">

@@ -4,6 +4,7 @@
 	width: 100%;
 	background: url('/images/home-downloads-parallax.jpg');
 	background-size: cover;
+	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	min-height: 400px;
@@ -16,6 +17,12 @@
 		color: white;
 		font-size: 3rem;
 		font-weight: bolder;
+	}
+	img {
+	  width: 40px;
+	  height: 40px;
+	  fill: white;
+	  margin-top: 20px;
 	}
 	a {
 		color: white;

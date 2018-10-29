@@ -14,22 +14,22 @@
 			<form method="POST" action="{{ route("contact", '#contact_form') }}">
 				{{ csrf_field() }}
 
-				<input type="text" placeholder="Name" value="{{ old('name') }}" name="name">
+				<input class="form_name" type="text" placeholder="Name" value="{{ old('name') }}" name="name">
 				@if($errors->has('name'))
 					<small class="alert">{{ $errors->first('name') }}</small>
 				@endif	
 
-				<input type="text" placeholder="E-Mail" value="{{ old('email') }}" name="email">
+				<input class="form_mail" type="text" placeholder="E-Mail" value="{{ old('email') }}" name="email">
 				@if($errors->has('email'))
 					<small class="alert">{{ $errors->first('email') }}</small>
 				@endif
 
-				<input type="text" placeholder="Phone" value="{{ old('phone') }}" name="phone">
+				<input class="form_phone" type="text" placeholder="Phone" value="{{ old('phone') }}" name="phone">
 				@if($errors->has('phone'))
 					<small class="alert">{{ $errors->first('phone') }}</small>
 				@endif
 
-				<textarea rows="10" placeholder="Message" value="{{ old('message') }}" name="message"></textarea>
+				<textarea class="form_message" rows="10" placeholder="Message" value="{{ old('message') }}" name="message"></textarea>
 				@if($errors->has('message'))
 					<small class="alert">{{ $errors->first('message') }}</small>
 				@endif

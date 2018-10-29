@@ -33,6 +33,8 @@
 
 		<div class="about_info">
 
+			<img src="/images/icon-project.png" alt="Porject_icon">
+
 			<h1>About the project</h1>
 
 			<hr align="left" width="10%">

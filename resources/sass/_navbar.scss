@@ -70,3 +70,9 @@ nav {
     display: block;
   }
 }
+
+.active_section {
+  background: $main_yellow;
+  cursor:pointer;
+  color: white;
+}

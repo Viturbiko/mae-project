@@ -5,6 +5,8 @@
 
 	<div class="content_partners">
 
+		<img src="/images/icon-partners.png" alt="partners_icon">
+
 		<h1>Partners</h1>
 
 		<hr align="left" width="5%">

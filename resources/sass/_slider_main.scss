@@ -38,8 +38,11 @@
   span {
     font-size: 5rem;
     color: black;
-    padding-left: 200px;
+    margin-left: 200px;
+    padding-right: 200px;
     width: 65%;
+    animation-name: example;
+    animation-duration: 2s;
   }
   .slide_main_title {
     font-size: 45px;
@@ -143,4 +146,9 @@
   width: 45px;
   height: 45px;
   border: none;
+}
+
+@keyframes example {
+    from {margin-left: -600px;}
+    to {margin-left: 200px;}
 }

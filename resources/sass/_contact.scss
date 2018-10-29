@@ -3,6 +3,7 @@
 .contact_back {
 	width: 100%;
 	background-image: url('/images/contact-map-parallax.svg');
+	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -30,13 +31,33 @@
 					width: 90%;
 					margin: 20px 0;
 					display:block;
-					padding: 5px 0 5px 20px;
+					padding: 10px 0 10px 60px;
+					background-repeat: no-repeat; 
+				}
+				.form_name {
+					background-image: url('/images/icon-contact-name.png');	
+					background-position: 10px 8px;									
+				}
+				.form_mail {
+					background-image: url('/images/icon-contact-mail.png');
+					background-position: 10px 10px;
+
+				}
+				.form_phone {
+					background-image: url('/images/icon-contact-phone.png');
+					background-position: 12px 8px;					
+				}
+				.form_message {
+					background-image: url('/images/icon-contact-message.png');
+					background-position: 10px 10px;				
 				}
 				textarea {
 					width: 90%;
 					margin: 20px 0;
 					display:block;
-					padding: 5px 0 5px 20px;
+					padding: 10px 0 10px 60px;
+					background-repeat: no-repeat; 
+					background-position: 10px 10px;
 				}
 				input[type="submit"] {
 					width: auto;
