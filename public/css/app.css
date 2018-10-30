@@ -11056,7 +11056,7 @@ nav img {
 .about_header .about_header_container .about_header_text {
   background-color: white;
   height: 200px;
-  width: 40%;
+  width: 45%;
   padding: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11270,7 +11270,7 @@ nav img {
 .downloads_header .downloads_header_container .downloads_header_text {
   background-color: white;
   height: 200px;
-  width: 40%;
+  width: 45%;
   padding: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11475,11 +11475,31 @@ nav img {
   text-decoration: none;
 }
 
+.bg_right_events {
+  background-color: #FDCF19;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 62%;
+  right: 0;
+  z-index: -1;
+}
+
+.bg_left_events {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 38%;
+  z-index: -1;
+}
+
 .calendar_header {
   width: 100%;
   height: 80vh;
   min-height: 700px;
-  background-image: url("/images/image1.jpeg");
+  background-image: url("/images/events/events-header.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11528,7 +11548,7 @@ nav img {
 .calendar_header .calendar_header_container .calendar_header_text {
   background-color: white;
   height: 200px;
-  width: 40%;
+  width: 45%;
   padding: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11556,6 +11576,76 @@ nav img {
   background-color: #FDCF19;
   color: #1A1A1A;
   text-align: center;
+}
+
+.calendar_container .events_container {
+  width: 100%;
+  margin: 100px auto;
+}
+
+.calendar_container .events_container .event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #4D4D4D;
+  background-color: white;
+}
+
+.calendar_container .events_container .event img {
+  width: 100px;
+  height: 100px;
+}
+
+.calendar_container .events_container .event h1 {
+  margin-bottom: 0px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.calendar_container .events_container .event p {
+  margin-bottom: 0px;
+}
+
+.calendar_container .events_container .event .event_date {
+  width: 10%;
+  margin: 0 20px;
+}
+
+.calendar_container .events_container .event .event_date p {
+  text-align: center;
+}
+
+.calendar_container .events_container .event .event_info {
+  width: 75%;
+}
+
+.calendar_container .events_container .event .arrow_down {
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.calendar_container .events_container .extra_info {
+  background-color: #dadada;
+  display: none;
+  padding: 50px;
+  font-size: 16px;
+}
+
+.calendar_container .events_container .extra_info ul {
+  padding-left: 12px;
+}
+
+.calendar_container .events_container .extra_info button {
+  background-color: #FDCF19;
+}
+
+.calendar_container .events_container .extra_info button:hover {
+  border: 1px solid #1A1A1A;
 }
 
 .container_partners {
