@@ -5,6 +5,8 @@
 	<link rel="stylesheet" href="/css/app.css">
 	<title>Mae Project</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -52,10 +54,10 @@
 					<p><b>ESTE ES UN EJEMPLO DE EVENTO</b></p>
 					<p>SUBTITULO DEL EVENTO</p>
 				</div>
-				<img class="arrow_down" src="/images/events/flecha_down.png" alt="" onclick="showhide(1);">
+				<img class="arrow_down" src="/images/events/flecha_down.png" alt="" id="arrow_1" onclick="showhide(1);">
 			</div>
 
-			<div class="extra_info" id="1">
+			<div class="extra_info" id="info_1">
 				<ul>
 					<li>To present and confront the external costs calculator (mainly assumptions, values, etc. used).</li>
 					<li>To assess the potential scientific/technical consensus towards an EU external cost calculator based on the MAE approach.</li>
@@ -81,10 +83,10 @@
 					<p><b>ESTE ES UN EJEMPLO DE EVENTO</b></p>
 					<p>SUBTITULO DEL EVENTO</p>
 				</div>
-				<img class="arrow_down" src="/images/events/flecha_down.png" alt="" onclick="showhide(2);">
+				<img class="arrow_down" src="/images/events/flecha_down.png" alt="" id="arrow_2" onclick="showhide(2);">
 			</div>
 
-			<div class="extra_info" id="2">
+			<div class="extra_info" id="info_2">
 				<ul>
 					<li>To present and confront the external costs calculator (mainly assumptions, values, etc. used).</li>
 					<li>To assess the potential scientific/technical consensus towards an EU external cost calculator based on the MAE approach.</li>
@@ -112,10 +114,10 @@
 					<p><b>ESTE ES UN EJEMPLO DE EVENTO</b></p>
 					<p>SUBTITULO DEL EVENTO</p>
 				</div>
-				<img class="arrow_down" src="/images/events/flecha_down.png" alt="" onclick="showhide(3);">
+				<img class="arrow_down" src="/images/events/flecha_down.png" alt="" id="arrow_3" onclick="showhide(3);">
 			</div>
 
-			<div class="extra_info" id="3">
+			<div class="extra_info" id="info_3">
 				<ul>
 					<li>To present and confront the external costs calculator (mainly assumptions, values, etc. used).</li>
 					<li>To assess the potential scientific/technical consensus towards an EU external cost calculator based on the MAE approach.</li>
@@ -140,26 +142,54 @@
 
 	<script>		
 
-		function showhide(id){
+	// function showhide(id){
 
-	        if (document.getElementById) {
+ //        if (document.getElementById) {
 
-	          var div_id = document.getElementById(id);
+ //          var div_id = document.getElementById(id);
 
-	          var divs = document.getElementsByClassName("extra_info");
+ //          var arrow = document.querySelector('#arrow_' + id);
 
-	            for(var i=0;i<divs.length;i++) {
-	              divs[i].style.display = "none";
-	              divs[i].previousElementSibling.style.backgroundColor = "white";
-	              divs[i].previousElementSibling.style.color = "black";
-	            }
+ //          var arrows = document.getElementsByClassName('arrow_down');
 
-	          div_id.style.display = "block";
-	          div_id.previousElementSibling.style.backgroundColor = "#12162B";
-	          div_id.previousElementSibling.style.color = "white";
-	        } 
-	        return false;
-		 }
+ //          var divs = document.getElementsByClassName("extra_info");
+
+ //            for(var i=0;i<divs.length;i++) {
+ //              divs[i].previousElementSibling.style.backgroundColor = "white";
+ //              divs[i].previousElementSibling.style.color = "black";
+ //            }
+
+ //            for(var i=0;i<arrows.length;i++) {
+ //              arrows[i].style.transform = 'rotate(0deg)';
+ //            }
+
+ //          div_id.previousElementSibling.style.backgroundColor = "#12162B";
+ //          div_id.previousElementSibling.style.color = "white";
+ //          arrow.style.transform = 'rotate(180deg)';
+ //        } 
+ //        return false;       
+
+	//  }
+
+	 $('.arrow_down').each(function(index){
+	 	$(this).on('click', function(){
+	 		$('.arrow_down').css('transform', 'rotate(0deg)');
+	 		$(this).parent().parent().find('#info_' + (index + 1)).slideToggle('slow');
+	 		$(this).css('transform', 'rotate(180deg)');
+	 	});
+	 });
+
+	 // // hide all content sections
+	 // $('.extra_info').hide();
+
+	 // // handle clicks to show 
+	 // // selected content sections
+	 // $('#arrow_1').click(function(){
+	 //   // h1 and .content are siblings –
+	 //   // the next element inside the
+	 //   // .acc element is .content
+	 //   $(this).parent().parent().find('#1').slideToggle('slow');
+	 // });
 
 	</script>
 
