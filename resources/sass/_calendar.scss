@@ -105,3 +105,15 @@
 	    }
 	}
 }
+
+
+//MEDIA QUERIES
+
+@media screen and (max-device-width: 1200px) {
+  .content_calendar .calendar .calendar_days .event_day h1 {
+    font-size: 2.5rem;
+  }
+  .content_calendar .calendar .calendar_days .event_day p {
+	font-size: 12px;
+  }
+}

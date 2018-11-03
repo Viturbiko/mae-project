@@ -132,3 +132,30 @@
 		}
 	}
 }
+
+@media screen and (max-device-width: 1200px) {
+  .calendar_container .text_block .calendar_text p {
+  	font-size: 0.8rem;
+  }
+  .calendar_container .text_block h1 {
+  	font-size: 1.5rem;
+  }
+  .calendar_container .text_block h2 {
+  	font-size: 1rem;
+  }
+  .calendar_container .text_block--reserve .calendar_text--reverse p {
+  	font-size: 0.8rem;
+  }
+  .calendar_header .calendar_header_container .calendar_header_title .title_yellow {
+  	font-size: 2rem;
+  }
+  .calendar_header .calendar_header_container .calendar_header_title .title_white {
+  	font-size: 1.2rem;
+  }
+  .calendar_header .calendar_header_container .calendar_header_title {
+  	height: 170px;
+  }
+  .calendar_header .calendar_header_container .calendar_header_text {
+  	height: 170px;
+  }
+}

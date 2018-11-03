@@ -45,7 +45,7 @@
 		width: 100%;
 		border: 1px solid #4D4D4D;
 		border-right: none;
-		height: 450px;
+		height: 500px;
 		.partner {
 			background-color: white;
 			border-right: 1px solid #4D4D4D;
@@ -67,7 +67,7 @@
 				padding-top: 10px;
 				img {
 					width: auto;
-					height: 110px;
+					height: 100px;
 				}
 				.min {
 					height: 150px;
@@ -93,4 +93,26 @@
 			}
 		}		
 	}
+}
+
+
+//MEDIA QUERIES
+
+@media screen and (max-device-width: 1200px) {
+  .content_partners .partners  {
+    flex-wrap: wrap;
+    height: initial;
+  }
+  .content_partners .partners .partner {
+  	width: 50%;
+  }
+  .content_partners .partners .partner .partner--img .min {
+  	height: 130px;
+  }
+  .container_partners .bg_left_partners {
+  	height: 1200px;
+  }
+  .container_partners .bg_right_partners {
+  	height: 1200px;
+  }
 }

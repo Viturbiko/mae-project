@@ -77,3 +77,14 @@
 		}
 	}
 }
+
+//MEDIA QUERIES
+
+@media screen and (max-device-width: 1200px) {
+  .contact_back .contact_container .contact_img  {
+    width: 45%;
+  }
+  .contact_back .contact_container .contact_form {
+  	width: 60%;
+  }
+}

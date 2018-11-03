@@ -21,7 +21,7 @@
 			flex-direction: column;
 			justify-content: center;
 			.title_yellow {
-				font-size: 2.5rem;
+				font-size: 2.1rem;
 				color: $main_yellow;
 				margin-bottom: 0px;
 			}
@@ -93,3 +93,45 @@
 		
 	}
 }
+
+//MEDIA QUERIES
+
+@media screen and (max-device-width: 1200px) {
+  .downloads_container .text_block .downloads_text p {
+  	font-size: 0.8rem;
+  }
+  .downloads_container .text_block h1 {
+  	font-size: 1.5rem;
+  }
+  .downloads_container .text_block h2 {
+  	font-size: 1rem;
+  }
+  .downloads_container .text_block--reserve .downloads_text--reverse p {
+  	font-size: 0.8rem;
+  }
+  .downloads_header .downloads_header_container .downloads_header_title .title_yellow {
+  	font-size: 1.2rem;
+  }
+  .downloads_header .downloads_header_container .downloads_header_title .title_white {
+  	font-size: 1.2rem;
+  }
+  .downloads_header .downloads_header_container .downloads_header_title {
+  	height: 170px;
+  }
+  .downloads_header .downloads_header_container .downloads_header_text {
+  	height: 170px;
+  }
+  .download_text h3 {
+  	font-size: 1.3rem;
+  }
+  .download_text p {
+  	font-size: 0.8rem;
+  }
+  .downloads_container .download .download_image {
+  	width: 80%;
+  }
+  .downloads_container .download {
+	min-height: 450px;
+  }
+}
+

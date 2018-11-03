@@ -49,7 +49,7 @@
 
 			</div>
 
-			<div class="about_image">
+			<div class="about_image hide_tablet">
 
 				<img src="/images/about/about-2.jpg" alt="Barco">
 
