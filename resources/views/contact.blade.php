@@ -38,7 +38,7 @@
 			</form>
 		</div>
 		<div class="contact_img">
-			<img src="/images/contact-1.jpg" alt="">
+			<img src="/images/contact/contact-1.jpg" alt="">
 		</div>
 	</div>
 

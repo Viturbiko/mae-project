@@ -40,7 +40,7 @@
 		<div class="download">
 
 			<div class="download_image">
-				<img src="/images/botes.jpeg" alt="">
+				<img src="/images/downloads/download-1.jpg" alt="">
 			</div>
 
 			<div class="download_text">
@@ -55,7 +55,7 @@
 		<div class="download">
 
 			<div class="download_image">
-				<img src="/images/botes.jpeg" alt="">
+				<img src="/images/downloads/download-2.jpg" alt="">
 			</div>
 
 			<div class="download_text">
@@ -70,7 +70,7 @@
 		<div class="download">
 
 			<div class="download_image">
-				<img src="/images/botes.jpeg" alt="">
+				<img src="/images/downloads/download-3.jpg" alt="">
 			</div>
 
 			<div class="download_text">
@@ -86,7 +86,7 @@
 		<div class="download">
 
 			<div class="download_image">
-				<img src="/images/botes.jpeg" alt="">
+				<img src="/images/downloads/download-4.jpg" alt="">
 			</div>
 
 			<div class="download_text">

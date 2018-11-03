@@ -51,7 +51,7 @@
 
 			<div class="about_image">
 
-				<img src="/images/about-2.jpg" alt="Barco">
+				<img src="/images/about/about-2.jpg" alt="Barco">
 
 			</div>
 		</div>
@@ -59,7 +59,7 @@
 		<div class="text_block--reserve">
 			
 			<div class="about_image--reverse">
-				<img src="/images/about-3.jpg" alt="Barco">
+				<img src="/images/about/about-3.jpg" alt="Barco">
 			</div>
 
 			<div class="about_text--reverse">
@@ -86,7 +86,7 @@
 
 			<div class="about_image">
 
-				<img src="/images/about-4.jpg" alt="Barco">
+				<img src="/images/about/about-4.jpg" alt="Barco">
 
 			</div>
 

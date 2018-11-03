@@ -5,16 +5,19 @@
   height: 80vh;
   min-height: 650px;
   overflow: hidden;
+  transition: left 400ms linear;
 }
 
 .wrap {
   position: relative;
+  transition: left 400ms linear;
 }
 
 .slide {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: left 400ms linear;
 }
 
 .slide1 {
