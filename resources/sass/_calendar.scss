@@ -9,6 +9,9 @@
 	    width: 62%;
 	    left: 0;
 	    z-index: -1;
+	    @include breakpoint($xs){
+	      display: none;
+	    }
 	}
 	.bg_right_calendar {
 	    background-color: white;
@@ -17,6 +20,15 @@
 	    width: 38%;
 	    right: 0;
 	    z-index: -1;
+	    @include breakpoint($xs){
+	      display: none;
+	    }
+	}
+}
+
+.hide {
+	@include breakpoint($xs){
+	  display: none;
 	}
 }
 

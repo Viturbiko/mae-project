@@ -17,6 +17,9 @@
 		color: white;
 		font-size: 3rem;
 		font-weight: bolder;
+		@include breakpoint($xs){
+		  font-size: 1.5rem;
+		}
 	}
 	img {
 	  width: 40px;

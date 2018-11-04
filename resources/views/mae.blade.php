@@ -20,7 +20,7 @@
 			<img class="img-fluid" src="/images/home-section-1.jpg" alt="">			
 		</div>
 
-		<div class="box hide-tablet">
+		<div class="box hide">
 			<img class="img-fluid" src="/images/home-section-2.jpg" alt="">			
 		</div>
 		

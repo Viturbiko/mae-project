@@ -4,7 +4,7 @@
 
 <div class="content_about">
 
-	<div class="about_slider">
+	<div class="about_slider hide">
 
 		{{-- <div id="arrow-left-about" class="arrow"></div> --}}
 

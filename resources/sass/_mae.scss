@@ -8,6 +8,9 @@
     left: 62%;
     right: 0;
     z-index: -1;
+    @include breakpoint($xs){
+      display: none;
+    }
 }
 
 .bg_left_mae {
@@ -18,6 +21,9 @@
     left: 0;
     right: 38%;
     z-index: -1;
+    @include breakpoint($xs){
+      display: none;
+    }
 }
 
 .content_mae {
@@ -26,14 +32,25 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
+    @include breakpoint($xs){
+      flex-wrap: wrap;
+      padding: 0px;
+    }
     .info_mae {
         width: 50%;
+        @include breakpoint($xs){
+          width: 100%;
+          padding: 20px;
+        }
         hr {
             border-top: 3px solid $main_yellow;
             margin: 2px 0px 25px;
         }
         h1 {
-        font-weight: bold;
+            font-weight: bold;
+            @include breakpoint($xs){
+              font-size: 1.75rem;
+            }
         }
         button {
             float:right;
@@ -47,10 +64,21 @@
         width: 100%;
         display: flex;
         margin-left: 50px;
+        @include breakpoint($xs){
+          margin-left: 0px;
+        }
         .box {
             margin: 0 0.5rem;
+            @include breakpoint($xs){
+              margin: 0;
+            }
             img {
                 width: 530px;
+            }            
+        }
+        .hide {
+            @include breakpoint($xs){
+              display: none;
             }
         }
     }

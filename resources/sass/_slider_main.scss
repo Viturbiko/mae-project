@@ -38,6 +38,10 @@
   justify-content: center;
   align-items: left;
   text-align: left;
+  @include breakpoint($xs){
+    justify-content: initial;
+    text-align: center;
+  }
   span {
     font-size: 5rem;
     color: black;
@@ -45,7 +49,13 @@
     padding-right: 200px;
     width: 65%;
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 2s;    
+    @include breakpoint($xs){
+      margin-left: 0;
+      padding-right: 0;
+      animation: none;
+      margin: 0 auto;
+    }
   }
   .slide_main_title {
     font-size: 45px;
@@ -53,12 +63,21 @@
     text-transform: uppercase;
     width: 50%;
     color: white;
+    @include breakpoint($xs){
+      width: 80%;
+      font-size: 25px;
+      margin-top: 20px;
+    }
   }
   .slide_main_subtitle {
     font-size: 30px;
     margin-bottom: 10%;
     width: 50%;
     color: white;
+    @include breakpoint($xs){
+      width: 80%;
+      font-size: 15px;
+    }
   }
 }
 
@@ -69,6 +88,9 @@
   display: flex;
   width: 62%;
   height: 180px;
+  @include breakpoint($xs){
+    display: none;
+  }
   .event1 {
     width: 40%;
     height: 100%;
@@ -126,6 +148,9 @@
   width: 0;
   height: 0;
   border-style: solid;
+  @include breakpoint($xs){
+    display: none;
+  }
 }
 
 #arrow-left {
@@ -154,40 +179,4 @@
 @keyframes example {
     from {margin-left: -600px;}
     to {margin-left: 200px;}
-}
-
-//MEDIA QUERIES
-
-@media screen and (max-device-width: 1200px) {
-  .slide-content .slide_main_title {
-    font-size: 33px;
-    margin-left: 100px;
-  }
-  .slide-content .slide_main_subtitle  {
-    font-size: 20px;
-    margin-left: 100px;
-  }
-  @keyframes example {
-      from {margin-left: -600px;}
-      to {margin-left: 100px;}
-  }
-  .slide_events .event1, .slide_events .event2, .slide_events .event3 {
-    flex-wrap: wrap;
-  }
-  .slide_events .date h2 {
-    font-size: 1.5rem;
-  }
-  .slide_events .date p {
-    font-size: 1rem;
-    padding-left: 20px;
-  }
-  .slide_events .event_info {
-    padding-left: 0px;
-  }
-  .slide_events .event_info .event_hour {
-    font-size: 1rem;
-  }
-  .slide_events .event_info .event_description {
-    font-size: 0.7rem;
-  }
 }

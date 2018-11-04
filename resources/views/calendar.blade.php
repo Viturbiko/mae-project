@@ -1,5 +1,5 @@
 
-<div class="container_calendar">
+<div class="container_calendar hide">
 
 	<div class="bg_right_calendar"></div>
 	<div class="bg_left_calendar"></div>
