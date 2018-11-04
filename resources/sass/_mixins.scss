@@ -1,0 +1,12 @@
+//use -->   @include breakpoint($sm){}
+@mixin breakpoint($point) {
+    @if $point == $xs {
+      @media (max-width: $xs) { @content; }
+    }
+    @else if $point == $sm {
+      @media (min-width: $sm) { @content; }
+    }
+    @else if $point == $md {
+      @media (min-width: $md)  { @content; }
+    }
+  }

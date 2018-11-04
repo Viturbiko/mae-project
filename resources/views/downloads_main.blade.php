@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="/css/app.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Mae Project</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
@@ -39,7 +40,7 @@
 
 		<div class="download">
 
-			<div class="download_image">
+			<div class="download_image hide_smartphone">
 				<img src="/images/downloads/download-1.jpg" alt="">
 			</div>
 
@@ -54,7 +55,7 @@
 
 		<div class="download">
 
-			<div class="download_image">
+			<div class="download_image hide_smartphone">
 				<img src="/images/downloads/download-2.jpg" alt="">
 			</div>
 
@@ -69,7 +70,7 @@
 
 		<div class="download">
 
-			<div class="download_image">
+			<div class="download_image hide_smartphone">
 				<img src="/images/downloads/download-3.jpg" alt="">
 			</div>
 
@@ -85,7 +86,7 @@
 
 		<div class="download">
 
-			<div class="download_image">
+			<div class="download_image hide_smartphone">
 				<img src="/images/downloads/download-4.jpg" alt="">
 			</div>
 

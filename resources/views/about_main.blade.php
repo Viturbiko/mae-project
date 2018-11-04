@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="/css/app.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Mae Project</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
@@ -49,7 +50,7 @@
 
 			</div>
 
-			<div class="about_image hide_tablet">
+			<div class="about_image">
 
 				<img src="/images/about/about-2.jpg" alt="Barco">
 

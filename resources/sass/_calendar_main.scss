@@ -26,12 +26,19 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	@include breakpoint($xs){
+		height: 30vh;
+		min-height: 300px;
+	}
 	.calendar_header_container {
 		width: 80%;
 		margin: 0 auto;
 		height: 100%;
 		display: flex;
 		align-items: flex-end;
+		@include breakpoint($xs){
+			display: none;
+		}
 		.calendar_header_title {
 			background-color: $main_blue;
 			height: 200px;
@@ -77,6 +84,9 @@
 		background-color: $main_yellow;
 		color: $main_black;
 		text-align: center;
+		@include breakpoint($xs){
+			display: none;
+		}
 	}
 	.events_container {
 		width: 100%;
@@ -86,9 +96,15 @@
 			align-items: center;
 			border: 1px solid $main_grey;
 			background-color: white;
+			@include breakpoint($xs){
+				flex-wrap: wrap;
+			}
 			img {
 				width: 100px;
 				height: 100px;
+				@include breakpoint($xs){
+					display: none;
+				}
 			}
 			h1 {
 				margin-bottom: 0px;
@@ -100,19 +116,31 @@
 			}
 			.event_date {
 				width: 10%;
-				margin: 0 20px;
+				margin: 0 20px;				
+				@include breakpoint($xs){
+					width: 100%;
+				}
 				p {
 					text-align: center;
 				}
 			}
 			.event_info {
 				width: 75%;
+				@include breakpoint($xs){
+					width: 100%;
+					text-align: center;
+					margin: 15px 0;
+				}
 			}			
 			.arrow_down {
 				width: 35px;
 				height: 35px;
 				margin-right: 20px;
 				cursor: pointer;
+				@include breakpoint($xs){
+					display: block;
+					margin: 15px auto;
+				}
 			}
 		}	
 		.extra_info {
@@ -131,31 +159,4 @@
 			}
 		}
 	}
-}
-
-@media screen and (max-device-width: 1200px) {
-  .calendar_container .text_block .calendar_text p {
-  	font-size: 0.8rem;
-  }
-  .calendar_container .text_block h1 {
-  	font-size: 1.5rem;
-  }
-  .calendar_container .text_block h2 {
-  	font-size: 1rem;
-  }
-  .calendar_container .text_block--reserve .calendar_text--reverse p {
-  	font-size: 0.8rem;
-  }
-  .calendar_header .calendar_header_container .calendar_header_title .title_yellow {
-  	font-size: 2rem;
-  }
-  .calendar_header .calendar_header_container .calendar_header_title .title_white {
-  	font-size: 1.2rem;
-  }
-  .calendar_header .calendar_header_container .calendar_header_title {
-  	height: 170px;
-  }
-  .calendar_header .calendar_header_container .calendar_header_text {
-  	height: 170px;
-  }
 }

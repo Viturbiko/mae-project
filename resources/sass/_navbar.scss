@@ -54,36 +54,8 @@ nav {
   display: none;
 }
 
-@media (max-width: 768px) {
-  .toggle_navbar {
-    display: block;
-  }
-  ul {
-    width: 100%;
-    display: none;
-    li {
-      display: block;
-      text-align: center;
-    }
-  }
-  .active {
-    display: block;
-  }
-}
-
 .active_section {
   background: $main_yellow;
   cursor:pointer;
   color: white;
-}
-
-//MEDIA QUERIES
-
-@media screen and (max-device-width: 1200px) {
-  nav ul li a  {
-    padding: 10px;
-  }
-  nav img {
-    width: 175px;
-  }
 }

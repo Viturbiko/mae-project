@@ -14,7 +14,7 @@
 		margin: 0 auto;
 		display: flex;
 		padding: 50px 0px;
-		.contact_form {
+		.contact_form {			
 			width: 65%;
 			h1 {
 				color: white;
@@ -26,8 +26,14 @@
 			.success {
 				color: green;
 			}
+			@include breakpoint($xs){
+				width: 100%;
+			}
 			form {
 				input[type="text"] {
+					@include breakpoint($xs){
+						width: 100%;
+					}
 					width: 90%;
 					margin: 20px 0;
 					display:block;
@@ -52,6 +58,9 @@
 					background-position: 10px 10px;				
 				}
 				textarea {
+					@include breakpoint($xs){
+						width: 100%;
+					}
 					width: 90%;
 					margin: 20px 0;
 					display:block;
@@ -69,6 +78,9 @@
 			}			
 		}
 		.contact_img {
+			@include breakpoint($xs){
+				display: none;
+			}
 			width: 35%;
 			img {
 				width: 100%;
@@ -78,13 +90,3 @@
 	}
 }
 
-//MEDIA QUERIES
-
-@media screen and (max-device-width: 1200px) {
-  .contact_back .contact_container .contact_img  {
-    width: 45%;
-  }
-  .contact_back .contact_container .contact_form {
-  	width: 60%;
-  }
-}

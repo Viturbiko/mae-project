@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="/css/app.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Mae Project</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -45,7 +46,7 @@
 		<div class="events_container">
 			
 			<div class="event">
-				<img src="/images/events/event-1.jpg" alt="">
+				<img class="hide_smartphone" src="/images/events/event-1.jpg" alt="">
 				<div class="event_date">
 					<h1>28</h1>
 					<p>OCTOBER</p>
@@ -74,7 +75,7 @@
 
 
 			<div class="event">
-				<img src="/images/events/event-1.jpg" alt="">
+				<img class="hide_smartphone" src="/images/events/event-1.jpg" alt="">
 				<div class="event_date">
 					<h1>28</h1>
 					<p>OCTOBER</p>
@@ -105,7 +106,7 @@
 
 
 			<div class="event">
-				<img src="/images/events/event-1.jpg" alt="">
+				<img class="hide_smartphone" src="/images/events/event-1.jpg" alt="">
 				<div class="event_date">
 					<h1>28</h1>
 					<p>OCTOBER</p>

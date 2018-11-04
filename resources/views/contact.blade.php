@@ -37,7 +37,7 @@
 				<input class="btn" type="submit" value="SEND MESSAGE">
 			</form>
 		</div>
-		<div class="contact_img">
+		<div class="contact_img hide_smartphone">
 			<img src="/images/contact/contact-1.jpg" alt="">
 		</div>
 	</div>

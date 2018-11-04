@@ -9,24 +9,40 @@
 	    width: 62%;
 	    left: 0;
 	    z-index: -1;
+	    @include breakpoint($xs){
+	    	position: relative;
+	    	width: 100%;
+	    	height: 90px;
+	    }
 	    ul {
 	    	text-align: left;
 	    	padding-left: 30px;
+	    	@include breakpoint($xs){
+	    		text-align: center;
+	    		padding-left: 0;
+	    		margin: 0 auto;
+	    	}
 	    	li {
     	      list-style: none;
     	      display: inline-block;
     	      padding: 15px;
     	      margin-top: 10px;
+    	      @include breakpoint($xs){
+    	      	padding: 0px 10px;
+    	      }
     	      a {
     	        color: white;
     	        text-decoration: none;
     	        font-weight: bold;
     	        font-size: 16px;
-    	    	}
-    	    	hr {
+		    	}
+		    	hr {
 					border-bottom: 3px solid $main_yellow;
 					margin: 2px;
-    	    	}
+					@include breakpoint($xs){
+						border: none;
+					}
+		    	}
 	    	}
 		}
 	}
@@ -38,6 +54,10 @@
 	    right: 0;
 	    z-index: -1;
 	    display:flex;
+	    @include breakpoint($xs){
+	    	position: relative;
+	    	width: 100%;
+	    }
 	    img {
 	    	width: 100%;
 	    	padding: 20px 0;
@@ -49,15 +69,4 @@
 		background-color:red;
 	}
 }
-
-
-//MEDIA QUERIES
-
-@media screen and (max-device-width: 1200px) {
-  .container_footer .bg_left_footer ul li {
-  	padding: 5px;
-  }
-}
-
-
 

@@ -1,6 +1,3 @@
-
-//ABOUT SECTION
-
 .about_header {
 	width: 100%;
 	height: 80vh;
@@ -9,12 +6,19 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	@include breakpoint($xs){
+		height: 30vh;
+		min-height: 300px;
+	}
 	.about_header_container {
 		width: 80%;
 		margin: 0 auto;
 		height: 100%;
 		display: flex;
 		align-items: flex-end;
+		@include breakpoint($xs){
+			display: none;
+		}
 		.about_header_title {
 			background-color: $main_blue;
 			height: 200px;
@@ -61,21 +65,37 @@
 		color: $main_black;
 		text-align: center;
 		margin-left: 10%;
+		@include breakpoint($xs){
+			display: none;
+		}
 	}
 	.text_block {
 		margin: 100px auto;		
 		display: flex;		
 		padding-left: 10%;
+		@include breakpoint($xs){
+			padding-right: 10%;
+			margin: 30px auto;	
+		}	
 		.about_text {
 			font-size: 1rem;
-			padding-right: 120px;			
+			padding-right: 120px;
+			@include breakpoint($xs){
+				padding-right: 0px;
+			}			
 			width: 100%;
 			h1 {
 				font-weight: bolder;
+				@include breakpoint($xs){
+					font-size: 40px;
+				}
 			}
 			h2 {
 				font-weight: bolder;
 				margin-bottom: 30px;
+				@include breakpoint($xs){
+					font-size: 30px;
+				}
 			}
 			p{
 				text-align: justify;
@@ -83,6 +103,9 @@
 		}
 
 		.about_image {
+			@include breakpoint($xs){
+				display: none;
+			}
 			width: 62%;
 			height: 100%;
 			background-color: $main_yellow;
@@ -97,10 +120,21 @@
 		display: flex;
 		padding-right: 10%;
 		align-items: center;
+		@include breakpoint($xs){
+			margin: 30px auto;
+			flex-wrap: wrap;
+			padding-right: 0;
+		}	
 		.about_text--reverse {
 			font-size: 1rem;
 			padding-left: 50px;
 			width: 80%;
+			@include breakpoint($xs){
+				width: 100%;
+				margin-top: 30px;
+				padding-right: 10%;
+				padding-left: 10%;
+			}
 			h1 {
 				font-weight: bolder;
 			}
@@ -118,58 +152,13 @@
 			text-align: end;
 			margin-right: 65px;
 			background-color: $main_yellow;
+			@include breakpoint($xs){
+				margin-right: 0;
+			}				
 			img {
 				width: 85%;
 			}
 		}
 	}
-}
-
-//MEDIA QUERIES
-
-@media screen and (max-device-width: 1200px) {
-  .about_container .text_block .about_text p {
-  	font-size: 0.8rem;
-  }
-  .about_container .text_block h1 {
-  	font-size: 1.5rem;
-  }
-  .about_container .text_block h2 {
-  	font-size: 1rem;
-  }
-  .about_container .text_block--reserve .about_text--reverse p {
-  	font-size: 0.8rem;
-  }
-  .about_header .about_header_container .about_header_title .title_yellow {
-  	font-size: 2rem;
-  }
-  .about_header .about_header_container .about_header_title .title_white {
-  	font-size: 1.2rem;
-  }
-  .about_header .about_header_container .about_header_title {
-  	height: 170px;
-  }
-  .about_header .about_header_container .about_header_text {
-  	height: 170px;
-  }
-  .about_container .text_block--reserve {
-  	flex-wrap: wrap;
-  	padding-right: 0px;
-  }
-  .about_container .text_block--reserve .about_text--reverse {
-    padding: 50px 0px 0px 100px;
-    width: 90%;
-  }
-  .hide_tablet {
-  	display: none;
-  }
-  .about_container .text_block--reserve .about_image--reverse {
-  	margin-right: 0px;
-  	height: 350px;
-  }
-  .about_container .text_block--reserve .about_image--reverse img {
-	width: 90%;
-  	height: 100%;
-  }
 }
 

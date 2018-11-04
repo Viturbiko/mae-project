@@ -94,25 +94,3 @@
 		}		
 	}
 }
-
-
-//MEDIA QUERIES
-
-@media screen and (max-device-width: 1200px) {
-  .content_partners .partners  {
-    flex-wrap: wrap;
-    height: initial;
-  }
-  .content_partners .partners .partner {
-  	width: 50%;
-  }
-  .content_partners .partners .partner .partner--img .min {
-  	height: 130px;
-  }
-  .container_partners .bg_left_partners {
-  	height: 1200px;
-  }
-  .container_partners .bg_right_partners {
-  	height: 1200px;
-  }
-}
