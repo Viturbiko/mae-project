@@ -4,9 +4,9 @@
       @media (max-width: $xs) { @content; }
     }
     @else if $point == $sm {
-      @media (min-width: $sm) { @content; }
+      @media (min-width: $xs) and (max-width: $sm) { @content; }
     }
     @else if $point == $md {
-      @media (min-width: $md)  { @content; }
+      @media (min-width: $sm) and (max-width: $md)  { @content; }
     }
   }

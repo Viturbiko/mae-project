@@ -6,6 +6,10 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	@include breakpoint($sm){
+		height: 30vh;
+		min-height: 300px;
+	}
 	@include breakpoint($xs){
 		height: 30vh;
 		min-height: 300px;
@@ -16,6 +20,9 @@
 		height: 100%;
 		display: flex;
 		align-items: flex-end;
+		@include breakpoint($sm){
+			display: none;
+		}
 		@include breakpoint($xs){
 			display: none;
 		}
@@ -64,6 +71,9 @@
 		background-color: $main_yellow;
 		color: $main_black;
 		text-align: center;
+		@include breakpoint($sm){
+			display: none;
+		}
 		@include breakpoint($xs){
 			display: none;
 		}
@@ -75,6 +85,10 @@
 		display:flex;
 		border-bottom: 1px solid $main_grey;
 		width: 100%;
+		@include breakpoint($sm){
+			flex-wrap: wrap;
+			padding: 25px 0px;
+		}
 		@include breakpoint($xs){
 			flex-wrap: wrap;
 			padding: 25px 0px;
@@ -85,6 +99,10 @@
 		.download_image {
 			width: 60%;
 			margin-right: 75px;
+			@include breakpoint($sm){
+				width: 100%;
+				margin-right: 0px;
+			}
 			@include breakpoint($xs){
 				width: 100%;
 				margin-right: 0px;
@@ -98,6 +116,10 @@
 			min-height: 250px;
 			position: relative;
 			h3 {
+				@include breakpoint($sm){
+					margin: 10px 0px;
+					font-size: 20px;
+				}
 				@include breakpoint($xs){
 					margin: 10px 0px;
 					font-size: 20px;
@@ -109,6 +131,9 @@
 				align-items: flex-end;
 				position: absolute;
 				bottom: 0;
+				@include breakpoint($sm){
+					position: relative;
+				}
 				@include breakpoint($xs){
 					position: relative;
 				}

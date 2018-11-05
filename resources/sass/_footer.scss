@@ -9,6 +9,11 @@
 	    width: 62%;
 	    left: 0;
 	    z-index: -1;
+	    @include breakpoint($sm){
+	    	position: relative;
+	    	width: 100%;
+	    	height: 90px;
+	    }
 	    @include breakpoint($xs){
 	    	position: relative;
 	    	width: 100%;
@@ -17,6 +22,11 @@
 	    ul {
 	    	text-align: left;
 	    	padding-left: 30px;
+	    	@include breakpoint($sm){
+	    		text-align: center;
+	    		padding-left: 0;
+	    		margin: 0 auto;
+	    	}
 	    	@include breakpoint($xs){
 	    		text-align: center;
 	    		padding-left: 0;
@@ -27,6 +37,9 @@
     	      display: inline-block;
     	      padding: 15px;
     	      margin-top: 10px;
+    	      @include breakpoint($sm){
+    	      	padding: 0px 10px;
+    	      }
     	      @include breakpoint($xs){
     	      	padding: 0px 10px;
     	      }
@@ -39,6 +52,9 @@
 		    	hr {
 					border-bottom: 3px solid $main_yellow;
 					margin: 2px;
+					@include breakpoint($sm){
+						border: none;
+					}
 					@include breakpoint($xs){
 						border: none;
 					}
@@ -54,6 +70,10 @@
 	    right: 0;
 	    z-index: -1;
 	    display:flex;
+	    @include breakpoint($sm){
+	    	position: relative;
+	    	width: 100%;
+	    }
 	    @include breakpoint($xs){
 	    	position: relative;
 	    	width: 100%;

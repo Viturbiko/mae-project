@@ -26,11 +26,17 @@
 			.success {
 				color: green;
 			}
+			@include breakpoint($sm){
+				width: 100%;
+			}
 			@include breakpoint($xs){
 				width: 100%;
 			}
 			form {
 				input[type="text"] {
+					@include breakpoint($sm){
+						width: 100%;
+					}
 					@include breakpoint($xs){
 						width: 100%;
 					}
@@ -58,6 +64,9 @@
 					background-position: 10px 10px;				
 				}
 				textarea {
+					@include breakpoint($sm){
+						width: 100%;
+					}
 					@include breakpoint($xs){
 						width: 100%;
 					}
@@ -78,6 +87,9 @@
 			}			
 		}
 		.contact_img {
+			@include breakpoint($sm){
+				display: none;
+			}
 			@include breakpoint($xs){
 				display: none;
 			}
