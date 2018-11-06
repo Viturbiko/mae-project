@@ -19,15 +19,12 @@
 		font-weight: bolder;
 		@include breakpoint($xs){
 		  font-size: 1.5rem;
-		  color: red;
 		}
 		@include breakpoint($sm){
 		  font-size: 2.5rem;
-		  color: green;
 		}
 		@include breakpoint($md){
 		  font-size: 2.5rem;
-		  color: orange;
 		}
 	}
 	img {

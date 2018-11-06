@@ -9,6 +9,12 @@
 	    width: 62%;
 	    left: 0;
 	    z-index: -1;
+	    @include breakpoint($md){
+	      height: 1500px;
+	    }
+	    @include breakpoint($sm){
+	      display: none;
+	    }
 	    @include breakpoint($xs){
 	      display: none;
 	    }
@@ -20,100 +26,247 @@
 	    width: 38%;
 	    right: 0;
 	    z-index: -1;
+	    @include breakpoint($md){
+	      height: 1500px;
+	    }
 	    @include breakpoint($xs){
 	      display: none;
 	    }
+	    @include breakpoint($sm){
+	      display: none;
+	    }
 	}
-}
 
-.hide {
-	@include breakpoint($xs){
-	  display: none;
-	}
-}
 
-.content_calendar {
-	padding: 7rem 6rem 7rem 6rem;
-    width: 100%;
-    margin: 0 auto;
-	h1 {
-		font-weight: bolder;
-	}
-	hr {
-		border-top: 3px solid white;
-	}
-	img {
-	  width: 40px;
-	  height: 40px;
-	  fill: white;
-	  margin-bottom: 20px;
-	}
-	.calendar {
-		margin-top: 50px;
-		width: 100%;
-		display: flex;
-		.calendar_days {
+
+	//CALENDARIO GRANDE
+	.content_calendar {
+		padding: 7rem 6rem 7rem 6rem;
+	    width: 100%;
+	    margin: 0 auto;
+	    @include breakpoint($xs){
+	      padding: 20px;
+	    }
+	    @include breakpoint($sm){
+	      padding: 20px;
+	    }
+		h1 {
+			font-weight: bolder;
+		}
+		hr {
+			border-top: 3px solid white;
+			@include breakpoint($xs){
+			  border-top: 3px solid $main_yellow;
+			}
+			@include breakpoint($sm){
+			  border-top: 3px solid $main_yellow;
+			}
+		}
+		img {
+		  width: 40px;
+		  height: 40px;
+		  fill: white;
+		  margin-bottom: 20px;
+		  @include breakpoint($xs){
+		    display: none;
+		  }
+		  @include breakpoint($sm){
+		    display: none;
+		  }
+		}
+		.calendar {
+			@include breakpoint($xs){
+			  display: none;
+			}
+			@include breakpoint($sm){
+			  display: none;
+			}
+			margin-top: 50px;
+			width: 100%;
 			display: flex;
-			flex-wrap: wrap;
-			width: 50%;
-			background-color: white;
-			.event_day {
-				padding-top: 10px;
+			.calendar_days {
+				display: flex;
+				flex-wrap: wrap;
 				width: 50%;
-				border: 1px solid lightgray;
-				text-align: center;
-				h1 {
-					font-size: 4rem;
+				background-color: white;
+				.event_day {
+					padding-top: 10px;
+					width: 50%;
+					border: 1px solid lightgray;
+					text-align: center;
+					h1 {
+						font-size: 4rem;
+					}
+					hr {
+						border-top: 3px solid black;
+						margin: 10px auto;
+					}
+					p {
+						margin-bottom: 5px;
+						padding: 0px 20px;
+					}
+					&:hover {
+						background-color: $main_blue;
+						color: white;
+						transform: scale(1.1);
+						cursor: pointer;
+						z-index: 2;
+					}				
 				}
-				hr {
-					border-top: 3px solid black;
-					margin: 10px auto;
+			}
+			.calendar_events {
+				width: 70%;
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-image: url('/images/lisbon.jpg');
+				position: relative;
+				p {
+					position: absolute;
+					top: 40px;
+					padding: 0px 50px 0px 50px;
+					background-color: white;
+					color: $main_black;
+					font-size: 35px;
+					font-weight: bold;
+				}
+			}
+		}
+		button {
+			margin-top: 50px !important;
+		    background-color: white;
+		    text-transform: uppercase;
+		    color: $main_black;
+		    margin-top: 10px;
+		    &:hover {
+		      border: 1px solid $main_black;
+		    }
+		    @include breakpoint($xs){
+		      display: none;
+		    }
+		    @include breakpoint($sm){
+		      display: none;
+		    }
+		    a {
+		      color: inherit;
+		      &:hover {
+		        text-decoration: none;
+		      }
+		    }
+		}
+	}
+
+
+
+	//CALENDARIO PEQUEÑO
+	.calendar_container {
+		width: 90%;
+		margin: 0 auto;
+		@include breakpoint($md){
+			display: none;
+		}
+		@include breakpoint($sm){
+			display: block !important;
+		}
+		@include breakpoint($xs){
+			display: block !important;
+		}
+		.events_container {
+			width: 100%;
+			margin: 100px auto;
+			@include breakpoint($xs){
+			  margin: 15px auto;
+			}
+			@include breakpoint($sm){
+			  margin: 15px auto;
+			}
+			.event {
+				display:flex;
+				align-items: center;
+				border: 1px solid $main_grey;
+				background-color: white;
+				@include breakpoint($xs){
+					flex-wrap: wrap;
+				}
+				img {
+					width: 100px;
+					height: 100px;
+					@include breakpoint($sm){
+						display: none;
+					}
+					@include breakpoint($xs){
+						display: none;
+					}
+				}
+				h1 {
+					margin-bottom: 0px;
+					font-size: 50px;
+					text-align: center;
 				}
 				p {
-					margin-bottom: 5px;
-					padding: 0px 20px;
+					margin-bottom: 0px;
 				}
-				&:hover {
-					background-color: $main_blue;
-					color: white;
-					transform: scale(1.1);
+				.event_date {
+					width: 10%;
+					margin: 0 20px;				
+					@include breakpoint($sm){
+						width: 15%;
+					}
+					@include breakpoint($xs){
+						width: 100%;
+					}
+					p {
+						text-align: center;
+					}
+				}
+				.event_info {
+					width: 75%;
+					@include breakpoint($sm){
+						width: 70%;
+						text-align: center;
+						margin: 15px 0;
+						padding: 0px;
+					}
+					@include breakpoint($xs){
+						width: 100%;
+						text-align: center;
+						margin: 15px 0;
+						padding: 0 10px;
+					}
+				}			
+				.arrow_down {
+					width: 35px;
+					height: 35px;
+					margin-right: 20px;
 					cursor: pointer;
-					z-index: 2;
-				}				
-			}
-		}
-		.calendar_events {
-			width: 70%;
-			background-size: cover;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-image: url('/images/lisbon.jpg');
-			position: relative;
-			p {
-				position: absolute;
-				top: 40px;
-				padding: 0px 50px 0px 50px;
-				background-color: white;
-				color: $main_black;
-				font-size: 35px;
-				font-weight: bold;
+					@include breakpoint($sm){
+						display: block;
+						margin: 15px auto;
+					}
+					@include breakpoint($xs){
+						display: block;
+						margin: 15px auto;
+					}
+				}
+			}	
+			.extra_info {
+				background-color: #dadada;
+				display: none;
+				padding: 50px;
+				font-size: 16px;
+				ul {
+					padding-left: 12px;
+				}
+				button {
+					background-color: $main_yellow;
+					&:hover {
+						border: 1px solid $main_black;
+					}
+				}
 			}
 		}
 	}
-	button {
-		margin-top: 50px !important;
-	    background-color: white;
-	    text-transform: uppercase;
-	    color: $main_black;
-	    margin-top: 10px;
-	    &:hover {
-	      border: 1px solid $main_black;
-	    }
-	    a {
-	      color: inherit;
-	      &:hover {
-	        text-decoration: none;
-	      }
-	    }
-	}
+
+
 }
+

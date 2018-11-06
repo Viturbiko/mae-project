@@ -38,6 +38,14 @@
   justify-content: center;
   align-items: left;
   text-align: left;
+  @include breakpoint($md){
+    justify-content: initial;
+    text-align: center;
+  }
+  @include breakpoint($sm){
+    justify-content: initial;
+    text-align: center;
+  }
   @include breakpoint($xs){
     justify-content: initial;
     text-align: center;
@@ -49,9 +57,18 @@
     padding-right: 200px;
     width: 65%;
     animation-name: example;
-    animation-duration: 2s;    
+    animation-duration: 2s;
+    @include breakpoint($md){
+      padding-right: 0;
+      animation: none;
+      margin: 0 auto;
+    }
+    @include breakpoint($sm){
+      padding-right: 0;
+      animation: none;
+      margin: 0 auto;
+    }
     @include breakpoint($xs){
-      margin-left: 0;
       padding-right: 0;
       animation: none;
       margin: 0 auto;
@@ -63,6 +80,16 @@
     text-transform: uppercase;
     width: 50%;
     color: white;
+    @include breakpoint($md){
+      width: 80%;
+      font-size: 2rem;
+      margin-top: 20px;
+    }
+    @include breakpoint($sm){
+      width: 80%;
+      font-size: 2rem;
+      margin-top: 20px;
+    }
     @include breakpoint($xs){
       width: 80%;
       font-size: 25px;
@@ -74,6 +101,14 @@
     margin-bottom: 10%;
     width: 50%;
     color: white;
+    @include breakpoint($md){
+      width: 80%;
+      font-size: 1.5rem;
+    }
+    @include breakpoint($sm){
+      width: 80%;
+      font-size: 1rem;
+    }
     @include breakpoint($xs){
       width: 80%;
       font-size: 15px;
@@ -88,6 +123,9 @@
   display: flex;
   width: 62%;
   height: 180px;
+  @include breakpoint($sm){
+    display: none;
+  }
   @include breakpoint($xs){
     display: none;
   }
@@ -99,23 +137,35 @@
     display: flex;
     align-items: flex-start;
     border-right: 1px solid $main_black;
+    @include breakpoint($md){
+      flex-wrap: wrap;
+      padding: 0.5rem 0.5rem 0.5rem 6rem;
+    }
   }
   .event2 {
     width: 30%;
     height: 100%;
     border-top: 5px solid $main_blue;
     border-right: 1px solid $main_black;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem;
     display: flex;
-    align-items: flex-start;    
+    align-items: flex-start;
+    @include breakpoint($md){
+      flex-wrap: wrap;
+      padding: 0.5rem;
+    }    
   }
   .event3 {
     width: 30%;
     height: 100%;
     border-top: 5px solid $main_yellow;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem;
     display: flex;
     align-items: flex-start;
+    @include breakpoint($md){
+      flex-wrap: wrap;
+      padding: 0.5rem;
+    }
   }
   .date {
     text-align: right;
@@ -125,14 +175,23 @@
     align-items: flex-start;
     h2 {
       font-size: 3rem;
+      @include breakpoint($md){
+        font-size: 2rem;
+      }
     }
   }
   .event_info {
     padding-left: 1rem;
+    @include breakpoint($md){
+      padding-left: 0;
+    }
     .event_hour {
       font-size: 20px;
       margin-bottom: 0px;
       color: $main_grey;
+      @include breakpoint($md){
+        font-size: 18px;
+      }
     }
     .event_description {
       margin-bottom: 0px;
@@ -148,6 +207,9 @@
   width: 0;
   height: 0;
   border-style: solid;
+  @include breakpoint($sm){
+    display: block;
+  }
   @include breakpoint($xs){
     display: none;
   }

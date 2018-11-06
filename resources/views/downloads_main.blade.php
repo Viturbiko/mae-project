@@ -17,7 +17,7 @@
 		<div class="downloads_header_container">
 
 			<div class="downloads_header_title">
-				<p class="title_yellow">Documents</p>
+				<p class="title_yellow">Docs</p>
 				<p class="title_white">& downloads</p>
 			</div>
 

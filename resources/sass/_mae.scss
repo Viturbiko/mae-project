@@ -8,6 +8,9 @@
     left: 62%;
     right: 0;
     z-index: -1;
+    @include breakpoint($sm){
+      display: none;
+    }
     @include breakpoint($xs){
       display: none;
     }
@@ -21,6 +24,9 @@
     left: 0;
     right: 38%;
     z-index: -1;
+    @include breakpoint($sm){
+      display: none;
+    }
     @include breakpoint($xs){
       display: none;
     }
@@ -32,12 +38,20 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
+    @include breakpoint($sm){
+      flex-wrap: wrap;
+      padding: 0px;
+    }
     @include breakpoint($xs){
       flex-wrap: wrap;
       padding: 0px;
     }
     .info_mae {
         width: 50%;
+        @include breakpoint($sm){
+          width: 100%;
+          padding: 20px;
+        }
         @include breakpoint($xs){
           width: 100%;
           padding: 20px;
@@ -48,6 +62,9 @@
         }
         h1 {
             font-weight: bold;
+            @include breakpoint($sm){
+              font-size: 1.75rem;
+            }
             @include breakpoint($xs){
               font-size: 1.75rem;
             }
@@ -64,6 +81,9 @@
         width: 100%;
         display: flex;
         margin-left: 50px;
+        @include breakpoint($sm){
+          margin-left: 0px;
+        }
         @include breakpoint($xs){
           margin-left: 0px;
         }
@@ -74,12 +94,15 @@
             }
             img {
                 width: 530px;
-            }            
-        }
-        .hide {
-            @include breakpoint($xs){
-              display: none;
+                @include breakpoint($xs){
+                  width: 100%;
+                }
             }
+            .second_image {
+                @include breakpoint($xs){
+                  display: none;
+                }
+            }            
         }
     }
 }

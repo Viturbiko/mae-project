@@ -21,7 +21,7 @@
 		</div>
 
 		<div class="box hide">
-			<img class="img-fluid" src="/images/home-section-2.jpg" alt="">			
+			<img class="img-fluid second_image" src="/images/home-section-2.jpg" alt="">			
 		</div>
 		
 	</div>

@@ -41,10 +41,7 @@
 
 			<p>MED ATLANTIC ECOBONUS</p>
 
-		</div>
-
-		
-		<div class="calendar_container">
+		</div>		
 
 			<div class="events_container">
 
@@ -284,11 +281,6 @@
 		</div>
 
 
-		
-		
-
-	</div>
-
 	<style>
 		.active {
 			background-color: #12162B !important;
@@ -312,6 +304,7 @@
 	 		$(this).toggleClass('invert');
 	 	});
 	 });
+	 
 	</script>
 
 </body>

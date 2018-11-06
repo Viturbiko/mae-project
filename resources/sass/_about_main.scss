@@ -6,6 +6,10 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	@include breakpoint($md){
+		height: 45vh;
+		min-height: 300px;
+	}
 	@include breakpoint($sm){
 		height: 30vh;
 		min-height: 300px;
@@ -34,6 +38,9 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
+			@include breakpoint($md){
+				width: 25%;
+			}
 			.title_yellow {
 				font-size: 2.5rem;
 				color: $main_yellow;
@@ -72,6 +79,9 @@
 		color: $main_black;
 		text-align: center;
 		margin-left: 10%;
+		@include breakpoint($md){
+			width: 20%;
+		}
 		@include breakpoint($sm){
 			display: none;
 		}
@@ -83,6 +93,10 @@
 		margin: 100px auto;		
 		display: flex;		
 		padding-left: 10%;
+		@include breakpoint($md){
+			padding-right: 10%;
+			margin: 30px auto;	
+		}
 		@include breakpoint($sm){
 			padding-right: 10%;
 			margin: 30px auto;	
@@ -94,6 +108,9 @@
 		.about_text {
 			font-size: 1rem;
 			padding-right: 120px;
+			@include breakpoint($md){
+				padding-right: 0px;
+			}	
 			@include breakpoint($sm){
 				padding-right: 0px;
 			}	
@@ -126,6 +143,9 @@
 		}
 
 		.about_image {
+			@include breakpoint($md){
+				display: none;
+			}
 			@include breakpoint($sm){
 				display: none;
 			}
@@ -146,6 +166,11 @@
 		display: flex;
 		padding-right: 10%;
 		align-items: center;
+		@include breakpoint($md){
+			margin: 30px auto;
+			flex-wrap: wrap;
+			padding-right: 0;
+		}	
 		@include breakpoint($sm){
 			margin: 30px auto;
 			flex-wrap: wrap;
@@ -160,6 +185,12 @@
 			font-size: 1rem;
 			padding-left: 50px;
 			width: 80%;
+			@include breakpoint($md){
+				width: 100%;
+				margin-top: 30px;
+				padding-right: 10%;
+				padding-left: 10%;
+			}
 			@include breakpoint($sm){
 				width: 100%;
 				margin-top: 30px;
@@ -189,6 +220,9 @@
 			text-align: end;
 			margin-right: 65px;
 			background-color: $main_yellow;
+			@include breakpoint($md){
+				margin-right: 0;
+			}
 			@include breakpoint($sm){
 				margin-right: 0;
 			}
@@ -197,6 +231,18 @@
 			}			
 			img {
 				width: 85%;
+				@include breakpoint($md){
+					width: 90%;
+					max-height: 400px;
+				}
+				@include breakpoint($sm){
+					width: 90%;
+					max-height: 400px;
+				}
+				@include breakpoint($xs){
+					width: 90%;
+					max-height: 400px;
+				}
 			}
 		}
 	}
