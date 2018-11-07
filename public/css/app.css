@@ -10635,34 +10635,271 @@ a.text-dark:focus {
   }
 }
 
-nav {
+header {
+  width: 100%;
+  background: #fff;
+}
+
+@media (min-width: 950px) and (max-width: 1200px) {
+  header {
+    border-bottom: 3px solid #FDCF19;
+    height: 96px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  header {
+    border-bottom: 3px solid #FDCF19;
+    height: 96px;
+  }
+}
+
+@media (max-width: 640px) {
+  header {
+    border-bottom: 3px solid #FDCF19;
+    height: 96px;
+  }
+}
+
+header .logo_img {
+  width: 250px;
+  height: auto;
+  float: left;
+  padding: 15px 0px;
+  display: none;
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  header .logo_img {
+    float: left;
+    margin-left: 15px;
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  header .logo_img {
+    float: left;
+    margin-left: 15px;
+    display: block;
+  }
+}
+
+header .hamburger {
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  top: 40px;
+  right: 30px;
+  display: none;
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  header .hamburger {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  header .hamburger {
+    display: block;
+  }
+}
+
+header nav {
   width: 100%;
   background: #fff;
   border-top: 6px solid #FDCF19;
   border-bottom: 3px solid #FDCF19;
 }
 
-nav ul {
+@media (min-width: 640px) and (max-width: 950px) {
+  header nav {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    border-top: none;
+    border-bottom: none;
+    border-right: 10px solid #FDCF19;
+  }
+}
+
+@media (max-width: 640px) {
+  header nav {
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    border-top: none;
+    border-bottom: none;
+    border-right: 10px solid #FDCF19;
+  }
+}
+
+header nav .logo_img_fake {
+  width: 250px;
+  height: auto;
+  float: left;
+  padding: 15px 0px;
+  display: block;
+}
+
+@media (min-width: 950px) and (max-width: 1200px) {
+  header nav .logo_img_fake {
+    width: 175px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  header nav .logo_img_fake {
+    float: initial;
+    margin-left: 15px;
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  header nav .logo_img_fake {
+    float: initial;
+    margin-left: 15px;
+    display: none;
+  }
+}
+
+header nav ul {
   width: 80%;
+  position: relative;
   margin: 0 auto;
   padding: 0;
   text-align: right;
 }
 
-nav ul li {
+@media (min-width: 950px) and (max-width: 1200px) {
+  header nav ul {
+    width: 90%;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  header nav ul {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  header nav ul {
+    width: 100%;
+  }
+}
+
+header nav ul .close_menu {
+  width: 25px;
+  height: 25px;
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 0px;
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  header nav ul .close_menu {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  header nav ul .close_menu {
+    display: block;
+  }
+}
+
+header nav ul .logo_img_min {
+  width: 250px;
+  height: auto;
+  padding: 15px 0px;
+  display: none;
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  header nav ul .logo_img_min {
+    display: block;
+    float: right !important;
+    float: initial;
+  }
+}
+
+@media (max-width: 640px) {
+  header nav ul .logo_img_min {
+    display: block;
+    float: right !important;
+    float: initial;
+  }
+}
+
+header nav ul .hide_please {
+  display: none;
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  header nav ul .hide_please {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  header nav ul .hide_please {
+    display: block;
+  }
+}
+
+header nav ul li {
   list-style: none;
   display: inline-block;
   margin-top: 30px;
   color: black;
 }
 
-nav ul li:hover {
+header nav ul li:hover {
   background: #FDCF19;
   cursor: pointer;
   color: white;
 }
 
-nav ul li a {
+@media (min-width: 640px) and (max-width: 950px) {
+  header nav ul li {
+    display: block;
+    float: none;
+    margin-top: 10px;
+  }
+
+  header nav ul li:hover {
+    background: white;
+    color: black;
+  }
+}
+
+@media (max-width: 640px) {
+  header nav ul li {
+    display: block;
+    float: none;
+    margin-top: 10px;
+  }
+
+  header nav ul li:hover {
+    background: white;
+    color: black;
+  }
+}
+
+header nav ul li a {
   color: inherit;
   padding: 20px;
   text-decoration: none;
@@ -10670,34 +10907,65 @@ nav ul li a {
   display: inline-block;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
   text-decoration: none;
   color: #fff;
 }
 
-nav img {
-  width: 250px;
-  height: auto;
-  float: left;
-  padding: 15px 0px;
+header nav ul li a:active {
+  color: black;
 }
 
-.toggle_navbar {
-  width: 100%;
-  padding: 10px 20px;
-  background: #FDCF19;
-  text-align: right;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  color: #fff;
-  font-size: 30px;
-  display: none;
+@media (min-width: 950px) and (max-width: 1200px) {
+  header nav ul li a {
+    padding: 10px;
+  }
+
+  header nav ul li a:hover {
+    color: black;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  header nav ul li a {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  header nav ul li a:hover {
+    color: black;
+  }
+}
+
+@media (max-width: 640px) {
+  header nav ul li a {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  header nav ul li a:hover {
+    color: black;
+  }
 }
 
 .active_section {
   background: #FDCF19;
   cursor: pointer;
   color: white;
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  .active_section {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media (max-width: 640px) {
+  .active_section {
+    background-color: white;
+    color: black;
+  }
 }
 
 #slider,
