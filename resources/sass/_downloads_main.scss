@@ -143,6 +143,14 @@
 				&:hover {
 					border: 1px solid $main_black;
 				}
+				a {
+					text-decoration: none;
+					color: black;
+					&:hover {
+						text-decoration: none;
+						color: black;
+					}
+				}
 			}
 		}
 		

@@ -1,3 +1,4 @@
+<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 
 <div class="container_calendar">
 
@@ -102,7 +103,15 @@
 					<p>Lisbon</p>
 					<p>Hélder Ribeiro Dias Cristóvão.</p>
 					<p>hcristovao@imt-ip.pt</p>
-					<button class="btn">ADD TO CALENDAR</button>
+					<div title="Add to Calendar" class="addeventatc button_calendar">
+					    Add to Calendar
+					    <span class="start">10/28/2018</span>
+					    <span class="all_day_event">true</span>
+					    <span class="timezone">Europe/Lisbon</span>
+					    <span class="title">Informing and getting feedback on the MAE approach from local stakeholders</span>
+					    <span class="description">28 October 2018 - Lisbon - Hélder Ribeiro Dias Cristóvão - hcristovao@imt-ip.pt</span>
+					    <span class="location">Lisbon, Portugal</span>
+					</div>
 				</div>
 
 
@@ -126,7 +135,15 @@
 					<p>Madrid</p>
 					<p>Antonio Gongora.</p>
 					<p>agongora@puertos.es</p>
-					<button class="btn">ADD TO CALENDAR</button>
+					<div title="Add to Calendar" class="addeventatc button_calendar">
+					    Add to Calendar
+					    <span class="start">10/29/2018</span>
+					    <span class="all_day_event">true</span>
+					    <span class="timezone">Europe/Madrid</span>
+					    <span class="title">Informing and getting feedback on the MAE approach from local stakeholders</span>
+					    <span class="description">29 October 2018 - Madrid - Antonio Gongora - agongora@puertos.es</span>
+					    <span class="location">Madrid, Spain</span>
+					</div>
 				</div>
 
 
@@ -151,7 +168,24 @@
 					<p>Paris</p>
 					<p>Paulo Lopes-Bernardo.</p>
 					<p>Paulo.Lopes-Bernardo@developpement-durable.gouv.fr</p>
-					<button class="btn">ADD TO CALENDAR</button>
+					<button class="btn">Date to be confirmed</button>
+
+					{{-- Rellenar y descomentar cuando se sepa la fecha del evento --}}
+					{{-- <div class="extra_info" id="info_2">	
+						<p>29 October 2018</p>
+						<p>Madrid</p>
+						<p>Antonio Gongora.</p>
+						<p>agongora@puertos.es</p>
+						<div title="Add to Calendar" class="addeventatc button_calendar">
+						    Add to Calendar
+						    <span class="start">10/29/2018</span>
+						    <span class="all_day_event">true</span>
+						    <span class="timezone">Europe/Madrid</span>
+						    <span class="title">Informing and getting feedback on the MAE approach from local stakeholders</span>
+						    <span class="description">29 October 2018 - Madrid - Antonio Gongora - agongora@puertos.es</span>
+						    <span class="location">Lisbon, Portugal</span>
+						</div>
+					</div> --}}
 				</div>
 
 
@@ -176,7 +210,24 @@
 					<p>Rome</p>
 					<p>Roberto Mencarelli.</p>
 					<p>rmencarelli@ramspa.it</p>
-					<button class="btn">ADD TO CALENDAR</button>
+					<button class="btn">Date to be confirmed</button>
+
+					{{-- Rellenar y descomentar cuando se sepa la fecha del evento --}}
+					{{-- <div class="extra_info" id="info_2">	
+						<p>29 October 2018</p>
+						<p>Madrid</p>
+						<p>Antonio Gongora.</p>
+						<p>agongora@puertos.es</p>
+						<div title="Add to Calendar" class="addeventatc button_calendar">
+						    Add to Calendar
+						    <span class="start">10/29/2018</span>
+						    <span class="all_day_event">true</span>
+						    <span class="timezone">Europe/Madrid</span>
+						    <span class="title">Informing and getting feedback on the MAE approach from local stakeholders</span>
+						    <span class="description">29 October 2018 - Madrid - Antonio Gongora - agongora@puertos.es</span>
+						    <span class="location">Lisbon, Portugal</span>
+						</div>
+					</div> --}}
 				</div>
 
 
@@ -203,7 +254,15 @@
 					</ul>				
 					<p>08 November 2018</p>
 					<p>To register please contact: mae.project@puertos.es</p>
-					<button class="btn">ADD TO CALENDAR</button>
+					<div title="Add to Calendar" class="addeventatc button_calendar">
+					    Add to Calendar
+					    <span class="start">11/08/2018</span>
+					    <span class="all_day_event">true</span>
+					    <span class="timezone">Europe/Brussels</span>
+					    <span class="title">Consensus Workshop. Industry stakeholders</span>
+					    <span class="description">To register please contact: mae.project@puertos.es</span>
+					    <span class="location">Brussels, Belgium</span>
+					</div>
 				</div>
 
 
@@ -230,7 +289,15 @@
 					</ul>				
 					<p>09 November 2018</p>
 					<p>To register please contact: mae.project@puertos.es</p>
-					<button class="btn">ADD TO CALENDAR</button>
+					<div title="Add to Calendar" class="addeventatc button_calendar">
+					    Add to Calendar
+					    <span class="start">11/09/2018</span>
+					    <span class="all_day_event">true</span>
+					    <span class="timezone">Europe/Brussels</span>
+					    <span class="title">Consensus Workshop. Industry stakeholders</span>
+					    <span class="description">To register please contact: mae.project@puertos.es</span>
+					    <span class="location">Brussels, Belgium</span>
+					</div>
 				</div>
 
 
@@ -259,7 +326,15 @@
 					</ul>				
 					<p>29 November 2018</p>
 					<p>To register: mae.project@puertos.es</p>
-					<button class="btn">ADD TO CALENDAR</button>
+					<div title="Add to Calendar" class="addeventatc button_calendar">
+					    Add to Calendar
+					    <span class="start">11/29/2018</span>
+					    <span class="all_day_event">true</span>
+					    <span class="timezone">Europe/Lisbon</span>
+					    <span class="title">MAE FINAL EVENT</span>
+					    <span class="description">Framed by the actual regulatory evolution at EU and international level, the Med Atlantic Ecobonus Action is delivering a comprehensive analysis on the potential use of eco-incentives measures to stimulate sustainable freight transport services, both in the current TEN-T framework as well as in the future Connecting Europe Facility (CEF) mechanism for the 2021-2027 period, through a common approach that would be valid to all EU regions and all modes of transport. To register please contact: mae.project@puertos.es</span>
+					    <span class="location">Lisbon, Portugal</span>
+					</div>
 				</div>
 
 
@@ -283,7 +358,24 @@
 						<li>To present different regional perspectives to the EP Transport Committee regarding the incentivization of greener and modal shift towards sustainable freight transport services (the MAE study apporach amongst them).</li>
 					</ul>				
 					<p>To be confirmed December 2018</p>
-					<button class="btn">ADD TO CALENDAR</button>
+					<button class="btn">Date to be confirmed</button>
+
+					{{-- Rellenar y descomentar cuando se sepa la fecha del evento --}}
+					{{-- <div class="extra_info" id="info_2">	
+						<p>29 October 2018</p>
+						<p>Madrid</p>
+						<p>Antonio Gongora.</p>
+						<p>agongora@puertos.es</p>
+						<div title="Add to Calendar" class="addeventatc button_calendar">
+						    Add to Calendar
+						    <span class="start">10/29/2018</span>
+						    <span class="all_day_event">true</span>
+						    <span class="timezone">Europe/Madrid</span>
+						    <span class="title">Informing and getting feedback on the MAE approach from local stakeholders</span>
+						    <span class="description">29 October 2018 - Madrid - Antonio Gongora - agongora@puertos.es</span>
+						    <span class="location">Lisbon, Portugal</span>
+						</div>
+					</div> --}}
 				</div>
 
 
@@ -307,7 +399,24 @@
 						<li>If you missed the previous events, join us in the open webinar where the results of the MAE Project will be presented.</li>
 					</ul>				
 					<p>To be confirmed December 2018</p>
-					<button class="btn">ADD TO CALENDAR</button>
+					<button class="btn">Date to be confirmed</button>
+
+					{{-- Rellenar y descomentar cuando se sepa la fecha del evento --}}
+					{{-- <div class="extra_info" id="info_2">	
+						<p>29 October 2018</p>
+						<p>Madrid</p>
+						<p>Antonio Gongora.</p>
+						<p>agongora@puertos.es</p>
+						<div title="Add to Calendar" class="addeventatc button_calendar">
+						    Add to Calendar
+						    <span class="start">10/29/2018</span>
+						    <span class="all_day_event">true</span>
+						    <span class="timezone">Europe/Madrid</span>
+						    <span class="title">Informing and getting feedback on the MAE approach from local stakeholders</span>
+						    <span class="description">29 October 2018 - Madrid - Antonio Gongora - agongora@puertos.es</span>
+						    <span class="location">Lisbon, Portugal</span>
+						</div>
+					</div> --}}
 				</div>
 
 

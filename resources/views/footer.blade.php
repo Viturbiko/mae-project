@@ -2,12 +2,12 @@
 
 	<div class="bg_left_footer">
 		<ul>
-	        <li><a href="#">HOME</a><hr align="left" width="25px";></li>
-	        <li><a href="#">THE PROJECT</a><hr align="left" width="25px";></li>
-	        <li><a href="#">PARTNERS</a><hr align="left" width="25px";></li>
-	        <li><a href="#">DOWNLOADS</a><hr align="left" width="25px";></li>
-	        <li><a href="#">EVENTS</a><hr align="left" width="25px";></li>
-	        <li><a href="#">CONTACT</a><hr align="left" width="25px";></li>
+	        <li><a href="{{ route('index') }}">HOME</a><hr align="left" width="25px";></li>
+	        <li><a href="{{ route('about') }}">THE PROJECT</a><hr align="left" width="25px";></li>
+	        <li><a href="../#partners">PARTNERS</a><hr align="left" width="25px";></li>
+	        <li><a href="{{ route('downloads') }}">DOWNLOADS</a><hr align="left" width="25px";></li>
+	        <li><a href="{{ route('calendar') }}">EVENTS</a><hr align="left" width="25px";></li>
+	        <li><a href="#contact">CONTACT</a><hr align="left" width="25px";></li>
 	    </ul>
 	</div>
 

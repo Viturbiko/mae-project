@@ -12222,6 +12222,16 @@ nav img {
   border: 1px solid #1A1A1A;
 }
 
+.downloads_container .download .download_text button a {
+  text-decoration: none;
+  color: black;
+}
+
+.downloads_container .download .download_text button a:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .container_calendar {
   position: relative;
 }
@@ -12949,12 +12959,17 @@ nav img {
   padding-left: 12px;
 }
 
-.calendar_container .events_container .extra_info button {
+.calendar_container .events_container .extra_info .button_calendar {
   background-color: #FDCF19;
 }
 
-.calendar_container .events_container .extra_info button:hover {
+.calendar_container .events_container .extra_info .button_calendar:hover {
   border: 1px solid #1A1A1A;
+}
+
+.calendar_container .events_container .extra_info button {
+  background-color: #FDCF19;
+  cursor: initial;
 }
 
 .container_partners {

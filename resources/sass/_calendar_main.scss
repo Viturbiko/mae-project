@@ -213,11 +213,15 @@
 			ul {
 				padding-left: 12px;
 			}
-			button {
+			.button_calendar {
 				background-color: $main_yellow;
 				&:hover {
 					border: 1px solid $main_black;
 				}
+			}
+			button {
+				background-color: $main_yellow;
+				cursor: initial;
 			}
 		}
 	}

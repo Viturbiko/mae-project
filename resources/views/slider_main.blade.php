@@ -43,7 +43,7 @@ European Union.</span>
             </div>
             <div class="event3">
                 <div class="date">
-                    <h2>19</h2>
+                    <h2>29</h2>
                     <p>NOV</p>
                 </div>
                 <div class="event_info">
