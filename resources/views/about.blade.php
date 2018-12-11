@@ -41,9 +41,9 @@
 
 			<h3>Med Atlantic Ecobonus.</h3>
 
-			<h5>Towards the goal of sustainable freight transport services in the transeuropean transport network.</h5>
+			<h5>Towards the goal of sustainable freight transport services in the Transeuropean Transport Network.</h5>
 
-			<p>2013 guidelines for the further development of the Transeuropean Transport Network (TEN-t) introduced a new approach towards a true network dimension of the common transport system, departing from the isolated projects approach to the comprehensive and core networks dimension. Moreover, the corridors have proved to be a very effective tool to support this network approach...</p>
+			<p>Due to the constant increase of international trade over the last thirty years the European Union (EU) has been faced with a number of social and environmental challenges addressing the negative impacts of freight mobility. In this context, the need to foster a sustainable freight transport market behavior reducing the external costs of transport has become a major goal, firmly addressed in the EU policy...</p>
 
 			<button class="btn"><a href="{{ route('about') }}">Read More</a></button>
 			

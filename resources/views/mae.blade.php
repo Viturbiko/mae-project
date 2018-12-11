@@ -10,7 +10,7 @@
 
 		<hr align="left" width="10%">
 
-		<p>Med Atlantic Ecobonus (MAE) Action is aninstitutional study co-financed by the European Union and performing a comprehensive analysis on the potential use of eco-incentives measures to stimulate sustainable freight transport services in the current TEN-t framework and further CEF mechanism for the 2021-2027 period, open to all EU regions and modes of transport.</p>
+		<p>Med Atlantic Ecobonus (MAE) Action is an institutional study co-financed by the European Union performing a comprehensive analysis on the potential use of eco-incentives measures to stimulate sustainable freight transport services in the current TEN-t framework and further CEF mechanism for the 2021-2027 period, open to all EU regions and modes of transport.</p>
 
 	</div>
 

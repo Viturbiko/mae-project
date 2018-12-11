@@ -13,7 +13,8 @@ class ContactController extends Controller
     		'name' => 'required|min:3',
     		'email' => 'required|email',
     		'phone' => 'required|numeric',
-    		'message' => 'required|min:10'
+    		'message' => 'required|min:10',
+            'privacy' => 'required'
     	]);
 
     	Mail::send('contact-message', [
@@ -23,7 +24,7 @@ class ContactController extends Controller
     		'msg' => $request->message
     	], function($mail) use ($request){
 			$mail->from($request->email, $request->name);
-			$mail->to('nieto.oscar90@gmail.com')->subject('Nuevo mensaje de MAE-Project');
+			$mail->to('mae.project@puertos.es')->subject('Nuevo mensaje de MAE-Project');
     	});
 
     	return redirect()->back()->with('flash_message', 'Thank you for your message.');

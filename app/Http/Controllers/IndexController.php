@@ -29,4 +29,9 @@ class IndexController extends Controller
     {
         return view("calendar_main");
     }
+
+    public function privacy()
+    {
+        return view("privacy");
+    }
 }

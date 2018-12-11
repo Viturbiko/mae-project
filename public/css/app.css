@@ -12894,6 +12894,37 @@ header nav ul li a:active {
   border: 1px solid #1A1A1A;
 }
 
+.container_calendar .calendar_container .events_container .button_agenda {
+  background-color: #FDCF19;
+  display: inline-block;
+  position: relative;
+  z-index: 99998;
+  font-family: "Open Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+  color: #000 !important;
+  font-weight: 600;
+  line-height: 100%;
+  font-size: 15px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  padding: 13px 12px 12px 13px;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 0.5px rgba(50, 50, 93, 0.17), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 0 0 0 transparent !important;
+          box-shadow: 0 0 0 0.5px rgba(50, 50, 93, 0.17), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 0 0 0 transparent !important;
+}
+
+.container_calendar .calendar_container .events_container .button_agenda a {
+  color: black;
+}
+
+.container_calendar .calendar_container .events_container .button_agenda a:hover {
+  text-decoration: none;
+}
+
+.container_calendar .calendar_container .events_container .button_agenda:hover {
+  border: 1px solid #1A1A1A;
+}
+
 .bg_right_events {
   background-color: #FDCF19;
   position: fixed;
@@ -13232,6 +13263,37 @@ header nav ul li a:active {
 }
 
 .calendar_container .events_container .extra_info .button_calendar:hover {
+  border: 1px solid #1A1A1A;
+}
+
+.calendar_container .events_container .extra_info .button_agenda {
+  background-color: #FDCF19;
+  display: inline-block;
+  position: relative;
+  z-index: 99998;
+  font-family: "Open Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+  color: #000 !important;
+  font-weight: 600;
+  line-height: 100%;
+  font-size: 15px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  padding: 13px 12px 12px 13px;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 0.5px rgba(50, 50, 93, 0.17), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 0 0 0 transparent !important;
+          box-shadow: 0 0 0 0.5px rgba(50, 50, 93, 0.17), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 0 0 0 transparent !important;
+}
+
+.calendar_container .events_container .extra_info .button_agenda a {
+  color: black;
+}
+
+.calendar_container .events_container .extra_info .button_agenda a:hover {
+  text-decoration: none;
+}
+
+.calendar_container .events_container .extra_info .button_agenda:hover {
   border: 1px solid #1A1A1A;
 }
 
@@ -13607,6 +13669,12 @@ header nav ul li a:active {
 .contact_back .contact_container .contact_form form input[type="submit"] {
   width: auto;
   text-align: center;
+  margin-top: 10px;
+}
+
+.contact_back .contact_container .contact_form form span {
+  color: white;
+  margin-left: 5px;
 }
 
 .contact_back .contact_container .contact_form form .alert {

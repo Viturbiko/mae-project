@@ -45,10 +45,13 @@
 			</div>
 
 			<div class="download_text">
-				<h3>DOC1. MAE Executive report. (PDF)</h3>
+				<h3>DOC0 & DOC1. MAE Executive report. Project Summary (PDF) & Mae Executive report (PDF)</h3>
 				<hr width="10%" align="left">
 				<p>The present document describes a possible approach to eco-incentives solutions for the development of sustainable freight mobility in Europe, developing a particular case for the Motorways of the Sea in the West-Mediterranean and Atlantic regions. This proposal is a partial result of the Med Atlantic Ecobonus Action, an institutional and feasibility study leaded by Spain, France, Portugal and Italy, with the financial support of the European Commission in the context of the Trans-European Transport Network.</p>
-				<button class="btn"><a href="{{ route('downloadfile1') }}">DOWNLOAD</a></button>
+				<button class="btn" style="display: inline"><a href="{{ route('downloadfile1') }}">DOWNLOAD</a></button><p style="display:inline; margin-left: 10px">Project Summary (12 pages)</p>
+				<br>
+				<br>
+				<button class="btn" style="display: inline"><a href="{{ route('downloadfile5') }}">DOWNLOAD</a></button><p style="display:inline; margin-left: 10px"">Mae Executive report (53 pages)</p>
 			</div>
 
 		</div>
@@ -77,7 +80,7 @@
 			<div class="download_text">
 				<h3>DOC3. MAE Calibrated transport modelling tool (zip)</h3>
 				<hr width="10%" align="left">
-				<p>The as a main contribution from the MAE case study, a complete transport modelling tool has been calibrated for the targeted market. The modelling tool is intended to replicate the actual performance of the targeted market
+				<p>The main contribution from the MAE case study, a complete transport modelling tool has been calibrated for the targeted market. The modelling tool is intended to replicate the actual performance of the targeted market
 				by using classic methodologies in a way that makes possible a sensitivity analysis of the relevant variables affecting the behavior of the transport demand.</p>
 				<button class="btn"><a href="{{ route('downloadfile3') }}">DOWNLOAD</a></button>
 			</div>

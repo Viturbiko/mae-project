@@ -33,8 +33,19 @@
 				@if($errors->has('message'))
 					<small class="alert">{{ $errors->first('message') }}</small>
 				@endif
+				
+				<div>
+					<input class="form_checkbox" type="checkbox" name="privacy">
+					<span style="color:white">He leído y acepto la <a target="_blank" href="{{ route('privacy') }}">política de privacidad</a></span>					
+				</div>
+				@if($errors->has('privacy'))
+					<small class="alert">{{ $errors->first('privacy') }}</small>
+					<br>
+				@endif
 
 				<input class="btn" type="submit" value="SEND MESSAGE">
+				
+
 			</form>
 		</div>
 		<div class="contact_img hide_smartphone">
