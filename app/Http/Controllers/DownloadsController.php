@@ -11,23 +11,13 @@ class DownloadsController extends Controller
 
     public function DownloadFile(Request $request)
     {
-        return $request;
-
-        if ($request->button_name == 'calendar_file') 
-        {
-            $path = storage_path('downloads/MAE_PROJECT_PRELIMINARY_REPORT.pdf');
-
-            return response()->download($path);
-        }
-        else
-        {
-            $this->validate($request, [
-                'name' => 'required|min:3',
-                'email' => 'required|email',
-                'company' => 'required|min:3',
-                'privacy' => 'required'
-            ]);
-        }
+        
+        $this->validate($request, [
+            'name' => 'required|min:3',
+            'email' => 'required|email',
+            'company' => 'required|min:3',
+            'privacy' => 'required'
+        ]);
 
         $user_info = new DownloadInfo;
 
