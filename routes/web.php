@@ -23,10 +23,6 @@ Route::get('/privacy_policy', 'IndexController@privacy')->name('privacy');
 
 Route::post('/contact', 'ContactController@store')->name('contact');
 
-Route::get('/download1', 'DownloadsController@DownloadFile1')->name('downloadfile1');
-Route::get('/download2', 'DownloadsController@DownloadFile2')->name('downloadfile2');
-Route::get('/download3', 'DownloadsController@DownloadFile3')->name('downloadfile3');
-Route::get('/download4', 'DownloadsController@DownloadFile4')->name('downloadfile4');
-Route::get('/download5', 'DownloadsController@DownloadFile5')->name('downloadfile5');
-Route::get('/download6', 'DownloadsController@DownloadFile6')->name('downloadfile6');
+Route::post('/download2', 'DownloadsController@DownloadFile')->name('downloadfile');
 
+Route::get('/downloadAgenda', 'DownloadsController@DownloadAgenda')->name('downloadagenda');

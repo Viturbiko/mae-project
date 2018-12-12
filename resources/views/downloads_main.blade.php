@@ -8,6 +8,14 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
 
+<style>
+	.alert
+	{
+		color: red;
+		font-weight: bold;
+	}
+</style>
+
 <body>
 
 	@include('navbar')
@@ -38,20 +46,57 @@
 
 		</div>
 
+		<br>
+
+		<p id="downloads_form"><strong>To download any file, you must fill this form and click in the download button</strong></p>
+
+		<form method="POST" action="{{ route("downloadfile", "#downloads_form") }}" class="form-group">
+			{{ csrf_field() }}
+			
+			<label for="Name">Name</label>
+			<input class="form_name form-control" type="text" placeholder="Name..." value="{{ old('name') }}" name="name">
+			@if($errors->has('name'))
+				<small class="alert">{{ $errors->first('name') }}</small>
+				<br>
+			@endif	
+			
+			<label for="Company">Company</label>
+			<input class="form_company form-control" type="text" placeholder="Company name..." value="{{ old('company') }}" name="company">
+			@if($errors->has('company'))
+				<small class="alert">{{ $errors->first('company') }}</small>
+				<br>
+			@endif	
+			
+			<label for="Email">Email</label>
+			<input class="form_mail form-control" type="text" placeholder="E-Mail..." value="{{ old('email') }}" name="email">
+			@if($errors->has('email'))
+				<small class="alert">{{ $errors->first('email') }}</small>
+				<br>
+			@endif
+
+			<div>
+				<input class="form_checkbox" type="checkbox" name="privacy">
+				<span style="color:black">I have read and accept the <a target="_blank" href="{{ route('privacy') }}">privacy policy</a></span>					
+			</div>
+			@if($errors->has('privacy'))
+				<small class="alert">{{ $errors->first('privacy') }}</small>
+				<br>
+			@endif
+
 		<div class="download">
 
 			<div class="download_image hide_smartphone">
 				<img src="/images/downloads/download-1.jpg" alt="">
 			</div>
 
-			<div class="download_text">
+			<div class="download_text" id="download1">
 				<h3>DOC0 & DOC1. MAE Executive report. Project Summary (PDF) & Mae Executive report (PDF)</h3>
 				<hr width="10%" align="left">
 				<p>The present document describes a possible approach to eco-incentives solutions for the development of sustainable freight mobility in Europe, developing a particular case for the Motorways of the Sea in the West-Mediterranean and Atlantic regions. This proposal is a partial result of the Med Atlantic Ecobonus Action, an institutional and feasibility study leaded by Spain, France, Portugal and Italy, with the financial support of the European Commission in the context of the Trans-European Transport Network.</p>
-				<button class="btn" style="display: inline"><a href="{{ route('downloadfile1') }}">DOWNLOAD</a></button><p style="display:inline; margin-left: 10px">Project Summary (12 pages)</p>
-				<br>
-				<br>
-				<button class="btn" style="display: inline"><a href="{{ route('downloadfile5') }}">DOWNLOAD</a></button><p style="display:inline; margin-left: 10px"">Mae Executive report (53 pages)</p>
+				<button class="btn" type="submit" style="margin-top: 10px" name="button_name" value="file1">DOWNLOAD</button>
+				<p style="display:inline; margin-left: 10px">Project Summary (12 pages)</p>
+				<button class="btn" type="submit" style="margin-top: 10px" name="button_name" value="file5">DOWNLOAD</button>
+				<p style="display:inline; margin-left: 10px">Mae Executive report (53 pages)</p>
 			</div>
 
 		</div>
@@ -62,11 +107,11 @@
 				<img src="/images/downloads/download-2.jpg" alt="">
 			</div>
 
-			<div class="download_text">
+			<div class="download_text" id="download2">
 				<h3>DOC2. MAE External Cost Calculator (zip)</h3>
 				<hr width="10%" align="left">
 				<p>The external cost calculator is an essential feature not only for the MAE case study but for the common approach on eco-incentives measures. The tool and the manual allows for comparison of different operational profiels and technologies and compare MoS and road only alternative transport externalities.</p>
-				<button class="btn"><a href="{{ route('downloadfile2') }}">DOWNLOAD</a></button>
+				<button class="btn" type="submit" style="margin-top: 10px" name="button_name" value="file2">DOWNLOAD</button>
 			</div>
 
 		</div>
@@ -77,12 +122,12 @@
 				<img src="/images/downloads/download-3.jpg" alt="">
 			</div>
 
-			<div class="download_text">
+			<div class="download_text" id="download3">
 				<h3>DOC3. MAE Calibrated transport modelling tool (zip)</h3>
 				<hr width="10%" align="left">
 				<p>The main contribution from the MAE case study, a complete transport modelling tool has been calibrated for the targeted market. The modelling tool is intended to replicate the actual performance of the targeted market
 				by using classic methodologies in a way that makes possible a sensitivity analysis of the relevant variables affecting the behavior of the transport demand.</p>
-				<button class="btn"><a href="{{ route('downloadfile3') }}">DOWNLOAD</a></button>
+				<button class="btn" type="submit" style="margin-top: 10px" name="button_name" value="file3">DOWNLOAD</button>
 			</div>
 
 		</div>
@@ -93,16 +138,19 @@
 				<img src="/images/downloads/download-4.jpg" alt="">
 			</div>
 
-			<div class="download_text">
+			<div class="download_text" id="download4">
 				<h3>DOC4. MAE Shipowner's perspective tool (zip)</h3>
 				<hr width="10%" align="left">
 				<p>The tool is aimed to estimate the shipowners’ financial considerations that any maritime operator would probably make before participating to the eco-incentive scheme, assessing to what extent the ‘indirect’ benefits on the demand side are enough for them to trigger the greener actions incurring direct costs.</p>
-				<button class="btn"><a href="{{ route('downloadfile4') }}">DOWNLOAD</a></button>
+				<button class="btn" type="submit" style="margin-top: 10px" name="button_name" value="file4">DOWNLOAD</button>
 			</div>
 
 		</div>
 
 	</div>
+
+	</form>
+
 
 	@include('contact')
 

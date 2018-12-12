@@ -36,7 +36,7 @@
 				
 				<div>
 					<input class="form_checkbox" type="checkbox" name="privacy">
-					<span style="color:white">He leído y acepto la <a target="_blank" href="{{ route('privacy') }}">política de privacidad</a></span>					
+					<span style="color:white">I have read and accept the <a target="_blank" href="{{ route('privacy') }}">privacy policy</a></span>					
 				</div>
 				@if($errors->has('privacy'))
 					<small class="alert">{{ $errors->first('privacy') }}</small>

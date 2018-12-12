@@ -289,7 +289,7 @@
 					</ul>				
 					<p>29 November 2018</p>
 					<p>To register: mae.project@puertos.es</p>
-					<button class="button_agenda"><a href="{{ route('downloadfile6') }}">View Agenda</a></button>
+					<button class="button_agenda"><a href="{{ route('downloadagenda') }}">View Agenda</a></button>
 					<br>
 					<br>
 					<div title="Add to Calendar" class="addeventatc button_calendar">
