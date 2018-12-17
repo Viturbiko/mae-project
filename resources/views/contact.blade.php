@@ -24,12 +24,7 @@
 					<small class="alert">{{ $errors->first('email') }}</small>
 				@endif
 
-				<input class="form_phone" type="text" placeholder="Phone" value="{{ old('phone') }}" name="phone">
-				@if($errors->has('phone'))
-					<small class="alert">{{ $errors->first('phone') }}</small>
-				@endif
-
-				<textarea class="form_message" rows="10" placeholder="Message" value="{{ old('message') }}" name="message"></textarea>
+				<textarea class="form_message" rows="10" placeholder="Message" value="{{ old('message') }}" name="message">{{ old('message') }}</textarea>
 				@if($errors->has('message'))
 					<small class="alert">{{ $errors->first('message') }}</small>
 				@endif

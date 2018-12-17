@@ -58,7 +58,6 @@
 					<p>Via Nomentana, 2. Roma, 00161. Italy</p>
 					<p><b>Francesco Benevolo</b></p>
 					<p>+3906.44123283</p>
-					<p>fbenevolo@ramspa.it</p>					
 					<p>www.rampsa.it</p>
 				</div>
 			</div>
