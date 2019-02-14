@@ -12,7 +12,7 @@
 	</div>
 
 	<div class="bg_right_footer">
-        <img src="/images/logo.svg" alt="Logo">		
+        <img src="/images/ecobonus-logo-2.svg" alt="Logo">		
 	</div>
 
 	<div class="content_footer">

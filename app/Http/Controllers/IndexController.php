@@ -10,7 +10,7 @@ class IndexController extends Controller
 {
     public function index()
     {
-    	$events = CalendarEvent::limit(5)->orderBy('event_date', 'asc')->get();
+    	// $events = CalendarEvent::limit(5)->orderBy('event_date', 'asc')->get();
 
     	return view("index", compact("events"));
     }

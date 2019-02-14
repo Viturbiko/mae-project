@@ -17,9 +17,9 @@
         <ul>
             <img class="close_menu" src="/images/X.png" alt="CLOSE">
             <li class="hide_please"><a style="width:100%;" href="{{ route('index') }}"><img class="logo_img_min" src="/images/med-atlantic-logo.svg" alt="Logo"></a></li>
-            <a href="{{ route('index') }}"><img class="logo_img_fake" src="/images/med-atlantic-logo.svg" alt="Logo"></a>
+            <a href="{{ route('index') }}"><img class="logo_img_fake" src="/images/ecobonus-logo-1.svg" alt="Logo"></a>
             <li class="{{ activeMenu('/') }}"><a href="{{ route('index') }}">HOME</a></li>
-            <li class="{{ activeMenu('about') }}"><a href="{{ route('about') }}">THE PROJECT</a></li>
+            <li class="{{ activeMenu('about') }}"><a href="{{ route('about') }}">THE ACTION</a></li>
             <li><a href="../#partners">PARTNERS</a></li>
             <li class="{{ activeMenu('downloads') }}"><a href="{{ route('downloads') }}">DOWNLOADS</a></li>
             <li class="{{ activeMenu('calendar') }}"><a href="{{ route('calendar') }}">EVENTS</a></li>

@@ -6,9 +6,7 @@
 
         <div class="slide slide1">
             <div class="slide-content">
-                <span class='slide_main_title'>MED ATLANTIC ECOBONUS</span>
-                <span class='slide_main_subtitle'>Med Atlantic Ecobonus (MAE) Action is an institutional study co-financed by the
-European Union.</span>
+                <span class='slide_main_subtitle'>Towards a common EU approach on eco-incentives measures to stimulate a sustainable behavior in freight mobility based on actual environmental merits.</span>
             </div>
         </div>
         

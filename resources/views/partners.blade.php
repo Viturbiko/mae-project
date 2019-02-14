@@ -17,7 +17,8 @@
 					<img src="/images/partner1.png" alt="">
 				</div>
 				<div class="partner_info">
-					<p class="company"><b>PUERTOS DEL ESTADO, SPAIN</b></p>
+					<h3>SPAIN</h3>
+					<p class="company"><b>PUERTOS DEL ESTADO</b></p>
 					<p>Ministerio de Fomento</p>
 					<p>Avda. del Partenón 10. Madrid, 28042. Spain.</p>
 					<p><b>Project Coordinator</b></p>
@@ -30,7 +31,8 @@
 					<img class="min" src="/images/partner2.png" alt="">
 				</div>
 				<div class="partner_info">
-					<p class="company"><b>MINISTÈRE DE LA TRASITION ÉCO-LOGGICQUE ET SOLIDAIRE. FRANCE TOUR SEQUOIA</b></p>
+					<h3>FRANCE</h3>
+					<p class="company"><b>MINISTÈRE DE LA TRASITION ÉCO-LOGGICQUE ET SOLIDAIRE.</b></p>
 					<p>La Défense CEDEX 92055. France</p>
 					<p><b>Florance Pajon</b></p>
 					<p>www.ecologique-solidaire.gouv.fr</p>					
@@ -41,7 +43,8 @@
 					<img src="/images/partner3.png" alt="">
 				</div>
 				<div class="partner_info">
-					<p class="company"><b>INSTITUTO DA MOBILIDADE E DOS TRANSPORTES, I.P., PORTUGAL</b></p>
+					<h3>PORTUGAL</h3>
+					<p class="company"><b>INSTITUTO DA MOBILIDADE E DOS TRANSPORTES, I.P.</b></p>
 					<p>Ministerio do Planeamento e das Infraestruturas</p>
 					<p>Av. das Forças Armadas 40 1649-022. Portugal</p>
 					<p><b>Dr. Eduardo Feio</b></p>
@@ -50,10 +53,11 @@
 			</div>
 			<div class="partner">
 				<div class="partner--img">
-					<img class="ram" src="/images/partner4.png" alt="">
+					<img class="ram" src="/images/partner4.jpg" alt="">
 				</div>
 				<div class="partner_info">
-					<p class="company"><b>RETE AUTOSTRADE MEDITERRANEE S.P.A., ITALY</b></p>
+					<h3>ITALY</h3>
+					<p class="company"><b>RETE AUTOSTRADE MEDITERRANEE S.P.A.</b></p>
 					<p>Ministero delle infrastrutture e dei transport</p>
 					<p>Via Nomentana, 2. Roma, 00161. Italy</p>
 					<p><b>Francesco Benevolo</b></p>

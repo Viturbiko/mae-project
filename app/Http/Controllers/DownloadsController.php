@@ -13,10 +13,10 @@ class DownloadsController extends Controller
     {
         
         $this->validate($request, [
-            'name' => 'required|min:3',
-            'email' => 'required|email',
-            'company' => 'required|min:3',
-            'privacy' => 'required'
+            'download_name' => 'required|min:3',
+            'download_email' => 'required|email',
+            'download_company' => 'required|min:3',
+            'download_privacy' => 'required'
         ]);
 
         $user_info = new DownloadInfo;
@@ -27,7 +27,7 @@ class DownloadsController extends Controller
         {
             case 'file1':
 
-                $path = storage_path('downloads/MAE_PROJECT_SUMMARY.pdf');
+                $path = storage_path('downloads/MAE_project_briefing.pdf');
 
                 return response()->download($path);
 
@@ -35,7 +35,7 @@ class DownloadsController extends Controller
 
             case 'file2':
                 
-                $path = storage_path('downloads/MAE_2.zip');
+                $path = storage_path('downloads/MAE_PROJECT_SUMMARY.pdf');
 
                 return response()->download($path);
 
@@ -43,7 +43,7 @@ class DownloadsController extends Controller
 
             case 'file3':
                 
-                $path = storage_path('downloads/MAE_3.zip');
+                $path = storage_path('downloads/MAE_PROJECT_PRELIMINARY_REPORT.pdf');
 
                 return response()->download($path);
 
@@ -51,7 +51,7 @@ class DownloadsController extends Controller
 
             case 'file4':
                 
-                $path = storage_path('downloads/MAE_4.zip');
+                $path = storage_path('downloads/MAE_EXTERNAL_COST_CALCULATOR_TOOL_V10_2_user_manual.pdf');
 
                 return response()->download($path);
 
@@ -59,7 +59,7 @@ class DownloadsController extends Controller
 
             case 'file5':
                 
-                $path = storage_path('downloads/MAE_PROJECT_PRELIMINARY_REPORT.pdf');
+                $path = storage_path('downloads/MAE_CALIBRATED_TRANSPORT_MODEL_TOOL_user_manual.pdf');
 
                 return response()->download($path);
 
@@ -67,7 +67,23 @@ class DownloadsController extends Controller
 
             case 'file6':
                 
-                $path = storage_path('downloads/MAE_project_preliminary_report.pdf');
+                $path = storage_path('downloads/MAE_SHIPOWNERS_PERSPECTIVE_TOOL_V2_user_manual.pdf');
+
+                return response()->download($path);
+
+                break;
+
+            case 'file7':
+                
+                $path = storage_path('downloads/MAE_project_general_presentation.pdf');
+
+                return response()->download($path);
+
+                break;
+
+            case 'file8':
+                
+                $path = storage_path('downloads/MAE_project_EP_presentation.pdf');
 
                 return response()->download($path);
 

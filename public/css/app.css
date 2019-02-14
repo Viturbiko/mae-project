@@ -11425,7 +11425,7 @@ header nav ul li a:active {
 }
 
 .content_mae .info_mae {
-  width: 50%;
+  width: 100%;
 }
 
 @media (min-width: 640px) and (max-width: 950px) {
@@ -11472,10 +11472,9 @@ header nav ul li a:active {
 }
 
 .content_mae .hover_mae {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 120%;
+  display: block;
+  text-align: center;
   margin-left: 50px;
 }
 
@@ -11502,7 +11501,7 @@ header nav ul li a:active {
 }
 
 .content_mae .hover_mae .box img {
-  width: 530px;
+  width: 650px;
 }
 
 @media (max-width: 640px) {
@@ -12402,102 +12401,186 @@ header nav ul li a:active {
   }
 }
 
-.downloads_container .download {
-  min-height: 400px;
-  padding: 75px 0px;
+.downloads_container .events_container {
+  width: 100%;
+  margin: 50px auto;
+}
+
+@media (max-width: 640px) {
+  .downloads_container .events_container {
+    margin: 15px auto;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  .downloads_container .events_container {
+    margin: 15px auto;
+  }
+}
+
+.downloads_container .events_container .event {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-bottom: 1px solid #4D4D4D;
-  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #4D4D4D;
+  background-color: white;
 }
 
-@media (min-width: 640px) and (max-width: 950px) {
-  .downloads_container .download {
+@media (max-width: 640px) {
+  .downloads_container .events_container .event {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 25px 0px;
   }
 }
 
-@media (max-width: 640px) {
-  .downloads_container .download {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    padding: 25px 0px;
-  }
-}
-
-.downloads_container .download hr {
-  border-top: 3px solid #FDCF19;
-}
-
-.downloads_container .download .download_image {
-  width: 60%;
-  margin-right: 75px;
+.downloads_container .events_container .event img {
+  width: 100px;
+  height: 100px;
 }
 
 @media (min-width: 640px) and (max-width: 950px) {
-  .downloads_container .download .download_image {
-    width: 100%;
-    margin-right: 0px;
+  .downloads_container .events_container .event img {
+    display: none;
   }
 }
 
 @media (max-width: 640px) {
-  .downloads_container .download .download_image {
-    width: 100%;
-    margin-right: 0px;
+  .downloads_container .events_container .event img {
+    display: none;
   }
 }
 
-.downloads_container .download .download_image img {
-  width: 100%;
+.downloads_container .events_container .event h1 {
+  margin-bottom: 0px;
+  font-size: 50px;
+  text-align: center;
 }
 
-.downloads_container .download .download_text {
-  width: 100%;
-  min-height: 250px;
-  position: relative;
+.downloads_container .events_container .event p {
+  margin-bottom: 0px;
+}
+
+.downloads_container .events_container .event .event_date {
+  width: 10%;
+  margin: 0 20px;
 }
 
 @media (min-width: 640px) and (max-width: 950px) {
-  .downloads_container .download .download_text h3 {
-    margin: 10px 0px;
-    font-size: 20px;
+  .downloads_container .events_container .event .event_date {
+    width: 15%;
   }
 }
 
 @media (max-width: 640px) {
-  .downloads_container .download .download_text h3 {
-    margin: 10px 0px;
-    font-size: 20px;
+  .downloads_container .events_container .event .event_date {
+    width: 100%;
   }
 }
 
-.downloads_container .download .download_text button {
+.downloads_container .events_container .event .event_date p {
+  text-align: center;
+}
+
+.downloads_container .events_container .event .event_info {
+  width: 95%;
+  padding: 15px;
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  .downloads_container .events_container .event .event_info {
+    width: 70%;
+    text-align: center;
+    margin: 15px 0;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 640px) {
+  .downloads_container .events_container .event .event_info {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+    padding: 0 10px;
+  }
+}
+
+.downloads_container .events_container .event .arrow_down {
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  .downloads_container .events_container .event .arrow_down {
+    display: block;
+    margin: 15px auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .downloads_container .events_container .event .arrow_down {
+    display: block;
+    margin: 15px auto;
+  }
+}
+
+.downloads_container .events_container .extra_info {
+  background-color: #dadada;
+  display: none;
+  padding: 20px 15px;
+  font-size: 16px;
+}
+
+.downloads_container .events_container .extra_info ul {
+  padding-left: 12px;
+}
+
+.downloads_container .events_container .extra_info .button_calendar {
   background-color: #FDCF19;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  position: relative;
 }
 
-.downloads_container .download .download_text button:hover {
+.downloads_container .events_container .extra_info .button_calendar:hover {
   border: 1px solid #1A1A1A;
 }
 
-.downloads_container .download .download_text button a {
+.downloads_container .events_container .extra_info .button_agenda {
+  background-color: #FDCF19;
+  display: inline-block;
+  position: relative;
+  z-index: 99998;
+  font-family: "Open Sans",Roboto,"Helvetica Neue",Helvetica,Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+  color: #000 !important;
+  font-weight: 600;
+  line-height: 100%;
+  font-size: 15px;
   text-decoration: none;
+  border: 1px solid transparent;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 0.5px rgba(50, 50, 93, 0.17), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 0 0 0 transparent !important;
+          box-shadow: 0 0 0 0.5px rgba(50, 50, 93, 0.17), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 0 0 0 transparent !important;
+}
+
+.downloads_container .events_container .extra_info .button_agenda a {
   color: black;
 }
 
-.downloads_container .download .download_text button a:hover {
+.downloads_container .events_container .extra_info .button_agenda a:hover {
   text-decoration: none;
-  color: black;
+}
+
+.downloads_container .events_container .extra_info .button_agenda:hover {
+  border: 1px solid #1A1A1A;
+}
+
+.downloads_container .events_container .extra_info button {
+  background-color: #FDCF19;
+  cursor: initial;
 }
 
 .container_calendar {
@@ -13091,6 +13174,30 @@ header nav ul li a:active {
   font-weight: bolder;
 }
 
+.calendar_intro {
+  margin-top: 20px;
+  width: 50%;
+  font-size: 18px;
+}
+
+@media (min-width: 950px) and (max-width: 1200px) {
+  .calendar_intro {
+    width: 100%;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  .calendar_intro {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .calendar_intro {
+    display: none;
+  }
+}
+
 .calendar_container {
   width: 80%;
   margin: 0 auto;
@@ -13123,7 +13230,7 @@ header nav ul li a:active {
 
 .calendar_container .events_container {
   width: 100%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 @media (max-width: 640px) {
@@ -13535,7 +13642,7 @@ header nav ul li a:active {
 }
 
 .content_partners .partners .partner .partner--img .ram {
-  height: 200px;
+  height: 175px;
 }
 
 .content_partners .partners .partner .partner_info {
@@ -13828,8 +13935,8 @@ header nav ul li a:active {
 }
 
 .container_footer .bg_right_footer img {
-  width: 100%;
-  padding: 20px 0;
+  width: 80%;
+  padding: 0px 0;
 }
 
 .container_footer .content_footer {

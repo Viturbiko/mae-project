@@ -22,7 +22,7 @@
 
 	@include('downloads')
 
-	@include('calendar')
+	{{-- @include('calendar') --}}
 
 	@include('partners')
 

@@ -47,7 +47,7 @@
       padding: 0px;
     }
     .info_mae {
-        width: 50%;
+        width: 100%;
         @include breakpoint($sm){
           width: 100%;
           padding: 20px;
@@ -78,8 +78,9 @@
         }
     }
     .hover_mae {
-        width: 100%;
-        display: flex;
+        width: 120%;
+        display: block;
+        text-align: center;
         margin-left: 50px;
         @include breakpoint($sm){
           margin-left: 0px;
@@ -93,7 +94,7 @@
               margin: 0;
             }
             img {
-                width: 530px;
+                width: 650px;
                 @include breakpoint($xs){
                   width: 100%;
                 }

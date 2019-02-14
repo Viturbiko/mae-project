@@ -35,15 +35,11 @@
 
 			<img src="/images/icon-project.png" alt="Porject_icon">
 
-			<h1>About the project</h1>
+			<h1>About the action</h1>
 
 			<hr align="left" width="10%">
 
-			<h3>Med Atlantic Ecobonus.</h3>
-
-			<h5>Towards the goal of sustainable freight transport services in the Transeuropean Transport Network.</h5>
-
-			<p>Due to the constant increase of international trade over the last thirty years the European Union (EU) has been faced with a number of social and environmental challenges addressing the negative impacts of freight mobility. In this context, the need to foster a sustainable freight transport market behavior reducing the external costs of transport has become a major goal, firmly addressed in the EU policy...</p>
+			<p><b>Med Atlantic Ecobonus (MAE)</b> Action is a policy study co-financed by the European Union performing a comprehensive analysis on the potential use of eco-incentives schemes to stimulate an improved socio-environmental performance from freight transport in the current TEN-t framework...</p>
 
 			<button class="btn"><a href="{{ route('about') }}">Read More</a></button>
 			

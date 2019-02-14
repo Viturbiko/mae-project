@@ -108,6 +108,21 @@
 	}
 }
 
+.calendar_intro {
+	margin-top: 20px;
+	width: 50%;
+	font-size: 18px;
+	@include breakpoint($md){
+		width: 100%;
+	}
+	@include breakpoint($sm){
+		display: none;
+	}
+	@include breakpoint($xs){
+		display: none;
+	}
+}
+
 
 .calendar_container {
 	width: 80%;
@@ -129,7 +144,7 @@
 	}
 	.events_container {
 		width: 100%;
-		margin: 100px auto;
+		margin: 50px auto;
 		@include breakpoint($xs){
 		  margin: 15px auto;
 		}
