@@ -21,7 +21,7 @@ class DownloadsController extends Controller
 
         $user_info = new DownloadInfo;
 
-        $user_info->updateOrCreate(['email' => $request->email], ['name' => $request->name, 'email' => $request->email, 'company' => $request->company, 'privacy' => $request->privacy]);        
+        $user_info->updateOrCreate(['email' => $request->download_email], ['name' => $request->download_name, 'email' => $request->download_email, 'company' => $request->download_company, 'privacy' => $request->download_privacy]);        
 
         switch ($request->button_name) 
         {
