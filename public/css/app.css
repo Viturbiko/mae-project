@@ -10643,7 +10643,7 @@ header {
 @media (min-width: 950px) and (max-width: 1200px) {
   header {
     border-bottom: 3px solid #FDCF19;
-    height: 96px;
+    height: 85px;
   }
 }
 
@@ -10995,6 +10995,68 @@ header nav ul li a:active {
   transition: left 400ms linear;
 }
 
+@media (min-width: 950px) and (max-width: 1200px) {
+  .pc {
+    display: none;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  .pc {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .pc {
+    display: none;
+  }
+}
+
+.mobile {
+  display: none;
+}
+
+@media (min-width: 950px) and (max-width: 1200px) {
+  .mobile {
+    display: block;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  .mobile {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .mobile {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.slide1 {
+  background-image: url("/images/home-movil.jpg");
+}
+
+button {
+  background-color: #FDCF19;
+  text-transform: uppercase;
+  color: #1A1A1A;
+  margin-top: 10px;
+}
+
+button a {
+  color: black;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .slide-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11130,6 +11192,7 @@ header nav ul li a:active {
 }
 
 .slide-content .slide_main_subtitle {
+  margin-top: 2em;
   font-size: 30px;
   margin-bottom: 10%;
   width: 50%;
@@ -11679,7 +11742,7 @@ header nav ul li a:active {
 }
 
 .content_about .about_slider .slider_about .slide_about1 {
-  background-image: url("/images/home-about-slide-1.jpg");
+  background-image: url("/images/barco2.jpg");
   height: 100%;
 }
 
@@ -13111,7 +13174,7 @@ header nav ul li a:active {
   width: 100%;
   height: 80vh;
   min-height: 700px;
-  background-image: url("/images/events/home-section-2.jpg");
+  background-image: url("/images/events/events-header.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

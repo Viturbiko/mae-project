@@ -4,7 +4,7 @@
 
     <div id="slider">
         
-        <div class="slide slide1">
+        <div class="slide pc">
             <div class="slide-content">
                 <video autoplay muted loop id="myVideo">
                     <source src="/images/boat.mp4" type="video/mp4">
@@ -12,8 +12,15 @@
 
                 <div class="text_video_content">
                   <h2>Towards a common EU approach on eco-incentives measures to stimulate a sustainable behavior in freight mobility based on actual environmental merits.</h2>
+                  <button class="btn"><a href="{{ route('about') }}">Read More</a></button>
                 </div>
 
+            </div>
+        </div>
+
+        <div class="slide slide1 mobile">
+            <div class="slide-content">
+                <span class='slide_main_subtitle'>Towards a common EU approach on eco-incentives measures to stimulate a sustainable behavior in freight mobility based on actual environmental merits.</span>
             </div>
         </div>
 

@@ -5,7 +5,7 @@ header {
   background: #fff;
   @include breakpoint($md){
     border-bottom: 3px solid $main_yellow;
-    height: 96px;
+    height: 85px;
   }
   @include breakpoint($sm){
     border-bottom: 3px solid $main_yellow;

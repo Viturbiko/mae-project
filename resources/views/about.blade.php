@@ -15,7 +15,7 @@
 					</div>
 				</div>
 				
-				<div class="slide_about slide_about2">
+				{{-- <div class="slide_about slide_about2">
 					<div class="slide_about_content">
 					</div>
 				</div>
@@ -23,7 +23,7 @@
 				<div class="slide_about slide_about3">
 					<div class="slide_about_content">
 					</div>
-				</div>
+				</div> --}}
 
 			</div>
 

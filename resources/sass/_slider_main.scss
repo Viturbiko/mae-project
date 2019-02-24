@@ -20,6 +20,50 @@
   transition: left 400ms linear;
 }
 
+.pc {
+  @include breakpoint($md){
+      display: none;
+    }
+    @include breakpoint($sm){
+      display: none;
+    }
+    @include breakpoint($xs){
+      display: none;
+    }
+}  
+.mobile {
+    display: none;
+    @include breakpoint($md){
+      display: block;
+    }
+    @include breakpoint($sm){
+      display: block;
+      width: 100%;
+    }
+    @include breakpoint($xs){
+      display: block;
+      margin: 0 auto;
+    }
+}   
+
+.slide1 {
+  background-image: url('/images/home-movil.jpg');
+}        
+
+button {
+  background-color: $main_yellow;
+  text-transform: uppercase;
+  color: $main_black;
+  margin-top: 10px;
+  a {
+    color: black;
+    &:hover {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
 .slide-content {
   display: flex;
   flex-direction: column;
@@ -101,6 +145,7 @@
     }
   }
   .slide_main_subtitle {
+    margin-top: 2em;
     font-size: 30px;
     margin-bottom: 10%;
     width: 50%;
