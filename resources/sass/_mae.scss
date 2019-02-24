@@ -103,7 +103,29 @@
                 @include breakpoint($xs){
                   display: none;
                 }
-            }            
+            }
+            .pc {
+                @include breakpoint($sm){
+                  display: none;
+                }
+                @include breakpoint($xs){
+                  display: none;
+                }
+            }  
+            .mobile {
+                display: none;
+                @include breakpoint($md){
+                  display: none;
+                }
+                @include breakpoint($sm){
+                  display: block;
+                  width: 100%;
+                }
+                @include breakpoint($xs){
+                  display: block;
+                  margin: 0 auto;
+                }
+            }           
         }
     }
 }

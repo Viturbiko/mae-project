@@ -1,24 +1,37 @@
 
 <div class="wrap">
-    <div id="arrow-left" class="arrow"></div>
+    {{-- <div id="arrow-left" class="arrow"></div> --}}
 
     <div id="slider">
-
+        
         <div class="slide slide1">
+            <div class="slide-content">
+                <video autoplay muted loop id="myVideo">
+                    <source src="/images/boat.mp4" type="video/mp4">
+                </video>
+
+                <div class="text_video_content">
+                  <h2>Towards a common EU approach on eco-incentives measures to stimulate a sustainable behavior in freight mobility based on actual environmental merits.</h2>
+                </div>
+
+            </div>
+        </div>
+
+
+   {{--      <div class="slide slide1">
             <div class="slide-content">
                 <span class='slide_main_subtitle'>Towards a common EU approach on eco-incentives measures to stimulate a sustainable behavior in freight mobility based on actual environmental merits.</span>
             </div>
-        </div>
+        </div> --}}
         
-        <div class="slide slide2">
+        {{-- <div class="slide slide2">
             <div class="slide-content">
                 <span class='slide_main_title'>MED ATLANTIC ECOBONUS</span>
-                <span class='slide_main_subtitle'>Med Atlantic Ecobonus (MAE) Action is an institutional study co-financed by the
-European Union.</span>
+                <span class='slide_main_subtitle'>Med Atlantic Ecobonus (MAE) Action is an institutional study co-financed by the European Union.</span>
             </div>
-        </div>
+        </div> --}}
 
-        <div class="slide_events">
+        {{-- <div class="slide_events">
             <div class="event1">
                 <div class="date">
                     <h2>08</h2>
@@ -50,9 +63,9 @@ European Union.</span>
                     <p class="event_description">Auditório Rocha Conde d Óbidos, Lisbon.</p>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
     </div>
 
-    <div id="arrow-right" class="arrow"></div>
+    {{-- <div id="arrow-right" class="arrow"></div> --}}
 </div>

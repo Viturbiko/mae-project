@@ -26,7 +26,7 @@
 
 	@include('partners')
 
-	@include('contact')
+	@include('contact_index')
 
 	@include('footer')
 
