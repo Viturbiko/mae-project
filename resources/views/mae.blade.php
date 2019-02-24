@@ -21,7 +21,7 @@ current TEN-t framework. The proposed approach follows a regional perspective, c
 		
 		<div class="box">
 			<img class="img-fluid pc" src="/images/home-section-1.jpg" alt="">		
-			<img class="img-fluid mobile" src="/images/home-about-slide-1.jpg" alt="">			
+			<img class="img-fluid mobile" src="/images/barco2.jpg" alt="">			
 		</div>
 
 		

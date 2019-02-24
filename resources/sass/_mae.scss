@@ -105,6 +105,9 @@
                 }
             }
             .pc {
+                @include breakpoint($md){
+                  display: block;
+                }
                 @include breakpoint($sm){
                   display: none;
                 }

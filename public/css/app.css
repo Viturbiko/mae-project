@@ -10975,10 +10975,25 @@ header nav ul li a:active {
   padding: 0;
   width: 100%;
   height: 87vh;
-  min-height: 650px;
   overflow: hidden;
   -webkit-transition: left 400ms linear;
   transition: left 400ms linear;
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  #slider,
+  .wrap,
+  .slide-content {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 640px) {
+  #slider,
+  .wrap,
+  .slide-content {
+    height: 80vh;
+  }
 }
 
 .wrap {
@@ -11038,7 +11053,7 @@ header nav ul li a:active {
 }
 
 .slide1 {
-  background-image: url("/images/home-movil.jpg");
+  background-image: url("/images/home-movil-small.jpg");
 }
 
 button {
@@ -11046,6 +11061,27 @@ button {
   text-transform: uppercase;
   color: #1A1A1A;
   margin-top: 10px;
+}
+
+@media (min-width: 950px) and (max-width: 1200px) {
+  button {
+    width: 20%;
+    margin-left: 3em;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 950px) {
+  button {
+    width: 30%;
+    margin: 2em 0 0 2em;
+  }
+}
+
+@media (max-width: 640px) {
+  button {
+    width: 30%;
+    margin: 2em 0 0 2em;
+  }
 }
 
 button a {
@@ -11203,19 +11239,25 @@ button a:hover {
   .slide-content .slide_main_subtitle {
     width: 80%;
     font-size: 1.5rem;
+    text-align: left;
+    margin: 15em 0 0 2em;
   }
 }
 
 @media (min-width: 640px) and (max-width: 950px) {
   .slide-content .slide_main_subtitle {
     width: 80%;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 10em 0 0 2em;
   }
 }
 
 @media (max-width: 640px) {
   .slide-content .slide_main_subtitle {
     width: 80%;
+    text-align: left;
+    margin: 8em 0 0 2em;
     font-size: 15px;
   }
 }
@@ -11586,6 +11628,12 @@ button a:hover {
   }
 }
 
+@media (min-width: 950px) and (max-width: 1200px) {
+  .content_mae .hover_mae .box .pc {
+    display: block;
+  }
+}
+
 @media (min-width: 640px) and (max-width: 950px) {
   .content_mae .hover_mae .box .pc {
     display: none;
@@ -11743,16 +11791,6 @@ button a:hover {
 
 .content_about .about_slider .slider_about .slide_about1 {
   background-image: url("/images/barco2.jpg");
-  height: 100%;
-}
-
-.content_about .about_slider .slider_about .slide_about2 {
-  background-image: url("/images/image2.jpeg");
-  height: 100%;
-}
-
-.content_about .about_slider .slider_about .slide_about3 {
-  background-image: url("/images/image3.jpeg");
   height: 100%;
 }
 
@@ -13925,7 +13963,6 @@ button a:hover {
   height: 130px;
   width: 62%;
   left: 0;
-  z-index: -1;
 }
 
 @media (min-width: 640px) and (max-width: 950px) {
