@@ -118,7 +118,7 @@
 				</div>
 
 				<div class="extra_info" id="info_3">
-					<p>Currently work in progress based on previous reports and feedback from consensus activities (estimated time for completion. March 2019).</p>
+					<p>Currently work in progress (estimated time for completion. March 2019).</p>
 				</div>
 
 				<div class="event">
@@ -129,14 +129,8 @@
 				</div>
 
 				<div class="extra_info" id="info_4">
-					<h5><b>01. MAE project general presentation (Nov’18)</b></h5>
+					<h5><b>01. MAE project short presentation (Dec’18)</b></h5>
 					<button class="button_agenda" type="submit" name="button_name" value="file7">DOWNLOAD</button>
-
-					<hr>
-
-					<h5><b>02. MAE project presentation at the European Parliament (Dec’18)</b></h5>
-					<button class="button_agenda" type="submit" name="button_name" value="file8">DOWNLOAD</button>
-
 				</div>
 
 			</div>

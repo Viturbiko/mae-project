@@ -12084,7 +12084,7 @@ button a:hover {
 }
 
 .about_container .text_block {
-  margin: 100px auto;
+  margin: 50px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12692,6 +12692,8 @@ button a:hover {
 }
 
 .downloads_container .events_container .extra_info .button_agenda {
+  margin: 0px;
+  width: auto;
   background-color: #FDCF19;
   display: inline-block;
   position: relative;
@@ -13612,7 +13614,7 @@ button a:hover {
 }
 
 .content_partners {
-  padding: 0rem 6rem 7rem 6rem;
+  padding: 3rem 6rem 7rem 6rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -13950,7 +13952,7 @@ button a:hover {
 
 .contact_back .contact_container .contact_img img {
   width: 100%;
-  min-height: 540px;
+  min-height: 500px;
 }
 
 .container_footer {

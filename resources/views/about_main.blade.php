@@ -68,20 +68,20 @@
 
 				<p>To that end, the value of the grants (eco-incentives) is referred to the actual external costs savings attained by the specific actions, for which the Handbook of External Costs in Transport of the European Commission is used as a common reference.</p>
 
-				<p>The study ends at proposal level and is intended to the debate. Moving to real implementing Actions needs broad consensus at all levels. If the approach is accepted, the MAE approach to eco-incentive schemes could end up being part of the EU funding priorities, as eligible actions within the next Multiannual Financial Framework 2021-2027 (i.e. CEF2).</p>
+				<p>The study ends at proposal level and is intended to the debate. Moving to real implementing Actions needs broad consensus at all levels. If the approach is accepted, the MAE approach to eco-incentive schemes is intended to be part of the EU funding priorities, as eligible actions within the next Multiannual Financial Framework 2021-2027 (i.e. CEF2).</p>
 
 			</div>
 
-			<div class="about_image">
+			{{-- <div class="about_image">
 
 				<img src="/images/about/about-2.jpg" alt="Barco">
 
-			</div>
+			</div> --}}
 		</div>
 
 	</div>
 
-	@include('contact')
+	@include('contact_about')
 
 	@include('footer')
 

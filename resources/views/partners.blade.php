@@ -19,11 +19,9 @@
 				<div class="partner_info">
 					<h3>SPAIN</h3>
 					<p class="company"><b>PUERTOS DEL ESTADO</b></p>
+					<b>(project coordinator)</b>
 					<p>Ministerio de Fomento</p>
 					<p>Avda. del Partenón 10. Madrid, 28042. Spain.</p>
-					<p><b>Project Coordinator</b></p>
-					<p><b>Antonio Góngora</b></p>
-					<p>www.puertos.es</p>
 				</div>				
 			</div>
 			<div class="partner">
@@ -33,9 +31,7 @@
 				<div class="partner_info">
 					<h3>FRANCE</h3>
 					<p class="company"><b>MINISTÈRE DE LA TRASITION ÉCO-LOGGICQUE ET SOLIDAIRE.</b></p>
-					<p>La Défense CEDEX 92055. France</p>
-					<p><b>Florance Pajon</b></p>
-					<p>www.ecologique-solidaire.gouv.fr</p>					
+					<p>Tour Sequoia, La Défense Cedex, 92055, Paris</p>
 				</div>
 			</div>
 			<div class="partner">
@@ -46,9 +42,7 @@
 					<h3>PORTUGAL</h3>
 					<p class="company"><b>INSTITUTO DA MOBILIDADE E DOS TRANSPORTES, I.P.</b></p>
 					<p>Ministerio do Planeamento e das Infraestruturas</p>
-					<p>Av. das Forças Armadas 40 1649-022. Portugal</p>
-					<p><b>Dr. Eduardo Feio</b></p>
-					<p>www.mt-ip.pt</p>
+					<p>Av. das Forças Armadas 40 1649-022. Lisboa</p>
 				</div>
 			</div>
 			<div class="partner">
@@ -57,12 +51,13 @@
 				</div>
 				<div class="partner_info">
 					<h3>ITALY</h3>
-					<p class="company"><b>RETE AUTOSTRADE MEDITERRANEE S.P.A.</b></p>
-					<p>Ministero delle infrastrutture e dei transport</p>
-					<p>Via Nomentana, 2. Roma, 00161. Italy</p>
-					<p><b>Francesco Benevolo</b></p>
-					<p>+3906.44123283</p>
-					<p>www.rampsa.it</p>
+					<p class="company"><b>MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI</b></p>
+					<p>Via Nomentana 2, 00161, Roma</p>
+					<p class="company"><b>RETE AUTOSTRADE MEDITERRANEE S.p.A.*</b></p>
+					<p>Via Nomentana 2, 00161, Roma</p>
+					<p class="company"><b>RINA SERVICES S.p.A.*</b></p>
+					<p>Via Corsica 12, 16128, Genova</p>
+					<p>(*implementing bodies)</p>
 				</div>
 			</div>
 		</div>			

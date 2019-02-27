@@ -35,7 +35,7 @@ class DownloadsController extends Controller
 
             case 'file2':
                 
-                $path = storage_path('downloads/MAE_PROJECT_SUMMARY.pdf');
+                $path = storage_path('downloads/MAE_project_summary.pdf');
 
                 return response()->download($path);
 
@@ -43,7 +43,7 @@ class DownloadsController extends Controller
 
             case 'file3':
                 
-                $path = storage_path('downloads/MAE_PROJECT_PRELIMINARY_REPORT.pdf');
+                $path = storage_path('downloads/MAE_project_preliminary_report.pdf');
 
                 return response()->download($path);
 
@@ -51,7 +51,7 @@ class DownloadsController extends Controller
 
             case 'file4':
                 
-                $path = storage_path('downloads/MAE_EXTERNAL_COST_CALCULATOR_TOOL_V10_2_user_manual.pdf');
+                $path = storage_path('downloads/MAE_external_cost_calculator_tool.zip');
 
                 return response()->download($path);
 
@@ -59,7 +59,7 @@ class DownloadsController extends Controller
 
             case 'file5':
                 
-                $path = storage_path('downloads/MAE_CALIBRATED_TRANSPORT_MODEL_TOOL_user_manual.pdf');
+                $path = storage_path('downloads/MAE_calibrated_transport_model_tool.zip');
 
                 return response()->download($path);
 
@@ -67,21 +67,13 @@ class DownloadsController extends Controller
 
             case 'file6':
                 
-                $path = storage_path('downloads/MAE_SHIPOWNERS_PERSPECTIVE_TOOL_V2_user_manual.pdf');
+                $path = storage_path('downloads/MAE_shipowners_perspective_tool.zip');
 
                 return response()->download($path);
 
                 break;
 
             case 'file7':
-                
-                $path = storage_path('downloads/MAE_project_general_presentation.pdf');
-
-                return response()->download($path);
-
-                break;
-
-            case 'file8':
                 
                 $path = storage_path('downloads/MAE_project_EP_presentation.pdf');
 
