@@ -13920,6 +13920,7 @@ button a:hover {
 }
 
 .contact_back .contact_container .contact_form form input[type="submit"] {
+  background-color: #fff;
   width: auto;
   text-align: center;
   margin-top: 10px;
