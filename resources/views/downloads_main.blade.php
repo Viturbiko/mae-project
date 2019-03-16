@@ -118,7 +118,7 @@
 				</div>
 
 				<div class="extra_info" id="info_3">
-					<p>Currently work in progress (estimated time for completion. March 2019).</p>
+					<p>Currently work in progress (estimated time for completion. April 2019).</p>
 				</div>
 
 				<div class="event">
@@ -129,7 +129,7 @@
 				</div>
 
 				<div class="extra_info" id="info_4">
-					<h5><b>01. MAE project short presentation (Dec’18)</b></h5>
+					<h5><b>01. MAE project short presentation (March’19)</b></h5>
 					<button class="button_agenda" type="submit" name="button_name" value="file7">DOWNLOAD</button>
 				</div>
 

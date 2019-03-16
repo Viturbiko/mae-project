@@ -284,7 +284,38 @@
 					    <span class="description">28 October 2018 - Lisbon - Hélder Ribeiro Dias Cristóvão - hcristovao@imt-ip.pt</span>
 					    <span class="location">Lisbon, Portugal</span>
 					</div>
-				</div>				
+				</div>	
+
+
+
+
+				<div class="event">
+					<img class="hide_smartphone" src="/images/events/event-1.jpg" alt="">
+					<div class="event_date">
+						<h1>7</h1>
+						<p>MARCH</p>
+					</div>
+					<div class="event_info">
+						<p class="event_title"><b>Atlantic Corridor WG meeting on ports and multimodal terminals</b></p>
+						<p>2018</p>
+						<p>Régua (Douro)</p>
+					</div>
+					{{-- <img class="arrow_down" src="/images/events/flecha_down.png" alt="" id="arrow_1"> --}}
+				</div>
+
+				<div class="extra_info" id="info_1">	
+					<p>7 March 2019</p>
+					<p>Régua (Douro)</p>
+					<div title="Add to Calendar" class="addeventatc button_calendar">
+					    Add to Calendar
+					    <span class="start">10/28/2018</span>
+					    <span class="all_day_event">true</span>
+					    <span class="timezone">Europe/Lisbon</span>
+					    <span class="title">Informing and getting feedback on the MAE approach from local stakeholders</span>
+					    <span class="description">28 October 2018 - Lisbon - Hélder Ribeiro Dias Cristóvão - hcristovao@imt-ip.pt</span>
+					    <span class="location">Lisbon, Portugal</span>
+					</div>
+				</div>			
 
 			</div>
 

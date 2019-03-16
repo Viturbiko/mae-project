@@ -64,7 +64,7 @@
 
 			<div class="about_text">
 
-				<p>MAE approach to eco-incentives schemes is aimed at accelerating the market decision for those actions which could contribute most to reduce external costs in freight transport, particularly those reducing carbon emissions, air pollutants and socio-economic impacts.</p>
+				<p>MAE approach to eco-incentives schemes is aimed at accelerating the market decision on those actions which could contribute most to reduce external costs in freight transport, particularly those reducing carbon emissions, air pollutants and socio-economic impacts.</p>
 
 				<p>To that end, the value of the grants (eco-incentives) is referred to the actual external costs savings attained by the specific actions, for which the Handbook of External Costs in Transport of the European Commission is used as a common reference.</p>
 
