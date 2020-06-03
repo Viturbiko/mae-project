@@ -11,7 +11,7 @@
                 </video>
 
                 <div class="text_video_content">
-                  <h2>Towards a common EU approach on eco-incentives measures to stimulate a sustainable behavior in freight mobility based on actual socio-environmental merits.</h2>
+                  <h2>Towards a common EU approach on eco-incentives measures to stimulate social and environmental goals in transport market decision-making.</h2>
                   <button class="btn"><a href="{{ route('about') }}">Read More</a></button>
                 </div>
 

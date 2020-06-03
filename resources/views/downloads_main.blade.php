@@ -25,8 +25,7 @@
 		<div class="downloads_header_container">
 
 			<div class="downloads_header_title">
-				<p class="title_yellow">Docs</p>
-				<p class="title_white">& downloads</p>
+				<p class="title_yellow">Downloads</p>
 			</div>
 
 			{{-- <div class="downloads_header_text">
@@ -62,33 +61,33 @@
 				</div>
 
 				<div class="extra_info" id="info_1">
-					<h5><b>01. MAE Briefing</b></h5>
+					{{-- <h5><b>01. MAE Briefing</b></h5>
 					<p>The document includes a quick overview of the project scope and main contributions.</p>
 					<button class="button_agenda" type="submit" name="button_name" value="file1">DOWNLOAD</button>
 
-					<hr>
+					<hr> --}}
 
-					<h5><b>02. MAE summary</b></h5>
-					<p>This document summarizes the main contents from the MAE preliminary report for consensus.</p>
+					<h5><b>01. MAE Executive Summary</b></h5>
+					{{-- <p>This document summarizes the main contents from the MAE preliminary report for consensus.</p> --}}
 					<button class="button_agenda" type="submit" name="button_name" value="file2">DOWNLOAD</button>
 
 					<hr>
 
-					<h5><b>03. MAE preliminary report for consensus.</b></h5>
-					<p>The MAE study is aimed at proposing a new approach to eco-incentive measures towards sustainable freight transport services based on different assumptions and criteria that need further consensus before envisaging real implementing actions. The MAE preliminary report for consensus describes the main principles of the common approach to eco-incentives and the complete ex-ante analysis for the MoS case taken as example to prove the impacts of such approach. This is a working document meant to encourage the debate and to provide feedback as part of the consensus activities of the MAE Action.</p>
+					<h5><b>02. MAE Executive Report</b></h5>
+					{{-- <p>The MAE study is aimed at proposing a new approach to eco-incentive measures towards sustainable freight transport services based on different assumptions and criteria that need further consensus before envisaging real implementing actions. The MAE preliminary report for consensus describes the main principles of the common approach to eco-incentives and the complete ex-ante analysis for the MoS case taken as example to prove the impacts of such approach. This is a working document meant to encourage the debate and to provide feedback as part of the consensus activities of the MAE Action.</p> --}}
 					<button class="button_agenda" type="submit" name="button_name" value="file3">DOWNLOAD</button>
 
 				</div>
 
 				<div class="event">
 					<div class="event_info">
-						<h2>MAE tools (ex-ante anlaysis)</h2>
+						<h2>MAE tools (case-study)</h2>
 					</div>
 					<img class="arrow_down" src="/images/events/flecha_down.png" alt="" id="arrow_2">
 				</div>
 
 				<div class="extra_info" id="info_2">
-					<p>The ex-ante analysis carried out as part of the MAE study relies on relevant tools which have been developed ad hoc for the particular case of the motorways of the sea in the Atlantic and West Mediterranean regions, according to the proposed methodology. The tools have been developed in excel format for easy use and are available for download. A short user manual for each tool has been produced as well and are also available for download, in pdf format.</p>
+					<p>According to the common EU approach, as proposed in the MAE Action, eco-incentive schemes must be justified on the grounds of a complete ex-ante analysis, using relevant tools. According to the proposed methodology, specific tools have been developed and calibrated for the ex-ante analysis of the MAE case-study on Motorways of the Sea, which is used as example to prove the impacts of the eco-incentive approach in this particular case. The tools have been developed in excel format for easy use and are available for download. A short user manual for each tool has been produced as well and are also available for download, in pdf format.</p>
 
 					<hr>
 
@@ -99,7 +98,7 @@
 					<hr>
 
 					<h5><b>02. The calibrated transport modelling tool.</b></h5>
-					<p>A complete transport modelling tool has been specifically designed and calibrated for simulation purposes taken the motorways the sea ferry/ro-ro market in the Atlantic and West Mediterranean regions as example. The modelling tool is intended to replicate the actual performance of this market by using classic calibration methodologies, and to simulate the effects on demand resulting from different eco-incentive scenarios.</p>
+					<p>A complete transport modelling tool has been specifically designed and calibrated for simulation purposes taken the Motorways the Sea ferry/ro-ro market in the Atlantic and West Mediterranean regions as example. The modelling tool is intended to replicate the actual performance of this market by using classic calibration methodologies, and to simulate the effects on demand resulting from different eco-incentive scenarios.</p>
 					<button class="button_agenda" type="submit" name="button_name" value="file5">DOWNLOAD</button>
 
 					<hr>
@@ -110,7 +109,7 @@
 
 				</div>
 
-				<div class="event">
+				{{-- <div class="event">
 					<div class="event_info">
 						<h2>MAE Final documentation</h2>
 					</div>
@@ -119,7 +118,7 @@
 
 				<div class="extra_info" id="info_3">
 					<p>Currently work in progress (estimated time for completion. April 2019).</p>
-				</div>
+				</div> --}}
 
 				<div class="event">
 					<div class="event_info">
@@ -128,8 +127,8 @@
 					<img class="arrow_down" src="/images/events/flecha_down.png" alt="" id="arrow_4">
 				</div>
 
-				<div class="extra_info" id="info_4">
-					<h5><b>01. MAE project short presentation (March’19)</b></h5>
+				<div class="extra_info" id="info_3">
+					<h5><b>01. MAE project short presentation (January’20)</b></h5>
 					<button class="button_agenda" type="submit" name="button_name" value="file7">DOWNLOAD</button>
 				</div>
 

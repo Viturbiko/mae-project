@@ -46,14 +46,14 @@
 
 			<div class="about_text"> {{-- --reverse --}}
 
-				<p><b>Med Atlantic Ecobonus (MAE)</b> Action is a policy study co-financed by the European Union performing a comprehensive analysis on the potential use of eco-incentives schemes to stimulate an improved socio-environmental performance of freight transport in the current TEN-t framework, using actual external cost savings as a reference to estimate the intensity of the grants:</p>
+				<p><b>Med Atlantic Ecobonus (MAE)</b> Action is a policy study co-financed by the European Union performing a comprehensive analysis on the potential use of eco-incentives schemes to stimulate and develop sustainable freight transport services in the TEN-t, using actual external cost savings as a reference to estimate the intensity of the grants:</p>
 
 				<p>As a result, MAE Action brings the following outcomes:</p>
 
 				<ol>
-					<li><b>Common principles and methodology for a common EU approach</b> on eco-incentive schemes to foster sustainable freight transport services, opened to all EU regions and modes of transport.</li>
+					<li><b>Common principles and methodology for a common EU approach</b> on eco-incentive schemes, opened to all EU regions and modes of transport.</li>
 					<br>
-					<li><b>A complete ex-ante analysis for the particular case of the motorways of the sea (MoS)</b> market servicing alternative routes to the road transport in the Atlantic and West Mediterranean regions, taken as example to prove the impacts of the proposed approach.</li>
+					<li><b>A complete ex-ante analysis for a case-study on Motorways of the Sea</b> as example to prove the impacts of the proposed approach.</li>
 				</ol>
 
 			</div>
@@ -64,11 +64,11 @@
 
 			<div class="about_text">
 
-				<p>MAE approach to eco-incentives schemes is aimed at accelerating the market decision on those actions which could contribute most to reduce external costs in freight transport, particularly those reducing carbon emissions, air pollutants and socio-economic impacts.</p>
+				<p>MAE approach to eco-incentives schemes seeks to accelerate the transport market decision on those actions which could contribute most to reducing the external costs of freight transport, particularly those related with carbon emissions, air pollutants and socio-economic impacts.</p>
 
-				<p>To that end, the value of the grants (eco-incentives) is referred to the actual external costs savings attained by the specific actions, for which the Handbook of External Costs in Transport of the European Commission is used as a common reference.</p>
+				<p>To that end, the value of the grants (i.e. eco-incentives) is referred to the actual external costs savings attained through specific actions, for which the Handbook of External Costs in Transport of the European Commission is used as a common reference.</p>
 
-				<p>The study ends at proposal level and is intended to the debate. Moving to real implementing Actions needs broad consensus at all levels. If the approach is accepted, the MAE approach to eco-incentive schemes is intended to be part of the EU funding priorities, as eligible actions within the next Multiannual Financial Framework 2021-2027 (i.e. CEF2).</p>
+				<p>The study ends at proposal level and is intended to the debate as moving to real implementing Actions needs broad consensus at all levels. If the approach is accepted, MAE approach could be implemented within the next Multiannual Financial Framework 2021-2027.</p>
 
 			</div>
 

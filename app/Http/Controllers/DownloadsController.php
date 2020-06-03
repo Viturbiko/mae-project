@@ -35,7 +35,7 @@ class DownloadsController extends Controller
 
             case 'file2':
                 
-                $path = storage_path('downloads/MAE_project_summary.pdf');
+                $path = storage_path('downloads/01_MAE_Action_Executive_Summary_191117_printed_2.pdf');
 
                 return response()->download($path);
 
@@ -43,7 +43,7 @@ class DownloadsController extends Controller
 
             case 'file3':
                 
-                $path = storage_path('downloads/MAE_project_preliminary_report.pdf');
+                $path = storage_path('downloads/02_MAE_Action_Executive_Report_191117.pdf');
 
                 return response()->download($path);
 
@@ -51,7 +51,7 @@ class DownloadsController extends Controller
 
             case 'file4':
                 
-                $path = storage_path('downloads/MAE_external_cost_calculator_tool.zip');
+                $path = storage_path('downloads/MAE_case-study_external_cost_calculator.zip');
 
                 return response()->download($path);
 
@@ -59,7 +59,7 @@ class DownloadsController extends Controller
 
             case 'file5':
                 
-                $path = storage_path('downloads/MAE_calibrated_transport_model_tool.zip');
+                $path = storage_path('downloads/MAE_case-study_market_analysis_modelling_tool.zip');
 
                 return response()->download($path);
 
@@ -67,7 +67,7 @@ class DownloadsController extends Controller
 
             case 'file6':
                 
-                $path = storage_path('downloads/MAE_shipowners_perspective_tool.zip');
+                $path = storage_path('downloads/MAE_case-study_shipowners_perspective_tool.zip');
 
                 return response()->download($path);
 
@@ -75,7 +75,7 @@ class DownloadsController extends Controller
 
             case 'file7':
                 
-                $path = storage_path('downloads/MAE_project_short_presentation.pdf');
+                $path = storage_path('downloads/MAE_Action_short_presentation_200121.pdf');
 
                 return response()->download($path);
 

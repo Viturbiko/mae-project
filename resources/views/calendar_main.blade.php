@@ -23,8 +23,8 @@
 		<div class="calendar_header_container">
 
 			<div class="calendar_header_title">
-				<p class="title_yellow">Events</p>
-				<p class="title_white">& news</p>
+				<p class="title_yellow">Latest</p>
+				<p class="title_white">Events</p>
 			</div>
 
 			{{-- <div class="calendar_header_text">
@@ -44,10 +44,24 @@
 
 		</div>		
 
-		<p class="calendar_intro">A number of events, workshops and meetings have been carried out in 2018 as part of the consensus and dissemination activities of the MAE Action. Further events related to MAE Action will be announced in this section.</p>
+		{{-- <p class="calendar_intro">A number of events, workshops and meetings have been carried out in 2018 as part of the consensus and dissemination activities of the MAE Action. Further events related to MAE Action will be announced in this section.</p> --}}
 
 			<div class="events_container">
-				
+
+				<div class="event">
+					<img class="hide_smartphone" src="/images/events/event-7.jpg" alt="">
+					<div class="event_date">
+						<h1>26</h1>
+						<p>NOVEMBER</p>
+					</div>
+					<div class="event_info">
+						<p class="event_title"><b>ESeminar on Financing the maritime sector and MoS</b></p>
+						<p>2019</p>
+						<p>Rome</p>
+					</div>
+					{{-- <img class="arrow_down" src="/images/events/flecha_down.png" alt="" id="arrow_8"> --}}
+				</div>
+			<!--	
 				<div class="event">
 					<img class="hide_smartphone" src="/images/events/event-8.jpg" alt="">
 					<div class="event_date">
@@ -81,6 +95,7 @@
 						    <span class="location">Lisbon, Portugal</span>
 						</div>
 					</div> --}}
+
 				</div>
 
 				<div class="event">
@@ -317,7 +332,7 @@
 					</div>
 				</div>			
 
-			</div>
+			</div> -->
 
 		</div>
 
