@@ -55,7 +55,7 @@
 						<p>NOVEMBER</p>
 					</div>
 					<div class="event_info">
-						<p class="event_title"><b>ESeminar on Financing the maritime sector and MoS</b></p>
+						<p class="event_title"><b>Seminar on Financing the maritime sector and MoS</b></p>
 						<p>2019</p>
 						<p>Rome</p>
 					</div>
