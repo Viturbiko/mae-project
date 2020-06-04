@@ -85,7 +85,7 @@ class DownloadsController extends Controller
 
     public function DownloadAgenda()
     {
-        $path = storage_path('downloads/MAE_PROJECT_PRELIMINARY_REPORT.pdf');
+        $path = storage_path('downloads/Mae_Forum_rome.zip');
 
         return response()->download($path);
     }

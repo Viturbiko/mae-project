@@ -11082,6 +11082,11 @@ button {
     width: 30%;
     margin: 2em 0 0 2em;
   }
+
+  .button_agenda {
+    margin: 0px;
+    width: 100%;
+  }
 }
 
 button a {

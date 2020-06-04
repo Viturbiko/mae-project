@@ -48,19 +48,25 @@
 
 			<div class="events_container">
 
+
 				<div class="event">
 					<img class="hide_smartphone" src="/images/events/event-7.jpg" alt="">
-					<div class="event_date">
-						<h1>26</h1>
-						<p>NOVEMBER</p>
+						<div class="event_date">
+							<h1>26</h1>
+							<p>NOVEMBER</p>
+						</div>
+						<div class="event_info">
+							<p class="event_title"><b>Seminar on Financing the maritime sector and MoS</b></p>
+							<p>2019</p>
+							<p>Rome</p>
+						</div>
+						<img class="arrow_down" src="/images/events/flecha_down.png" alt="" id="arrow_1">
 					</div>
-					<div class="event_info">
-						<p class="event_title"><b>Seminar on Financing the maritime sector and MoS</b></p>
-						<p>2019</p>
-						<p>Rome</p>
-					</div>
-					{{-- <img class="arrow_down" src="/images/events/flecha_down.png" alt="" id="arrow_8"> --}}
+
+				<div class="extra_info" id="info_1" style="text-align: center;">
+					<button class="button_agenda"><a href="{{ route('downloadagenda') }}">Download Forum Presentation</a></button>
 				</div>
+
 			<!--	
 				<div class="event">
 					<img class="hide_smartphone" src="/images/events/event-8.jpg" alt="">
