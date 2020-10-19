@@ -53,7 +53,7 @@ class DownloadsController extends Controller
 
             case 'file3':
                 
-                $path = storage_path('downloads/191117_MAE_project_executive_report_final_EN.rev.pdf.pdf');
+                $path = storage_path('downloads/191117_MAE_project_executive_report_final_EN_rev.pdf');
 
                 return response()->download($path);
 
