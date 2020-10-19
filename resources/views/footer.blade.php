@@ -6,7 +6,7 @@
 	        <li><a href="{{ route('about') }}">THE ACTION</a><hr align="left" width="25px";></li>
 	        <li><a href="../#partners">PARTNERS</a><hr align="left" width="25px";></li>
 	        <li><a href="{{ route('downloads') }}">DOWNLOADS</a><hr align="left" width="25px";></li>
-	        <li><a href="{{ route('calendar') }}">EVENTS</a><hr align="left" width="25px";></li>
+	        {{-- <li><a href="{{ route('calendar') }}">EVENTS</a><hr align="left" width="25px";></li> --}}
 	        <li><a href="#contact">CONTACT</a><hr align="left" width="25px";></li>
 	    </ul>
 	</div>

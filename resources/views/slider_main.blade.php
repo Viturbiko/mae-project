@@ -20,7 +20,7 @@
 
         <div class="slide slide1 mobile">
             <div class="slide-content">
-                <span class='slide_main_subtitle'>Towards a common EU approach on eco-incentives measures to stimulate a sustainable behavior in freight mobility based on actual socio-environmental merits.</span>
+                <span class='slide_main_subtitle'>Towards a common EU approach on eco-incentives measures to stimulate social and environmental goals in transport market decision-making.</span>
                 <button class="btn"><a href="{{ route('about') }}">Read More</a></button>
             </div>
         </div>

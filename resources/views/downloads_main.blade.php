@@ -77,11 +77,28 @@
 					{{-- <p>The MAE study is aimed at proposing a new approach to eco-incentive measures towards sustainable freight transport services based on different assumptions and criteria that need further consensus before envisaging real implementing actions. The MAE preliminary report for consensus describes the main principles of the common approach to eco-incentives and the complete ex-ante analysis for the MoS case taken as example to prove the impacts of such approach. This is a working document meant to encourage the debate and to provide feedback as part of the consensus activities of the MAE Action.</p> --}}
 					<button class="button_agenda" type="submit" name="button_name" value="file3">DOWNLOAD</button>
 
+					<hr>
+
+					<h5><b>03. The Italian Ecobonus experience</b></h5>
+					<button class="button_agenda" type="submit" name="button_name" value="file8">DOWNLOAD</button>
+
+					<hr>
+
+					<h5><b>04. Review and analysis of the state aid legal framework</b></h5>
+					<button class="button_agenda" type="submit" name="button_name" value="file9">DOWNLOAD</button>
+
+					<hr>
+
+					<h5><b>05. Administrative and Technological aspects</b></h5>
+					<button class="button_agenda" type="submit" name="button_name" value="file10">DOWNLOAD</button>
+
+					<hr>
+
 				</div>
 
 				<div class="event">
 					<div class="event_info">
-						<h2>MAE tools (case-study)</h2>
+						<h2>MAE Tools (case-study)</h2>
 					</div>
 					<img class="arrow_down" src="/images/events/flecha_down.png" alt="" id="arrow_2">
 				</div>
@@ -122,19 +139,26 @@
 
 				<div class="event">
 					<div class="event_info">
-						<h2>MAE presentations</h2>
+						<h2>MAE Presentations</h2>
 					</div>
-					<img class="arrow_down" src="/images/events/flecha_down.png" alt="" id="arrow_4">
+					<img class="arrow_down" src="/images/events/flecha_down.png" alt="" id="arrow_3">
 				</div>
 
 				<div class="extra_info" id="info_3">
-					<h5><b>01. MAE project short presentation (January’20)</b></h5>
+
+					<h5><b>01. MAE project short presentation (Brussels, January’20)</b></h5>
 					<button class="button_agenda" type="submit" name="button_name" value="file7">DOWNLOAD</button>
+
+					<hr>
+
+					<h5><b>02. MAE project presentation at the Seminar on financing the maritime sector and MoS (Rome, November’19) </b></h5>
+					<button class="button_agenda" type="submit" name="button_name" value="file7">DOWNLOAD</button>
+
 				</div>
 
 			</div>
 
-			<p id="downloads_form"><strong>To download any file, you must fill this form and click in the download button</strong></p>
+			<p id="downloads_form"><strong>To download the MAE tools, please fill this form and click on the download button</strong></p>
 			
 			<label for="Name">Name</label>
 			<input class="form_name form-control" type="text" placeholder="Name..." value="{{ old('download_name') }}" name="download_name">

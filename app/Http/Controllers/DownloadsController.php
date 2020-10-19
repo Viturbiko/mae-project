@@ -5,23 +5,33 @@ namespace App\Http\Controllers;
 use App\DownloadInfo;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Mail;
 
 class DownloadsController extends Controller
 {
-
     public function DownloadFile(Request $request)
     {
-        
-        $this->validate($request, [
-            'download_name' => 'required|min:3',
-            'download_email' => 'required|email',
-            'download_company' => 'required|min:3',
-            'download_privacy' => 'required'
-        ]);
+        if (in_array($request->button_name, ['file4', 'file5', 'file6'])) {
+            $this->validate($request, [
+                'download_name' => 'required|min:3',
+                'download_email' => 'required|email',
+                'download_company' => 'required|min:3',
+                'download_privacy' => 'required'
+            ]);
 
-        $user_info = new DownloadInfo;
+            $user_info = new DownloadInfo;
 
-        $user_info->updateOrCreate(['email' => $request->download_email], ['name' => $request->download_name, 'email' => $request->download_email, 'company' => $request->download_company, 'privacy' => $request->download_privacy]);        
+            $user_info->updateOrCreate(['email' => $request->download_email], ['name' => $request->download_name, 'email' => $request->download_email, 'company' => $request->download_company, 'privacy' => $request->download_privacy]);
+
+            Mail::send('new-download', [
+                'name' => $request->download_name,
+                'company' => $request->download_company,
+                'email' => $request->download_email
+            ], function($mail) use ($request){
+                $mail->from($request->download_email, $request->download_name);
+                $mail->to('mae.project@puertos.es')->subject('Nueva descarga de MAE-Project');
+            }); 
+        }
 
         switch ($request->button_name) 
         {
@@ -35,7 +45,7 @@ class DownloadsController extends Controller
 
             case 'file2':
                 
-                $path = storage_path('downloads/01_MAE_Action_Executive_Summary_191117_printed_2.pdf');
+                $path = storage_path('downloads/191117_MAE_project_executive_summary_final_printed_2.pdf');
 
                 return response()->download($path);
 
@@ -43,7 +53,7 @@ class DownloadsController extends Controller
 
             case 'file3':
                 
-                $path = storage_path('downloads/02_MAE_Action_Executive_Report_191117.pdf');
+                $path = storage_path('downloads/191117_MAE_project_executive_report_final_EN.rev.pdf.pdf');
 
                 return response()->download($path);
 
@@ -75,19 +85,35 @@ class DownloadsController extends Controller
 
             case 'file7':
                 
-                $path = storage_path('downloads/MAE_Action_short_presentation_200121.pdf');
+                $path = storage_path('downloads/191126_MAE_Action_MoS_forum_Rome.zip');
+
+                return response()->download($path);
+
+                break;
+
+            case 'file8':
+                
+                $path = storage_path('downloads/MAE_project_Italian_Ecobonus_experience_final.pdf');
+
+                return response()->download($path);
+
+                break;
+
+            case 'file9':
+                
+                $path = storage_path('downloads/MAE_project_legal_handbook_final.pdf');
+
+                return response()->download($path);
+
+                break;
+
+            case 'file10':
+                
+                $path = storage_path('downloads/MAE_project_administrative_technological_pipeline_final.pdf');
 
                 return response()->download($path);
 
                 break;
         }
     }
-
-    public function DownloadAgenda()
-    {
-        $path = storage_path('downloads/Mae_Forum_rome.zip');
-
-        return response()->download($path);
-    }
-
 }
